@@ -23,7 +23,10 @@
       <img class="logo-trau" src="{{ASSET}}img/trau-con.png" alt="" width="541" height="640">
       <img class="logo-chu" src="{{ASSET}}img/logo-chu.png" alt="Trường Tiếng Việt Của Em" width="466" height="180">
     </a>
-    <span class="lesson-tag">{{NHAN}}</span>
+    <div class="brand-right">
+      <span class="lesson-tag">{{NHAN}}</span>
+      <a class="all-lessons" href="../">‹ Tất cả bài học</a>
+    </div>
   </header>
 
   <main>
@@ -33,7 +36,7 @@
         <div class="hero-trau" id="heroTrau"></div>
         <div>
           <p class="eyebrow">{{NHAN}} · Trường Tiếng Việt Của Em</p>
-          <h1 id="homeTitle">{{TEN}}</h1>
+          <h1 id="homeTitle"><span class="so-bai">{{NHAN}}:</span> {{TEN}}</h1>
           {{HERO_THEM}}
           <div class="bubble talk" id="heroBubble"><span id="heroText"></span><button class="say-btn" id="btnSayHero" type="button" aria-label="Nghe Trâu Con chào"></button></div>
           <div class="hero-actions">

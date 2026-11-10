@@ -35,6 +35,10 @@ button{font-family:inherit; color:inherit}
 .logo{display:flex; align-items:center; gap:8px; text-decoration:none; border-radius:14px}
 .logo .logo-trau{width:44px; height:auto; flex:none}
 .logo .logo-chu{height:56px; width:auto; display:block}
+.brand-right{display:flex; align-items:center; gap:10px; flex-wrap:wrap; justify-content:flex-end}
+.all-lessons{font:800 15px/1.1 var(--font-display); color:#fff; background:var(--wood-deep); border-radius:999px; padding:9px 14px; text-decoration:none; white-space:nowrap}
+.all-lessons:hover,.all-lessons:focus-visible{filter:brightness(1.12)}
+.so-bai{color:var(--wood-deep)}
 .lesson-tag{font:800 14px/1.1 var(--font-display); letter-spacing:.6px; text-transform:uppercase; color:var(--wood-deep); background:var(--straw-soft); border:2px solid var(--straw); border-radius:999px; padding:7px 12px; white-space:nowrap}
 .copyright{
   position:fixed; left:0; right:0; bottom:0; z-index:80; pointer-events:none; text-align:center;
@@ -190,6 +194,7 @@ button{font-family:inherit; color:inherit}
   .hero .bubble{font-size:16.5px}
   .hero .bubble::before{top:40px}
   .lesson-tag{display:none}
+  .all-lessons{font-size:13.5px; padding:8px 11px}
   .logo .logo-chu{height:46px}
   .logo .logo-trau{width:36px}
   .guide{gap:12px}
