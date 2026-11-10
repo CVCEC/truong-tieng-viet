@@ -94,7 +94,9 @@ for (const { dir, meta } of lessons) {
     // video bài giảng: bai-NN/video/* (không đưa vào git) được chép sang site/<slug>/
   // video đặt ở kho tệp của bản xem trước ("/_blob/…") thì chỉ chép ảnh bìa, không chép file .mp4
   if (existsSync(join(ROOT, dir, 'video'))) cpSync(join(ROOT, dir, 'video'), out, { recursive: true, filter: f => !(String(meta.video || '').startsWith('/') && f.endsWith('.mp4')) });
-  const VIDEO = meta.video ? `<section class="bai-hoc" aria-labelledby="baiHocTitle"><h2 class="menu-title" id="baiHocTitle">Bài học hôm nay</h2>` +
+  // Video "/_blob/…" chỉ có trong bản xem trước trên claude.ai (XEM_TRUOC=1); website thật chờ link R2.
+  const coVideo = meta.video && (process.env.XEM_TRUOC || !String(meta.video).startsWith('/_blob/'));
+  const VIDEO = coVideo ? `<section class="bai-hoc" aria-labelledby="baiHocTitle"><h2 class="menu-title" id="baiHocTitle">Bài học hôm nay</h2>` +
     `<video class="bai-hoc-video" controls playsinline preload="metadata"${meta.poster ? ` poster="${esc(meta.poster)}"` : ''} src="${esc(meta.video)}"></video></section>` +
     `<script>document.addEventListener('click', e => { if (e.target.closest('#cards, #btnStart')) document.querySelectorAll('video.bai-hoc-video').forEach(v => v.pause()); });</script>` : '';
   const fill = { VIDEO, SO: meta.so, NHAN: nhan, TEN: esc(meta.ten), MO_TA: esc(meta.moTa || ''), ASSET: '../chung/', HERO_THEM: meta.heroThem || '', BODY_TRUOC: mau.body + (meta.bodyTruoc || ''), NUT_PHIEU, CSS: css, JS: js };
