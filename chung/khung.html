@@ -1,0 +1,91 @@
+<!doctype html>
+<!-- Trang này được tạo tự động bằng: node tools/build.mjs
+     Đừng sửa trực tiếp file trong site/. Sửa chung/ (phần chung) hoặc bai-NN/ (phần riêng của bài) rồi chạy lại lệnh trên. -->
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Trường Tiếng Việt Của Em · {{NHAN}}</title>
+<meta name="description" content="{{MO_TA}}">
+<link rel="icon" type="image/png" href="{{ASSET}}img/trau-con.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@600;700;800;900&display=swap">
+<style>
+{{CSS}}
+</style>
+</head>
+<body>
+{{BODY_TRUOC}}
+<div class="app">
+  <header class="brandbar">
+    <a class="logo" href="./" id="logoLink" aria-label="Trường Tiếng Việt Của Em, về trang chính">
+      <img class="logo-trau" src="{{ASSET}}img/trau-con.png" alt="" width="541" height="640">
+      <img class="logo-chu" src="{{ASSET}}img/logo-chu.png" alt="Trường Tiếng Việt Của Em" width="466" height="180">
+    </a>
+    <span class="lesson-tag">{{NHAN}}</span>
+  </header>
+
+  <main>
+    <!-- Trang chính -->
+    <section id="home" class="screen" aria-labelledby="homeTitle">
+      <div class="hero">
+        <div class="hero-trau" id="heroTrau"></div>
+        <div>
+          <p class="eyebrow">{{NHAN}} · Trường Tiếng Việt Của Em</p>
+          <h1 id="homeTitle">{{TEN}}</h1>
+          {{HERO_THEM}}
+          <div class="bubble talk" id="heroBubble"><span id="heroText"></span><button class="say-btn" id="btnSayHero" type="button" aria-label="Nghe Trâu Con chào"></button></div>
+          <div class="hero-actions">
+            <button class="btn" id="btnStart" type="button">Bắt đầu chơi ›</button>
+            <button class="btn ghost small" id="btnCheck" type="button">Kiểm tra âm thanh</button>
+            {{NUT_PHIEU}}
+          </div>
+          <p class="voice-note" id="voiceNote" hidden></p>
+        </div>
+      </div>
+      <div class="check" id="checkPanel" hidden aria-live="polite"></div>
+      {{VIDEO}}
+      <h2 class="menu-title" id="menuTitle">Chọn trò chơi</h2>
+      <div class="cards" id="cards"></div>
+    </section>
+
+    <!-- Màn trò chơi -->
+    <section id="game" class="screen" hidden>
+      <div class="ghead">
+        <button class="btn small ghost" id="btnHome" type="button">‹ Trang chính</button>
+        <div class="gtitle"><p class="eyebrow" id="gEyebrow"></p><h2 id="gTitle"></h2></div>
+        <div class="gprog" id="gProg" aria-live="polite"></div>
+      </div>
+      <div class="guide">
+        <button class="guide-trau" id="guideTrau" type="button" aria-label="Nghe Trâu Con nói lại"></button>
+        <div class="bubble talk" aria-live="polite"><span><span id="guideText"></span><small>Bấm loa hoặc chạm vào Trâu Con để nghe lại</small></span><button class="say-btn" id="btnSay" type="button" aria-label="Nghe hướng dẫn"></button></div>
+      </div>
+      <div class="levels" id="gLevels"></div>
+      <div class="stage" id="stage"></div>
+    </section>
+  </main>
+</div>
+
+<div class="finish" id="finish" hidden role="dialog" aria-modal="true" aria-labelledby="finTitle">
+  <div class="fin-card">
+    <div class="fin-trau" id="finTrau"></div>
+    <h2 id="finTitle">Các bạn giỏi quá!</h2>
+    <p class="fin-stars" id="finStars" aria-label="Số sao"></p>
+    <p class="fin-text" id="finText"></p>
+    <div class="fin-actions">
+      <button class="btn" id="finNext" type="button">Chơi tiếp</button>
+      <button class="btn ghost small" id="finAgain" type="button">Chơi lại</button>
+      <button class="btn ghost small" id="finHome" type="button">Trang chính</button>
+    </div>
+  </div>
+</div>
+
+<div class="sound-help" id="soundHelp" role="status" hidden><span id="soundHelpText"></span><button class="btn small ghost" id="soundHelpClose" type="button">Đã hiểu</button></div>
+<p class="copyright">Copyrighted by CVCEC Trường Tiếng Việt Của Em 2026</p>
+
+<script>
+{{JS}}
+</script>
+</body>
+</html>

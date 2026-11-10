@@ -1,0 +1,7 @@
+# Netlify tự đọc file này khi site được nối với repo GitHub: mỗi lần repo có thay đổi, Netlify chạy lệnh đóng gói rồi đăng thư mục site/.
+[build]
+  command = "node tools/build.mjs"
+  publish = "site"
+
+[build.environment]
+  NODE_VERSION = "20"

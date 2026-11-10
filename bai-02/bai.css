@@ -1,0 +1,142 @@
+/* ---------- 1. Thơ Lên Sáu ---------- */
+.poem{
+  max-width:720px; margin:0 auto; background:var(--card); border:3px solid var(--wood); border-radius:26px;
+  outline:2px solid var(--straw); outline-offset:-11px; padding:22px clamp(14px,4vw,34px); box-shadow:var(--shadow);
+}
+.poem-head{display:block; margin:0 auto; padding:4px 12px; border:0; background:none; cursor:pointer; text-align:center; border-radius:14px}
+.poem-head strong{display:block; font:800 clamp(32px,6vw,44px)/1 var(--font-display); color:var(--wood-deep); letter-spacing:1px}
+.poem-head span{display:block; font-weight:800; color:var(--ink-soft); margin-top:4px}
+.poem-cols{display:grid; grid-template-columns:1fr 1fr; gap:2px 28px; margin-top:12px}
+.pline{display:block; width:100%; padding:5px 8px; border:0; border-radius:12px; background:transparent; cursor:pointer; text-align:center; font:700 clamp(21px,3vw,25px)/1.3 var(--font-body); color:var(--ink)}
+.pline .who{display:block; min-height:0; font:800 12px/1.2 var(--font-display); letter-spacing:.6px; text-transform:uppercase; color:var(--wood-deep)}
+.pline .who:empty{display:none}
+.pline.turn-trau{background:var(--straw-soft); box-shadow:inset 0 0 0 2.5px var(--straw)}
+.pline.turn-you{background:var(--peach); box-shadow:inset 0 0 0 2.5px var(--peach-ink)}
+.pline.turn-you .who{color:var(--peach-ink)}
+.pline.done{color:var(--green-ink)}
+.pline.done .ltxt::after{content:" ✓"; color:var(--ok); font-weight:900}
+.relay-bar{display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:12px; margin-top:16px}
+.qline{display:block; margin:0 auto 18px; padding:12px 22px; max-width:100%; font:800 clamp(28px,6vw,40px)/1.2 var(--font-body); color:var(--ink); background:var(--card); border:3px solid var(--straw); border-radius:20px; cursor:pointer}
+
+/* ---------- 2. Nguyên âm đơn ---------- */
+.ear-btn{display:flex; align-items:center; gap:12px; margin:0 auto 18px; padding:12px 24px; font:800 19px/1 var(--font-body); color:var(--ink); background:var(--card); border:3px solid var(--straw); border-radius:999px; box-shadow:var(--shadow); cursor:pointer}
+.ear-btn svg{width:34px; height:34px}
+.lchoices{display:flex; flex-wrap:wrap; justify-content:center; gap:clamp(12px,3vw,26px); margin-bottom:18px}
+.lbtn{display:flex; flex-direction:column; align-items:center; justify-content:center; min-width:clamp(96px,20vw,148px); height:clamp(100px,20vw,148px); padding:0 16px; font:900 clamp(54px,11vw,84px)/1 var(--font-body); color:var(--ink); background:var(--card); border:3px solid var(--charcoal); border-radius:24px; box-shadow:0 5px 0 var(--charcoal); cursor:pointer}
+.lbtn small{display:block; margin-top:6px; font:800 14px/1 var(--font-body); color:var(--ink-soft)}
+.lbtn.right{background:var(--green); border-color:var(--ok); box-shadow:0 5px 0 var(--ok)}
+
+/* ---------- 3. Thẻ phụ âm ghép, ghép chữ ---------- */
+.dgcards{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:clamp(10px,2.4vw,20px); max-width:780px; margin:0 auto 14px}
+.dgcard{display:flex; flex-direction:column; align-items:center; gap:8px; padding:12px 10px 14px; background:var(--card); border:3px solid var(--charcoal); border-radius:24px; box-shadow:0 4px 0 var(--charcoal); cursor:pointer}
+.dgcard.heard{border-color:var(--ok); box-shadow:0 4px 0 var(--ok)}
+.dgbox{display:grid; place-items:center; width:100%; max-width:200px; height:clamp(62px,11vw,90px); border-radius:16px; background:var(--charcoal); color:var(--straw); font:900 clamp(38px,7.6vw,60px)/1 var(--font-body)}
+.dgpic{display:block; width:clamp(78px,16vw,136px); aspect-ratio:1}
+.dgpic svg{width:100%; height:100%; display:block}
+.dgword{font:800 clamp(24px,4vw,32px)/1.1 var(--font-body); color:var(--ink)}
+.dgnote{font-size:13px; font-weight:800; color:var(--green-ink); background:var(--green); border-radius:999px; padding:3px 10px}
+.compose{display:grid; justify-items:center; gap:16px; max-width:780px; margin:0 auto}
+.cpic{width:clamp(120px,22vw,170px); aspect-ratio:1; padding:10px; background:var(--card); border:3px solid var(--charcoal); border-radius:24px; cursor:pointer; box-shadow:var(--shadow)}
+.cpic svg{width:100%; height:100%; display:block}
+.eq{display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:10px; font:900 clamp(26px,5vw,38px)/1 var(--font-body); color:var(--ink-soft)}
+.cslot{display:grid; place-items:center; width:76px; height:76px; border:3px dashed var(--charcoal); border-radius:18px; background:rgba(255,252,246,.7); font:900 44px/1 var(--font-body); color:var(--ink)}
+.cslot.filled{border-style:solid; background:var(--straw-soft)}
+.cres{display:grid; place-items:center; min-width:96px; height:76px; padding:0 14px; border-radius:18px; background:var(--charcoal); color:var(--straw); font:900 44px/1 var(--font-body)}
+.cres.wait{background:var(--paper-deep); color:var(--ink-soft)}
+.cword{font:900 clamp(36px,6vw,50px)/1 var(--font-body); color:var(--ink)}
+.cword.wait{color:var(--line)}
+
+/* ---------- 4. Nghe, xây nhà, đơn hay kép ---------- */
+.mystery{display:grid; place-items:center; align-content:center; gap:6px; width:clamp(150px,28vw,210px); aspect-ratio:1; margin:0 auto 18px; padding:14px; background:var(--card); border:3px dashed var(--straw); border-radius:28px; box-shadow:var(--shadow); cursor:pointer}
+.mystery svg{width:62%; height:auto}
+.mystery .mq{font:900 18px/1 var(--font-body); color:var(--ink-soft)}
+.mystery.revealed{border-style:solid; border-color:var(--ok); background:var(--green)}
+.mystery.revealed svg{width:74%}
+.mystery .mword{font:900 30px/1 var(--font-body); color:var(--ink)}
+.build{display:grid; gap:14px; justify-items:center; max-width:720px; margin:0 auto}
+.target{display:flex; align-items:center; gap:16px; padding:8px 18px 8px 8px; background:var(--card); border:3px solid var(--charcoal); border-radius:24px; cursor:pointer; box-shadow:var(--shadow)}
+.target .mini{width:84px; height:84px; flex:none}
+.target .mini svg{width:100%; height:100%}
+.target .big{font:900 clamp(46px,9vw,64px)/1 var(--font-body); color:var(--ink)}
+.house{width:100%; max-width:640px}
+.roof{position:relative; height:clamp(84px,14vw,110px); display:grid; place-items:end center; padding-bottom:10px}
+.roof::before{content:""; position:absolute; inset:0 -4%; background:var(--wood); clip-path:polygon(50% 0,100% 100%,0 100%)}
+.roof::after{content:""; position:absolute; inset:9px 7% 0; background:repeating-linear-gradient(0deg,rgba(255,255,255,.14) 0 8px,transparent 8px 16px); clip-path:polygon(50% 0,100% 100%,0 100%)}
+.roof-slot{position:relative; z-index:1; display:flex; align-items:center; justify-content:center; gap:6px; min-width:132px; min-height:50px; padding:4px 12px; background:var(--card); border:2.5px dashed var(--charcoal); border-radius:14px; font:800 16px/1.1 var(--font-body); color:var(--ink-soft); cursor:pointer}
+.roof-slot svg{width:30px; height:30px}
+.roof-slot.filled{border-style:solid; color:var(--ink); background:var(--straw-soft)}
+.rooms{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); border:3px solid var(--charcoal); border-top-width:4px; border-radius:0 0 18px 18px; overflow:hidden; background:var(--card)}
+.room{display:flex; flex-direction:column; align-items:center; gap:4px; padding:10px 6px 12px; min-height:156px; cursor:pointer; text-align:center}
+.room + .room{border-left:3px solid var(--charcoal)}
+.room h4{margin:0; font:800 clamp(14px,2.4vw,17px)/1.1 var(--font-display); letter-spacing:.5px; text-transform:uppercase}
+.room .sub{font-size:12.5px; line-height:1.2; font-weight:800; opacity:.8}
+.room.onset{background:var(--onset); color:var(--onset-ink)}
+.room.main{background:var(--main); color:var(--main-ink)}
+.room.coda{background:var(--coda); color:var(--coda-ink)}
+.mslots{display:flex; margin-top:auto; border:2.5px dashed currentColor; border-radius:16px; background:rgba(255,255,255,.6); overflow:hidden}
+.mslots.full{border-style:solid; background:var(--card)}
+.mslots.none{justify-content:center; min-width:72px; opacity:.75; border-style:solid}
+.mslot{display:grid; place-items:center; width:46px; height:72px; font:900 40px/1 var(--font-body); color:var(--ink)}
+.mslot + .mslot{border-left:2px dashed rgba(58,59,60,.3)}
+.tones{display:flex; flex-wrap:wrap; justify-content:center; gap:10px}
+.tcard{position:relative; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:4px; width:84px; height:96px; padding:0; background:var(--card); border:3px solid var(--charcoal); border-radius:18px; box-shadow:0 4px 0 var(--charcoal); font:800 15.5px/1 var(--font-body); color:var(--ink); touch-action:none; user-select:none; -webkit-user-select:none; cursor:grab}
+.tcard svg{width:40px; height:40px}
+.dk{display:grid; justify-items:center; gap:16px; max-width:720px; margin:0 auto}
+.dkword{display:flex; align-items:center; gap:4px; font:900 clamp(58px,12vw,92px)/1.15 var(--font-body); color:var(--ink)}
+.dkblank{display:grid; place-items:center; min-width:1.5em; height:1.2em; padding:0 .12em; border:4px dashed var(--straw); border-radius:20px; background:var(--straw-soft); color:var(--ink)}
+.dkblank.right{border-style:solid; border-color:var(--ok); background:var(--green)}
+.dk .cpic{width:clamp(110px,17vw,136px)}
+.dk .lbtn{height:clamp(92px,15vw,118px)}
+.dk .note{order:-1}
+.dknext{color:var(--peach-ink); text-decoration:underline; text-decoration-thickness:5px; text-underline-offset:10px}
+
+/* ---------- 5. Nối chữ, đọc từ ---------- */
+.mzones{display:grid; grid-template-columns:repeat(auto-fit,minmax(122px,1fr)); gap:12px; max-width:920px; margin:0 auto 18px}
+.mzone{display:flex; flex-direction:column; align-items:center; gap:8px; padding:10px; background:var(--card); border:3px solid var(--charcoal); border-radius:22px; cursor:pointer}
+.mzone.done{border-color:var(--ok); background:var(--green)}
+.mpic{display:block; width:100%; max-width:118px; aspect-ratio:1}
+.mpic svg{width:100%; height:100%; display:block}
+.mdock{display:grid; place-items:center; min-width:84px; height:56px; padding:0 10px; border:2.5px dashed var(--charcoal); border-radius:14px; font:900 32px/1 var(--font-body); color:var(--ink); background:rgba(255,252,246,.7)}
+.mzone.done .mdock{border-style:solid; background:var(--card)}
+.wordcard{display:block; width:max-content; max-width:100%; margin:0 auto 18px; padding:8px 28px; font:900 clamp(58px,12vw,94px)/1.15 var(--font-body); color:var(--ink); background:var(--card); border:3px solid var(--straw); border-radius:24px; box-shadow:var(--shadow); text-align:center; cursor:pointer}
+.wordcard.phrase{font-size:clamp(44px,9.5vw,70px)}
+
+/* ---------- 6. Luyện nói ---------- */
+.speak{display:grid; justify-items:center; gap:14px}
+.speak .pic{max-width:250px}
+.sentence{margin:0; font:900 clamp(28px,5.6vw,42px)/1.2 var(--font-body); color:var(--ink); background:var(--card); border:3px solid var(--straw); border-radius:20px; padding:8px 22px; text-align:center}
+.sentence.wait{color:var(--ink-soft); border-style:dashed; font-weight:800}
+.speak-bar{display:flex; flex-wrap:wrap; justify-content:center; gap:12px}
+.swatches{display:flex; flex-wrap:wrap; justify-content:center; gap:12px}
+.swatch{display:flex; flex-direction:column; align-items:center; gap:6px; padding:9px 10px; min-width:86px; background:var(--card); border:3px solid var(--charcoal); border-radius:20px; box-shadow:0 4px 0 var(--charcoal); font:800 17px/1 var(--font-body); color:var(--ink); cursor:pointer}
+.swatch i{display:block; width:48px; height:48px; border-radius:50%; background:var(--c); border:3px solid var(--charcoal)}
+
+/* ---------- 7. Săn phụ âm ghép ---------- */
+.hunt{max-width:640px}
+.hline{display:flex; flex-wrap:wrap; justify-content:center; gap:4px 10px; padding:3px 0}
+.wbtn{padding:4px 10px; border:0; border-radius:12px; background:transparent; font:800 clamp(25px,4vw,32px)/1.3 var(--font-body); color:var(--ink); cursor:pointer}
+.wbtn:hover{background:rgba(246,227,188,.6)}
+.wbtn.found{background:var(--straw-soft); box-shadow:inset 0 0 0 2.5px var(--straw)}
+.wbtn .dg{color:var(--peach-ink); text-decoration:underline; text-decoration-thickness:4px; text-underline-offset:6px}
+.find-count{margin:14px 0 0; font:800 21px/1.2 var(--font-display); color:var(--charcoal); text-align:center}
+
+/* ---------- Màn hình hẹp ---------- */
+@media (max-width:560px){
+  .poem-cols{grid-template-columns:1fr}
+  .poem{padding:18px 12px}
+  .room{min-height:136px; padding-inline:4px}
+  .mslot{width:34px; height:58px; font-size:32px}
+  .tcard{width:72px; height:84px}
+  .target .mini{width:64px; height:64px}
+  .dgcard{padding:8px 4px 10px; border-radius:18px}
+  .cslot{width:62px; height:62px; font-size:36px}
+  .cres{min-width:80px; height:62px; font-size:36px}
+  .mzones{grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px}
+  .levels{gap:6px}
+  .cpic{width:104px; padding:6px; border-radius:18px}
+  .compose{gap:12px}
+  .mzone{padding:6px; border-radius:16px}
+  .mdock{min-width:0; width:100%; height:46px; font-size:26px}
+  .swatch{min-width:62px; padding:7px 6px; font-size:15px}
+  .swatch i{width:40px; height:40px}
+}

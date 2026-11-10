@@ -1,0 +1,147 @@
+/* Mẫu trò chơi cho bài dạy âm (Bài 3–21): giao diện riêng của 7 trò chơi chung */
+.poem{
+  max-width:720px; margin:0 auto; background:var(--card); border:3px solid var(--wood); border-radius:26px;
+  outline:2px solid var(--straw); outline-offset:-11px; padding:22px clamp(14px,4vw,34px); box-shadow:var(--shadow);
+}
+.poem-head{display:block; margin:0 auto; padding:4px 12px; border:0; background:none; cursor:pointer; text-align:center; border-radius:14px}
+.poem-head strong{display:block; font:800 clamp(32px,6vw,44px)/1 var(--font-display); color:var(--wood-deep); letter-spacing:1px}
+.poem-head span{display:block; font-weight:800; color:var(--ink-soft); margin-top:4px}
+.poem-cols{display:grid; grid-template-columns:1fr 1fr; gap:2px 28px; margin-top:12px}
+.pline{display:block; width:100%; padding:5px 8px; border:0; border-radius:12px; background:transparent; cursor:pointer; text-align:center; font:700 clamp(21px,3vw,25px)/1.3 var(--font-body); color:var(--ink)}
+.pline .who{display:block; min-height:0; font:800 12px/1.2 var(--font-display); letter-spacing:.6px; text-transform:uppercase; color:var(--wood-deep)}
+.pline .who:empty{display:none}
+.pline.turn-trau{background:var(--straw-soft); box-shadow:inset 0 0 0 2.5px var(--straw)}
+.pline.turn-you{background:var(--peach); box-shadow:inset 0 0 0 2.5px var(--peach-ink)}
+.pline.turn-you .who{color:var(--peach-ink)}
+.pline.done{color:var(--green-ink)}
+.pline.done .ltxt::after{content:" ✓"; color:var(--ok); font-weight:900}
+.relay-bar{display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:12px; margin-top:16px}
+.qline{display:block; margin:0 auto 18px; padding:12px 22px; max-width:100%; font:800 clamp(28px,6vw,40px)/1.2 var(--font-body); color:var(--ink); background:var(--card); border:3px solid var(--straw); border-radius:20px; cursor:pointer}
+.ear-btn{display:flex; align-items:center; gap:12px; margin:0 auto 18px; padding:12px 24px; font:800 19px/1 var(--font-body); color:var(--ink); background:var(--card); border:3px solid var(--straw); border-radius:999px; box-shadow:var(--shadow); cursor:pointer}
+.ear-btn svg{width:34px; height:34px}
+.lchoices{display:flex; flex-wrap:wrap; justify-content:center; gap:clamp(12px,3vw,26px); margin-bottom:18px}
+.lbtn{display:flex; flex-direction:column; align-items:center; justify-content:center; min-width:clamp(96px,20vw,148px); height:clamp(100px,20vw,148px); padding:0 16px; font:900 clamp(54px,11vw,84px)/1 var(--font-body); color:var(--ink); background:var(--card); border:3px solid var(--charcoal); border-radius:24px; box-shadow:0 5px 0 var(--charcoal); cursor:pointer}
+.lbtn small{display:block; margin-top:6px; font:800 14px/1 var(--font-body); color:var(--ink-soft)}
+.lbtn.right{background:var(--green); border-color:var(--ok); box-shadow:0 5px 0 var(--ok)}
+.compose{display:grid; justify-items:center; gap:16px; max-width:780px; margin:0 auto}
+.cpic{width:clamp(120px,22vw,170px); aspect-ratio:1; padding:10px; background:var(--card); border:3px solid var(--charcoal); border-radius:24px; cursor:pointer; box-shadow:var(--shadow)}
+.cpic svg{width:100%; height:100%; display:block}
+.eq{display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:10px; font:900 clamp(26px,5vw,38px)/1 var(--font-body); color:var(--ink-soft)}
+.cslot{display:grid; place-items:center; width:76px; height:76px; border:3px dashed var(--charcoal); border-radius:18px; background:rgba(255,252,246,.7); font:900 44px/1 var(--font-body); color:var(--ink)}
+.cslot.wide{width:auto; min-width:76px; padding:0 12px}
+.cslot.filled{border-style:solid; background:var(--straw-soft)}
+.cres{display:grid; place-items:center; min-width:96px; height:76px; padding:0 14px; border-radius:18px; background:var(--charcoal); color:var(--straw); font:900 44px/1 var(--font-body)}
+.cres.wait{background:var(--paper-deep); color:var(--ink-soft)}
+.cword{font:900 clamp(36px,6vw,50px)/1 var(--font-body); color:var(--ink)}
+.cword.wait{color:var(--line)}
+.tones{display:flex; flex-wrap:wrap; justify-content:center; gap:10px}
+.tcard{position:relative; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:4px; width:84px; height:96px; padding:0; background:var(--card); border:3px solid var(--charcoal); border-radius:18px; box-shadow:0 4px 0 var(--charcoal); font:800 15.5px/1 var(--font-body); color:var(--ink); touch-action:none; user-select:none; -webkit-user-select:none; cursor:grab}
+.tcard svg{width:40px; height:40px}
+.wordcard{display:block; width:max-content; max-width:100%; margin:0 auto 18px; padding:8px 28px; font:900 clamp(58px,12vw,94px)/1.15 var(--font-body); color:var(--ink); background:var(--card); border:3px solid var(--straw); border-radius:24px; box-shadow:var(--shadow); text-align:center; cursor:pointer}
+.wordcard.phrase{font-size:clamp(44px,9.5vw,70px)}
+.order{display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:18px; max-width:820px; margin:0 auto}
+.slots{display:grid; gap:9px; counter-reset:s}
+.slot-line{display:flex; align-items:center; gap:10px; min-height:54px; padding:6px 12px; border:2.5px dashed var(--wood); border-radius:16px; background:rgba(255,252,246,.6); font:800 20px/1.2 var(--font-body); color:var(--ink); text-align:left; cursor:pointer}
+.slot-line::before{counter-increment:s; content:counter(s); flex:none; display:grid; place-items:center; width:28px; height:28px; border-radius:50%; background:var(--straw); color:var(--charcoal); font:800 15px/1 var(--font-display)}
+.slot-line.filled{border-style:solid; border-color:var(--ok); background:var(--green)}
+.pool{display:flex; flex-direction:column; gap:10px}
+.lchip{position:relative; display:block; width:100%; min-height:54px; padding:10px 16px; text-align:left; font:800 20px/1.2 var(--font-body); color:var(--ink); background:var(--card); border:3px solid var(--charcoal); border-radius:16px; box-shadow:0 4px 0 var(--charcoal); touch-action:none; user-select:none; -webkit-user-select:none; cursor:grab}
+.tone-game{display:grid; gap:18px; justify-items:center}
+.syl{display:flex; align-items:flex-end; justify-content:center; gap:6px; padding:12px 18px; border-radius:26px; background:var(--card); border:3px solid var(--charcoal); box-shadow:var(--shadow); cursor:pointer}
+.syl .c,.syl .vow{font:900 clamp(92px,22vw,150px)/1.25 var(--font-body); color:var(--ink)}
+.syl .vow{min-width:.9em; padding:0 .12em; text-align:center; border:4px dashed var(--straw); border-radius:24px; background:var(--straw-soft)}
+.syl .vow.right{border-style:solid; border-color:var(--ok); background:var(--green)}
+.syl .vow.wrongtry{border-style:solid; border-color:var(--peach-ink); background:var(--peach)}
+.trace{display:grid; gap:12px; justify-items:center}
+.stroke-row{display:flex; flex-wrap:wrap; justify-content:center; gap:7px; max-width:760px}
+.schip{width:50px; height:50px; padding:5px; background:var(--card); border:2.5px solid var(--line); border-radius:12px; cursor:pointer}
+.schip svg{width:100%; height:100%}
+.schip[aria-current="true"]{border-color:var(--charcoal); background:var(--straw-soft)}
+.schip.done{border-color:var(--ok); background:var(--green)}
+.stroke-name{margin:0; font:800 clamp(26px,4vw,34px)/1.1 var(--font-display); color:var(--charcoal)}
+.trace-card{width:100%; max-width:680px; background:#FFFFFF; border:3px solid var(--charcoal); border-radius:22px; overflow:hidden; box-shadow:var(--shadow)}
+.trace-actions{display:flex; flex-wrap:wrap; gap:12px; justify-content:center}
+/* thêm cho bộ trò chơi bài âm */
+.keypic{display:grid; place-items:center; gap:6px}
+.tbl{display:grid; gap:6px; margin:0 auto; width:100%; max-width:720px}
+.tbl-row{display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:6px}
+.tbl-head{display:grid; place-items:center; height:34px}
+.tbl-head svg{width:32px; height:32px}
+.tcell{min-height:52px; font:900 clamp(24px,4.4vw,36px)/1 var(--font-body); color:var(--ink); background:var(--card); border:3px solid var(--charcoal); border-radius:16px; box-shadow:0 3px 0 var(--charcoal); cursor:pointer}
+.tcell.right{background:var(--green); border-color:var(--ok); box-shadow:0 3px 0 var(--ok)}
+.tcell.l4{font-size:clamp(18px,3.6vw,32px)} .tcell.l5{font-size:clamp(15px,3vw,28px); letter-spacing:-.5px}
+.tcell{padding:0 2px; overflow:hidden}
+.sent-slots{display:flex; flex-wrap:wrap; justify-content:center; gap:10px; margin:6px auto 14px}
+.sslot{display:grid; place-items:center; min-width:88px; height:72px; padding:0 10px; border:3px dashed var(--line); border-radius:16px; background:var(--card); font:900 clamp(26px,4.6vw,36px)/1 var(--font-body)}
+.sslot.filled{border-style:solid; border-color:var(--ok); background:var(--green)}
+.sentpic{display:block; width:clamp(150px,30vw,230px); aspect-ratio:1; margin:0 auto 6px; padding:10px; background:var(--card); border:3px solid var(--charcoal); border-radius:22px; box-shadow:var(--shadow); cursor:pointer}
+.sentpic svg{width:100%; height:100%; display:block}
+.blank-word{display:flex; justify-content:center; align-items:flex-end; gap:4px; font:900 clamp(56px,12vw,96px)/1.1 var(--font-body); color:var(--ink)}
+.blank-word .gap{min-width:.8em; border-bottom:6px solid var(--straw); color:var(--ok); text-align:center}
+@media (max-width:760px){
+  .order{grid-template-columns:1fr}
+}
+@media (max-width:560px){
+  .poem-cols{grid-template-columns:1fr}
+  .poem{padding:18px 12px}
+  .tcard{width:72px; height:84px}
+  .cslot{width:62px; height:62px; font-size:36px}
+  .cres{min-width:80px; height:62px; font-size:36px}
+  .cpic{width:104px; padding:6px; border-radius:18px}
+  .compose{gap:12px}
+}
+.wordcard.sentence{font-size:clamp(30px,6vw,46px); padding:12px 24px; white-space:normal; width:auto}
+.lchip.dragging{z-index:100; cursor:grabbing; box-shadow:0 14px 24px -8px rgba(0,0,0,.35); transition:none}
+.schip{font:900 28px/1 var(--font-body); color:var(--ink); width:auto; min-width:50px; padding:5px 12px}
+#traceCanvas{display:block; width:100%; height:min(56vh,440px); min-height:260px; touch-action:none; cursor:crosshair}
+.lchoices.words .lbtn{font-size:clamp(34px,7vw,52px); min-width:clamp(130px,26vw,200px)}
+.mau-video{display:block; width:min(100%,360px); aspect-ratio:1; margin:0 auto; border:3px solid var(--charcoal); border-radius:22px; background:#FFFFFF}
+/* 6. Hái quả */
+.orchard{max-width:min(600px,100%); margin:0 auto}
+.tree{position:relative; width:100%; aspect-ratio:10/7.4}
+.tree>svg{position:absolute; inset:0; width:100%; height:100%}
+.fruit{position:absolute; transform:translate(-50%,-50%); display:grid; place-items:center; width:clamp(66px,13vw,96px); aspect-ratio:1; padding:0 4px; border:3px solid var(--charcoal); border-radius:50%; background:radial-gradient(circle at 34% 30%,#FFFFFFAA 0 12%,transparent 13%),var(--c); color:#2A231F; font:900 clamp(20px,3.8vw,30px)/1 var(--font-body); box-shadow:0 4px 0 rgba(58,59,60,.35); cursor:pointer; transition:top .6s ease-in, opacity .6s}
+.fruit::before{content:""; position:absolute; top:-12px; left:50%; width:4px; height:14px; background:#6B4A2B; border-radius:2px}
+.fruit.right{top:112% !important; opacity:0}
+.basket-row{display:flex; align-items:center; gap:12px; margin-top:8px}
+.big-am{flex:none; display:grid; place-items:center; width:64px; height:64px; border-radius:18px; background:var(--charcoal); color:var(--straw); font:900 40px/1 var(--font-body)}
+.basket{flex:1; display:flex; flex-wrap:wrap; gap:8px; align-items:center; min-height:64px; padding:8px 12px; border:3px solid var(--wood-deep); border-radius:10px 10px 28px 28px; background:repeating-linear-gradient(90deg,#DDAA55 0 14px,#C9973F 14px 16px)}
+.bfruit{display:grid; place-items:center; min-width:52px; height:52px; padding:0 8px; border:2.5px solid var(--charcoal); border-radius:26px; background:var(--c); font:900 22px/1 var(--font-body); animation:pop .5s}
+/* 7. Nối từ với tranh */
+.match{position:relative; display:grid; grid-template-columns:1fr 1fr; gap:clamp(40px,12vw,140px); max-width:700px; margin:0 auto 12px}
+.mcol{display:grid; gap:10px; align-content:space-around}
+.mcol.pics{grid-template-columns:1fr; justify-items:end}
+.mword{position:relative; z-index:1; min-height:76px; padding:8px 14px; font:900 clamp(26px,5vw,38px)/1.1 var(--font-body); color:var(--ink); background:var(--card); border:3px solid var(--charcoal); border-radius:18px; box-shadow:0 4px 0 var(--charcoal); touch-action:none; cursor:pointer}
+.mpic{position:relative; z-index:1; width:clamp(72px,12vw,96px); aspect-ratio:1; padding:6px; background:var(--card); border:3px solid var(--charcoal); border-radius:18px; box-shadow:0 4px 0 var(--charcoal); cursor:pointer}
+.mpic svg{width:100%; height:100%; display:block}
+.mword.selected,.mpic.selected{background:var(--straw-soft); outline:4px solid var(--straw)}
+.mword.right,.mpic.right{background:var(--green); border-color:var(--ok); box-shadow:0 4px 0 var(--ok)}
+.match-lines{position:absolute; inset:0; width:100%; height:100%; pointer-events:none; overflow:visible}
+.match-lines line{stroke:var(--ok); stroke-width:5; stroke-linecap:round}
+.match-lines line.rubber{display:none; stroke:var(--straw); stroke-dasharray:8 8}
+/* 8. Lật thẻ */
+.memory{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:clamp(10px,2vw,16px); max-width:min(470px,100%); margin:0 auto}
+.memory.n8{grid-template-columns:repeat(4,minmax(0,1fr)); max-width:min(620px,100%)}
+.mcard{aspect-ratio:5/6; padding:0; border:0; background:none; perspective:800px; cursor:pointer}
+.mc-in{position:relative; display:block; width:100%; height:100%; transition:transform .45s; transform-style:preserve-3d}
+.mcard.up .mc-in{transform:rotateY(180deg)}
+.mc-back,.mc-front{position:absolute; inset:0; display:grid; place-items:center; border:3px solid var(--charcoal); border-radius:18px; backface-visibility:hidden; -webkit-backface-visibility:hidden; box-shadow:0 4px 0 var(--charcoal)}
+.mc-back{background:repeating-linear-gradient(45deg,var(--straw) 0 12px,#E5B964 12px 24px)}
+.mc-back b{display:grid; place-items:center; width:54%; aspect-ratio:1; border-radius:50%; background:var(--card); color:var(--wood-deep); font:900 clamp(30px,6vw,46px)/1 var(--font-display)}
+.mc-front{transform:rotateY(180deg); background:var(--card); padding:8px}
+.mc-word{font:900 clamp(22px,4.4vw,34px)/1.1 var(--font-body); color:var(--ink); text-align:center}
+.mc-pic svg{width:100%; height:100%; display:block}
+.mc-pic{width:100%; height:100%}
+.mcard.right .mc-front{background:var(--green); border-color:var(--ok); box-shadow:0 4px 0 var(--ok)}
+/* 9. Đoán tranh bí mật */
+.secret{position:relative; width:clamp(200px,40vw,300px); aspect-ratio:1; margin:0 auto 16px; border:3px solid var(--charcoal); border-radius:22px; overflow:hidden; background:var(--card); box-shadow:var(--shadow)}
+.secret-pic{position:absolute; inset:8px}
+.secret-pic svg{width:100%; height:100%; display:block}
+.covers{position:absolute; inset:0; display:grid; grid-template-columns:repeat(3,1fr)}
+.cover{border:2px solid #C9973F; background:var(--straw); cursor:pointer; transition:opacity .35s, transform .35s; font:900 28px/1 var(--font-display); color:#FFFCF6}
+.cover::after{content:"?"}
+.cover.gone{opacity:0; transform:scale(.6); pointer-events:none}
+@media (max-width:560px){
+  .memory.n8{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .match{gap:36px}
+}
