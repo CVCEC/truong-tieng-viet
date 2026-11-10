@@ -4,6 +4,7 @@
   "moTa": "11 trò chơi cho Bài 11: đọc thơ Lên Sáu khổ 6, ôn bài cũ, ghép tiếng có âm kh, bảng ghép thanh, đọc từ, hái quả, nối từ với tranh, lật thẻ, đoán tranh, đọc câu, tô chữ; kèm phiếu bài tập về nhà.",
   "mau": "bo-am",
   "heroThem": "<p class=\"digraph-strip\" aria-label=\"Âm kh\">kh</p>",
-  "video": "/_blob/25e59798c6a1cd79f02e3b33c7c4a0af",
-  "poster": "bai-hoc.jpg"
+  "video": "https://pub-f10d5d0124a3402a9705e80939aba1da.r2.dev/bai-11/bai-hoc.mp4",
+  "videoXemTruoc": "/_blob/25e59798c6a1cd79f02e3b33c7c4a0af",
+  "poster": "https://pub-f10d5d0124a3402a9705e80939aba1da.r2.dev/bai-11/bai-hoc.jpg"
 }

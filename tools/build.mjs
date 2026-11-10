@@ -92,12 +92,16 @@ for (const { dir, meta } of lessons) {
   const phieuHref = existsSync(join(ROOT, dir, 'phieu-bai-tap.pdf')) && !existsSync(join(ROOT, dir, 'phieu-bai-tap.html')) && !PHIEU_MAU[meta.mau] ? 'phieu-bai-tap.pdf' : 'phieu-bai-tap.html';
   const NUT_PHIEU = coPhieu ? `<a class="btn ghost small" id="btnPhieu" href="${phieuHref}" target="_blank" rel="noopener">Phiếu bài tập</a>` : '';
     // video bài giảng: bai-NN/video/* (không đưa vào git) được chép sang site/<slug>/
-  // video đặt ở kho tệp của bản xem trước ("/_blob/…") thì chỉ chép ảnh bìa, không chép file .mp4
-  if (existsSync(join(ROOT, dir, 'video'))) cpSync(join(ROOT, dir, 'video'), out, { recursive: true, filter: f => !(String(meta.video || '').startsWith('/') && f.endsWith('.mp4')) });
-  // Video "/_blob/…" chỉ có trong bản xem trước trên claude.ai (XEM_TRUOC=1); website thật chờ link R2.
-  const coVideo = meta.video && (process.env.XEM_TRUOC || !String(meta.video).startsWith('/_blob/'));
+  // Website thật: video + ảnh bìa trên Cloudflare R2 (link tuyệt đối trong bai.json).
+  // Bản xem trước trên claude.ai (XEM_TRUOC=1) không mở được r2.dev, nên dùng "videoXemTruoc" (/_blob/… trong kho tệp
+  // của bản xem trước) và ảnh bìa chép từ bai-NN/video/bai-hoc.jpg.
+  const XEM = !!process.env.XEM_TRUOC;
+  const vSrc = XEM ? (meta.videoXemTruoc || meta.video) : meta.video;
+  const vPoster = XEM && meta.videoXemTruoc ? 'bai-hoc.jpg' : meta.poster;
+  if (XEM && existsSync(join(ROOT, dir, 'video'))) cpSync(join(ROOT, dir, 'video'), out, { recursive: true, filter: f => !f.endsWith('.mp4') });
+  const coVideo = vSrc && (XEM || !String(vSrc).startsWith('/_blob/'));
   const VIDEO = coVideo ? `<section class="bai-hoc" aria-labelledby="baiHocTitle"><h2 class="menu-title" id="baiHocTitle">Bài học hôm nay</h2>` +
-    `<video class="bai-hoc-video" controls playsinline preload="metadata"${meta.poster ? ` poster="${esc(meta.poster)}"` : ''} src="${esc(meta.video)}"></video></section>` +
+    `<video class="bai-hoc-video" controls playsinline preload="metadata"${vPoster ? ` poster="${esc(vPoster)}"` : ''} src="${esc(vSrc)}"></video></section>` +
     `<script>document.addEventListener('click', e => { if (e.target.closest('#cards, #btnStart')) document.querySelectorAll('video.bai-hoc-video').forEach(v => v.pause()); });</script>` : '';
   const fill = { VIDEO, SO: meta.so, NHAN: nhan, TEN: esc(meta.ten), MO_TA: esc(meta.moTa || ''), ASSET: '../chung/', HERO_THEM: meta.heroThem || '', BODY_TRUOC: mau.body + (meta.bodyTruoc || ''), NUT_PHIEU, CSS: css, JS: js };
   // Thay CSS và JS sau cùng, để chữ {{…}} trong mã không bị thay nhầm
