@@ -32,6 +32,19 @@ const lessons = readdirSync(ROOT)
   .map(d => ({ dir: d, meta: JSON.parse(read(join(d, 'bai.json'))) }))
   .sort((a, b) => a.meta.so - b.meta.so);
 
+// Website thật (TU_TIM_VIDEO=1, đặt trong .github/workflows/dang-web.yml): bài nào chưa ghi "video" trong bai.json
+// thì tự hỏi Cloudflare R2 xem đã có bai-N/bai-hoc.mp4 chưa; có thì gắn luôn, khỏi phải sửa bai.json mỗi lần có video mới.
+const R2 = 'https://pub-f10d5d0124a3402a9705e80939aba1da.r2.dev/';
+if (process.env.TU_TIM_VIDEO) {
+  await Promise.all(lessons.filter(l => !l.meta.video).map(async ({ meta }) => {
+    const url = R2 + slugOf(meta) + '/bai-hoc.mp4';
+    try {
+      const r = await fetch(url, { method: 'HEAD' });
+      if (r.ok) { meta.video = url; meta.poster = meta.poster || R2 + slugOf(meta) + '/bai-hoc.jpg'; console.log('Video R2:', slugOf(meta)); }
+    } catch { /* mạng lỗi: bỏ qua, lần đăng sau sẽ thử lại */ }
+  }));
+}
+
 // Phần chung
 const KHUNG = read('chung/khung.html');
 const CSS_CHUNG = read('chung/giao-dien.css');

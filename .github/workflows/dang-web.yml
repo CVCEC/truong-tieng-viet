@@ -4,6 +4,9 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # Mỗi giờ dựng lại một lần để video mới đưa lên Cloudflare R2 tự hiện trên trang
+  schedule:
+    - cron: '17 * * * *'
 permissions:
   contents: read
   pages: write
@@ -23,6 +26,8 @@ jobs:
         with:
           node-version: 20
       - run: node tools/build.mjs
+        env:
+          TU_TIM_VIDEO: '1'
       - run: echo "baihoc.cvcec.org" > site/CNAME && touch site/.nojekyll
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
