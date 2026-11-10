@@ -50,3 +50,6 @@ Không cần cài thư viện nào để đóng gói (chỉ cần Node 18+). Th�
 ---
 
 Copyrighted by CVCEC Trường Tiếng Việt Của Em 2026
+
+## Đăng web
+GitHub Pages, *Settings → Pages → Source* phải là **GitHub Actions** (không phải "Deploy from a branch", nếu không GitHub sẽ đăng README đè lên bài học). Workflow `.github/workflows/dang-web.yml` chạy mỗi lần đẩy lên `main` và mỗi giờ (để video mới trên Cloudflare R2 tự hiện).
