@@ -25,6 +25,14 @@ const Store = {
   get(k, d) { try { const v = localStorage.getItem('ttvce-b' + LESSON.so + '-' + k); return v ? JSON.parse(v) : d; } catch (e) { return d; } },
   set(k, v) { try { localStorage.setItem('ttvce-b' + LESSON.so + '-' + k, JSON.stringify(v)); } catch (e) { /* bỏ qua */ } }
 };
+// Bộ mẫu chung (mau.cvcec.org/v1) tự gán màu góc học theo tên miền. Mở ở tên miền khác (bản xem thử, máy thử)
+// thì vẫn lấy màu của góc "baihoc" trong TTV_DANH_SACH. Bộ mẫu nạp kiểu defer nên đã chạy xong trước DOMContentLoaded.
+document.addEventListener('DOMContentLoaded', () => {
+  const T = window.TTV; if (!T || T.gocHienTai()) return;
+  const m = T.goc('baihoc'); if (!m) return;
+  const s = document.documentElement.style;
+  s.setProperty('--ttv-goc', m.mau); s.setProperty('--ttv-goc-dam', m.mau_dam); s.setProperty('--ttv-goc-nhat', m.mau_nhat);
+});
 
 
 /* =====================================================================
@@ -453,7 +461,7 @@ const App = {
     $('#heroTrau').addEventListener('click', () => { this.unlockAudio(); Speech.say(['s:welcome']); });
     $('#guideTrau').addEventListener('click', () => { this.unlockAudio(); Speech.say(UI.guideIds); UI.mascot('nod'); });
     $('#btnHome').addEventListener('click', () => this.go(''));
-    $('#logoLink').addEventListener('click', e => { e.preventDefault(); this.go(''); });
+    const logo = $('#logoLink'); if (logo) logo.addEventListener('click', e => { e.preventDefault(); this.go(''); });
     ['pointerdown', 'pointerup', 'click', 'keydown'].forEach(ev => document.addEventListener(ev, () => this.unlockAudio(), { capture: true, passive: true }));
     document.addEventListener('keydown', e => { if (e.key === 'Escape' && !$('#finish').hidden) { this.closeFinish(); } });
     window.addEventListener('popstate', () => this.route());

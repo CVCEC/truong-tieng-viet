@@ -4,6 +4,7 @@
 // Không có giọng đọc trong lúc thử và mọi khoảng chờ được rút ngắn 10 lần để chạy nhanh.
 import { createRequire } from 'node:module';
 import { createServer } from 'node:http';
+import { ganBoMau } from './bo-mau.mjs';
 import { readFileSync, existsSync } from 'node:fs';
 import { join, extname, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -28,6 +29,7 @@ let failures = 0;
 for (const n of lessons) {
   const ctx = await browser.newContext({ viewport: { width: 1024, height: 768 }, hasTouch: true });
   await ctx.route(/fonts\.(googleapis|gstatic)\.com/, r => r.abort());
+  await ganBoMau(ctx);
   await ctx.addInitScript(() => {
     try { Object.defineProperty(window, 'speechSynthesis', { value: undefined }); } catch (e) {}
     const st = window.setTimeout; window.setTimeout = (f, ms, ...a) => st(f, Math.min(ms || 0, 4000) / 10, ...a);

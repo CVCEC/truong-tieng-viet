@@ -3,6 +3,7 @@
 // Cần Playwright (đã có sẵn trong môi trường Claude Code; trên máy khác: npm i -D playwright).
 import { createRequire } from 'node:module';
 import { createServer } from 'node:http';
+import { ganBoMau } from './bo-mau.mjs';
 import { readFileSync, existsSync, mkdirSync, readdirSync } from 'node:fs';
 import { join, extname, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -31,6 +32,7 @@ for (const n of lessons) {
     const { defaultBrowserType, ...ctxOpts } = opts;
     const ctx = await browser.newContext({ ...ctxOpts, deviceScaleFactor: 1 });
     await ctx.route(/fonts\.(googleapis|gstatic)\.com/, r => r.abort());
+    await ganBoMau(ctx);
     const page = await ctx.newPage();
     const errors = [];
     page.on('pageerror', e => errors.push(e.message));

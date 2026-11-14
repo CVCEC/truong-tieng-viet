@@ -10,7 +10,10 @@
 <link rel="icon" type="image/png" href="{{ASSET}}img/trau-con.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@600;700;800;900&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Baloo+2:wght@600;700;800&family=Nunito:wght@600;700;800;900&display=swap">
+<!-- Bộ mẫu chung "Làng Trâu Con" của trường: luôn là link ngoài, không gộp vào bản đóng gói -->
+<link rel="stylesheet" href="https://mau.cvcec.org/v1/cvcec-chung.css">
+<script src="https://mau.cvcec.org/v1/cvcec-chung.js" defer></script>
 <style>
 {{CSS}}
 </style>
@@ -19,19 +22,14 @@
 {{BODY_TRUOC}}
 <div class="app">
   <header class="brandbar">
-    <a class="logo" href="./" id="logoLink" aria-label="Trường Tiếng Việt Của Em, về trang chính">
-      <img class="logo-trau" src="{{ASSET}}img/trau-con.png" alt="" width="541" height="640">
-      <img class="logo-chu" src="{{ASSET}}img/logo-chu.png" alt="Trường Tiếng Việt Của Em" width="466" height="180">
-    </a>
-    <div class="brand-right">
-      <span class="lesson-tag">{{NHAN}}</span>
-      <a class="all-lessons" href="../">‹ Tất cả bài học</a>
-    </div>
+    <a class="all-lessons" href="../">‹ Tất cả bài học</a>
+    <span class="lesson-tag">{{NHAN}}</span>
   </header>
 
   <main>
     <!-- Trang chính -->
     <section id="home" class="screen" aria-labelledby="homeTitle">
+      <div class="ttv-canh hero-canh">
       <div class="hero">
         <div class="hero-trau" id="heroTrau"></div>
         <div>
@@ -47,6 +45,7 @@
           <p class="voice-note" id="voiceNote" hidden></p>
         </div>
       </div>
+      </div>
       <div class="check" id="checkPanel" hidden aria-live="polite"></div>
       {{VIDEO}}
       <h2 class="menu-title" id="menuTitle">Chọn trò chơi</h2>
@@ -54,7 +53,7 @@
     </section>
 
     <!-- Màn trò chơi -->
-    <section id="game" class="screen" hidden>
+    <section id="game" class="screen" data-ttv-nen="don-gian" hidden>
       <div class="ghead">
         <button class="btn small ghost" id="btnHome" type="button">‹ Trang chính</button>
         <div class="gtitle"><p class="eyebrow" id="gEyebrow"></p><h2 id="gTitle"></h2></div>
@@ -70,7 +69,7 @@
   </main>
 </div>
 
-<div class="finish" id="finish" hidden role="dialog" aria-modal="true" aria-labelledby="finTitle">
+<div class="finish" id="finish" data-ttv-nen="don-gian" hidden role="dialog" aria-modal="true" aria-labelledby="finTitle">
   <div class="fin-card">
     <div class="fin-trau" id="finTrau"></div>
     <h2 id="finTitle">Các bạn giỏi quá!</h2>
@@ -85,7 +84,6 @@
 </div>
 
 <div class="sound-help" id="soundHelp" role="status" hidden><span id="soundHelpText"></span><button class="btn small ghost" id="soundHelpClose" type="button">Đã hiểu</button></div>
-<p class="copyright">Copyrighted by CVCEC Trường Tiếng Việt Của Em 2026</p>
 
 <script>
 {{JS}}

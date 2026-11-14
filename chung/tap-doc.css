@@ -1,0 +1,10 @@
+/* Phông tập đọc Andika (--font-read → --ttv-phong-tap-doc của bộ mẫu) cho chữ cái, tiếng, từ, câu mà bé đọc.
+   tools/build.mjs ghép tệp này SAU CÙNG (sau bai-NN/bai.css) để khỏi sửa từng bài.
+   Andika chỉ có nét 400 và 700, nên chữ đậm 800/900 cũ hiện thành 700. */
+.tile,.pline,.qline,.lbtn,.eq,.cslot,.cres,.cword,.tcard,.wordcard,.slot-line,.lchip,
+.syl .c,.syl .vow,.tcell,.sslot,.blank-word,.schip,.fruit,.big-am,.bfruit,.mword,.mc-word,
+.khoi-cau,.para,.qtext,.mpic.mtext,.mau-cau,.cloze,.riddle,.gword,.toa,.ga-chu,
+.nv-o,.chu-day,
+.seat,.pcard,.target .big,.roof-slot,.room .slot,.dgbox,.dgword,.mystery .mword,.mslot,.dkword,.mdock,.sentence,.wbtn{
+  font-family:var(--font-read);
+}

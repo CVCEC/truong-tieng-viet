@@ -48,6 +48,11 @@ if (process.env.TU_TIM_VIDEO) {
 // Phần chung
 const KHUNG = read('chung/khung.html');
 const CSS_CHUNG = read('chung/giao-dien.css');
+// Phông tập đọc (Andika) cho chữ, tiếng, từ: ghép sau cùng để thắng phông trong mau/*.css và bai-NN/bai.css
+const CSS_TAP_DOC = read('chung/tap-doc.css');
+// Bộ mẫu chung "Làng Trâu Con": hai dòng này luôn là link ngoài (không gộp, không bỏ) trong mọi trang đóng gói
+const BO_MAU = '<link rel="stylesheet" href="https://mau.cvcec.org/v1/cvcec-chung.css">\n<script src="https://mau.cvcec.org/v1/cvcec-chung.js" defer></script>';
+if (!KHUNG.includes(BO_MAU)) throw new Error('chung/khung.html thiếu hai dòng nạp bộ mẫu chung mau.cvcec.org/v1');
 const JS_CHUNG = read('chung/chu-viet.js').replace(/^'use strict';\n/, '') + '\n' + read('chung/dong-co.js');
 const sharedAudio = listMp3(join(ROOT, 'chung/audio'));
 const MAU = {
@@ -100,10 +105,10 @@ for (const { dir, meta } of lessons) {
   const js = "'use strict';\n" +
     `const LESSON = ${JSON.stringify(lesson)};\nconst ASSET = '../chung/';\nconst TU_CU = ${JSON.stringify(meta.mau ? tuCuOf(meta.so) : [])};\n` +
     JS_CHUNG + '\n' + mau.js + '\n' + read(join(dir, 'bai.js')) + '\nApp.init();';
-  const css = CSS_CHUNG + '\n' + mau.css + '\n' + (existsSync(join(ROOT, dir, 'bai.css')) ? read(join(dir, 'bai.css')) : '');
+  const css = CSS_CHUNG + '\n' + mau.css + '\n' + (existsSync(join(ROOT, dir, 'bai.css')) ? read(join(dir, 'bai.css')) : '') + '\n' + CSS_TAP_DOC;
   const coPhieu = !!PHIEU_MAU[meta.mau] || existsSync(join(ROOT, dir, 'phieu-bai-tap.html')) || existsSync(join(ROOT, dir, 'phieu-bai-tap.pdf'));
   const phieuHref = existsSync(join(ROOT, dir, 'phieu-bai-tap.pdf')) && !existsSync(join(ROOT, dir, 'phieu-bai-tap.html')) && !PHIEU_MAU[meta.mau] ? 'phieu-bai-tap.pdf' : 'phieu-bai-tap.html';
-  const NUT_PHIEU = coPhieu ? `<a class="btn ghost small" id="btnPhieu" href="${phieuHref}" target="_blank" rel="noopener">Phiếu bài tập</a>` : '';
+  const NUT_PHIEU = coPhieu ? `<a class="btn ghost small" id="btnPhieu" href="${phieuHref}">Phiếu bài tập</a>` : '';
     // video bài giảng: bai-NN/video/* (không đưa vào git) được chép sang site/<slug>/
   // Website thật: video + ảnh bìa trên Cloudflare R2 (link tuyệt đối trong bai.json).
   // Bản xem trước trên claude.ai (XEM_TRUOC=1) không mở được r2.dev, nên dùng "videoXemTruoc" (/_blob/… trong kho tệp
@@ -154,31 +159,29 @@ writeFileSync(join(OUT, 'index.html'), `<!doctype html>
 <link rel="icon" type="image/png" href="chung/img/trau-con.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@600;700;800;900&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Baloo+2:wght@600;700;800&family=Nunito:wght@600;700;800;900&display=swap">
+${BO_MAU}
 <style>
 ${CSS_CHUNG}
 a.gcard{text-decoration:none; color:inherit}
 .gcard .gicon b{font:800 30px/1 var(--font-display); color:var(--charcoal)}
 .hero-trau img{width:100%; height:auto; display:block}
+.hero-trau{cursor:default}
 </style>
 </head>
 <body>
 <div class="app">
-  <header class="brandbar">
-    <a class="logo" href="./" aria-label="Trường Tiếng Việt Của Em">
-      <img class="logo-trau" src="chung/img/trau-con.png" alt="" width="541" height="640">
-      <img class="logo-chu" src="chung/img/logo-chu.png" alt="Trường Tiếng Việt Của Em" width="466" height="180">
-    </a>
-  </header>
   <main>
     <section class="screen" aria-labelledby="homeTitle">
+      <div class="ttv-canh hero-canh">
       <div class="hero">
-        <div class="hero-trau"><img class="trau wave" src="chung/img/trau-con.png" alt="Trâu Con đội nón lá" width="541" height="640"></div>
+        <div class="hero-trau"><img class="trau wave" id="trauGoc" src="chung/img/trau-con.png" alt="Trâu Con" width="541" height="640"></div>
         <div>
           <p class="eyebrow">Trường Tiếng Việt Của Em</p>
           <h1 id="homeTitle">Các bài học</h1>
           <div class="bubble"><span>Chào các bạn! Mình là Trâu Con. Các bạn chọn một bài để cùng mình học và chơi nhé!</span></div>
         </div>
+      </div>
       </div>
       <h2 class="menu-title">Chọn bài học</h2>
       <div class="cards">
@@ -187,7 +190,17 @@ ${items}
     </section>
   </main>
 </div>
-<p class="copyright">Copyrighted by CVCEC Trường Tiếng Việt Của Em 2026</p>
+<script>
+// Màu và ảnh Trâu Con của góc "baihoc" lấy từ TTV_DANH_SACH của bộ mẫu (cả khi mở ở tên miền khác)
+document.addEventListener('DOMContentLoaded', function () {
+  var T = window.TTV, m = T && T.goc('baihoc'); if (!m) return;
+  if (!T.gocHienTai()) { var s = document.documentElement.style; s.setProperty('--ttv-goc', m.mau); s.setProperty('--ttv-goc-dam', m.mau_dam); s.setProperty('--ttv-goc-nhat', m.mau_nhat); }
+  var img = document.getElementById('trauGoc'), cu = img.src;
+  img.onerror = function () { img.onerror = null; img.src = cu; };
+  img.removeAttribute('width'); img.removeAttribute('height');
+  img.src = T.anh(m.trau);
+});
+</script>
 </body>
 </html>
 `);

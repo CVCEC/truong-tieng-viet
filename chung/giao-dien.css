@@ -1,23 +1,28 @@
-/* Bố cục: một ứng dụng một cột — thanh thương hiệu cố định trên cùng, vùng chơi ở giữa, dòng bản quyền mờ dưới đáy.
-   Nền giấy dó, chữ than chì, điểm nhấn vàng rơm / nâu gỗ, xanh lá nhạt cho ghi chú, hồng đào cho cảm xúc. */
+/* Bố cục: một ứng dụng một cột — thanh bài học trên cùng, vùng chơi ở giữa.
+   Thanh các góc học và dòng bản quyền do bộ mẫu chung "Làng Trâu Con" (mau.cvcec.org/v1) chèn vào.
+   Màu thương hiệu và phông lấy từ biến --ttv-* của bộ mẫu; biến cũ dưới đây chỉ trỏ sang biến chung
+   (giá trị sau dấu phẩy là dự phòng khi chưa tải được bộ mẫu, trùng với giá trị trong bộ mẫu).
+   Màu chức năng của trò chơi (đúng/sai, nhóm âm, gỗ trong tranh) giữ trong trang. */
 :root{
-  --paper:#F4F0EA; --paper-deep:#E9E0D2; --card:#FFFCF6; --line:#DCCFBC;
-  --ink:#2A231F; --ink-soft:#64574C; --charcoal:#3A3B3C;
-  --straw:#DDAA55; --straw-soft:#F6E3BC; --wood:#C68B59; --wood-deep:#8C5A32;
-  --green:#DCEBCF; --green-ink:#3E7A3A; --peach:#F7D3C3; --peach-ink:#B4553C;
-  --ok:#3E8E4A; --focus:#2F6FB0;
-  --onset:#D5E8BF; --onset-ink:#4A7A2A; --main:#F9CDD3; --main-ink:#B0334A; --coda:#F7E0A3; --coda-ink:#8F6210;
-  --font-display:"Baloo 2","Nunito","Trebuchet MS",system-ui,sans-serif;
-  --font-body:"Nunito","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
-  --shadow:0 2px 0 rgba(58,59,60,.10),0 10px 24px -14px rgba(58,59,60,.45);
+  --paper:var(--ttv-nen,#FFF8EC); --paper-deep:var(--ttv-vien,#F3E9D6); --card:var(--ttv-the,#FFFFFF); --line:var(--ttv-vien,#F3E9D6);
+  --ink:var(--ttv-chu,#003060); --ink-soft:var(--ttv-chu-phu,#4F5761); --charcoal:var(--ttv-chu,#003060);
+  --straw:var(--ttv-sao,#F0B050); --straw-soft:var(--ttv-kem-rom,#F8E3B0); --wood-deep:var(--ttv-goc-dam,#003060);
+  --focus:var(--ttv-chu,#003060);
+  --font-display:var(--ttv-phong-tieu-de,"Baloo 2","Nunito",sans-serif);
+  --font-body:var(--ttv-phong,"Nunito",system-ui,sans-serif);
+  --font-read:var(--ttv-phong-tap-doc,"Andika","Nunito",sans-serif); /* chữ, tiếng, từ, câu cho bé tập đọc */
+  /* Màu chức năng (đã làm đậm để chữ đạt 4,5:1 trên nền nhạt của nó, thẻ trắng và nền kem) */
+  --wood:#C68B59; --wood-ink:#7F5939;
+  --green:#DCEBCF; --green-ink:#386E34; --peach:#F7D3C3; --peach-ink:#924530;
+  --ok:#316F3A;
+  --onset:#D5E8BF; --onset-ink:#406A24; --main:#F9CDD3; --main-ink:#A32F45; --coda:#F7E0A3; --coda-ink:#80580E;
+  --shadow:0 2px 0 rgba(0,48,96,.10),0 10px 24px -14px rgba(0,48,96,.40);
   color-scheme:light;
 }
 *{box-sizing:border-box}
 html,body{height:100%}
 body{
   margin:0; background-color:var(--paper); color:var(--ink);
-  background-image:radial-gradient(rgba(140,90,50,.06) 1px,transparent 1.3px),radial-gradient(rgba(140,90,50,.045) 1px,transparent 1.3px);
-  background-size:23px 23px,37px 37px; background-position:0 0,11px 17px;
   font-family:var(--font-body); font-weight:600; font-size:17px; line-height:1.4;
   -webkit-tap-highlight-color:transparent; -webkit-text-size-adjust:100%; overflow-x:hidden;
 }
@@ -27,37 +32,33 @@ button{font-family:inherit; color:inherit}
 .app{
   max-width:1180px; margin:0 auto; min-height:100%;
   padding-left:max(16px,env(safe-area-inset-left,0px)); padding-right:max(16px,env(safe-area-inset-right,0px));
-  padding-block:calc(8px + env(safe-area-inset-top,0px)) calc(52px + env(safe-area-inset-bottom,0px));
+  padding-block:calc(8px + env(safe-area-inset-top,0px)) calc(16px + env(safe-area-inset-bottom,0px));
 }
 
 /* ---------- Thanh thương hiệu ---------- */
-.brandbar{display:flex; align-items:center; justify-content:space-between; gap:12px; padding-block:4px 10px}
-.logo{display:flex; align-items:center; gap:8px; text-decoration:none; border-radius:14px}
-.logo .logo-trau{width:44px; height:auto; flex:none}
-.logo .logo-chu{height:56px; width:auto; display:block}
-.brand-right{display:flex; align-items:center; gap:10px; flex-wrap:wrap; justify-content:flex-end}
-.all-lessons{font:800 15px/1.1 var(--font-display); color:#fff; background:var(--wood-deep); border-radius:999px; padding:9px 14px; text-decoration:none; white-space:nowrap}
+.brandbar{display:flex; align-items:center; justify-content:space-between; gap:12px; padding-block:6px 10px}
+.all-lessons{display:inline-flex; align-items:center; min-height:44px; font:800 15px/1.1 var(--font-display); color:#fff; background:var(--wood-deep); border-radius:999px; padding:9px 16px; text-decoration:none; white-space:nowrap}
 .all-lessons:hover,.all-lessons:focus-visible{filter:brightness(1.12)}
 .so-bai{color:var(--wood-deep)}
 .lesson-tag{font:800 14px/1.1 var(--font-display); letter-spacing:.6px; text-transform:uppercase; color:var(--wood-deep); background:var(--straw-soft); border:2px solid var(--straw); border-radius:999px; padding:7px 12px; white-space:nowrap}
-.copyright{
-  position:fixed; left:0; right:0; bottom:0; z-index:80; pointer-events:none; text-align:center;
-  font-size:12.5px; font-weight:700; letter-spacing:.2px; color:var(--ink-soft); opacity:.5;
-  padding-block:6px calc(6px + env(safe-area-inset-bottom,0px));
-  padding-left:max(16px,env(safe-area-inset-left,0px)); padding-right:max(16px,env(safe-area-inset-right,0px));
-}
+.lesson-tag{background:var(--ttv-goc-nhat,#F8E3B0); border-color:var(--ttv-goc,#F0B050)}
+/* Trang chính (mục lục và trang chính của bài) đặt trên cảnh trời – mây – ruộng của bộ mẫu */
+.hero-canh{border-radius:28px; margin-bottom:18px; padding:8px clamp(12px,3vw,28px) 96px}
+@media (max-width:600px){.hero-canh{padding-bottom:76px; border-radius:22px}}
 
 /* ---------- Nút ---------- */
 .btn{
   display:inline-flex; align-items:center; justify-content:center; gap:8px; min-height:54px; padding:12px 24px;
-  font:800 19px/1 var(--font-body); color:var(--charcoal); background:var(--straw);
-  border:3px solid var(--charcoal); border-radius:999px; box-shadow:0 4px 0 var(--charcoal); cursor:pointer;
+  font:800 19px/1 var(--font-display); color:#fff; background:var(--ttv-chinh,#C83818); text-decoration:none;
+  border:3px solid var(--ttv-chinh-dam,#8E2810); border-radius:999px; box-shadow:0 4px 0 var(--ttv-chinh-dam,#8E2810); cursor:pointer;
   transition:transform .08s, box-shadow .08s;
 }
-.btn:active{transform:translateY(3px); box-shadow:0 1px 0 var(--charcoal)}
-.btn.ghost{background:var(--card)}
-.btn.small{min-height:44px; padding:8px 16px; font-size:16px; border-width:2.5px; box-shadow:0 3px 0 var(--charcoal)}
-.btn[disabled]{opacity:.4; cursor:default; transform:none; box-shadow:0 4px 0 var(--charcoal)}
+.btn:active{transform:translateY(3px); box-shadow:0 1px 0 var(--ttv-chinh-dam,#8E2810)}
+.btn.ghost{background:var(--card); color:var(--charcoal); border-color:var(--charcoal); box-shadow:0 4px 0 var(--charcoal)}
+.btn.ghost:active{box-shadow:0 1px 0 var(--charcoal)}
+.btn.small{min-height:44px; padding:8px 16px; font-size:16px; border-width:2.5px; box-shadow:0 3px 0 var(--ttv-chinh-dam,#8E2810)}
+.btn.ghost.small{box-shadow:0 3px 0 var(--charcoal)}
+.btn[disabled]{opacity:.4; cursor:default; transform:none}
 .btn svg{width:26px; height:26px; flex:none}
 
 /* ---------- Trâu Con ---------- */
@@ -119,7 +120,7 @@ button{font-family:inherit; color:inherit}
 }
 .gcard:hover{transform:translateY(-2px); box-shadow:0 6px 0 var(--charcoal)}
 .gcard:active{transform:translateY(3px); box-shadow:0 1px 0 var(--charcoal)}
-.gcard .gicon{grid-row:1 / span 3; width:64px; height:64px; border-radius:16px; background:var(--straw-soft); display:grid; place-items:center; padding:6px}
+.gcard .gicon{grid-row:1 / span 3; width:64px; height:64px; border-radius:16px; background:var(--ttv-goc-nhat,#F8E3B0); display:grid; place-items:center; padding:6px}
 .gcard .gicon svg{width:100%; height:100%}
 .gcard .gnum{font:800 12.5px/1.2 var(--font-display); letter-spacing:.8px; text-transform:uppercase; color:var(--wood-deep)}
 .gcard .gname{font:800 20px/1.15 var(--font-display); color:var(--charcoal); padding-right:52px}
@@ -145,7 +146,7 @@ button{font-family:inherit; color:inherit}
 /* ---------- Thẻ chữ, vùng thả, phản hồi ---------- */
 .tile{
   --t:66px; position:relative; width:var(--t); height:var(--t); display:grid; place-items:center;
-  font:900 calc(var(--t)*.56)/1 var(--font-body); color:var(--ink); background:var(--card);
+  font:700 calc(var(--t)*.56)/1 var(--font-read); color:var(--ink); background:var(--card);
   border:3px solid var(--charcoal); border-radius:18px; box-shadow:0 4px 0 var(--charcoal);
   cursor:grab; user-select:none; -webkit-user-select:none; touch-action:none; padding:0;
 }
@@ -195,8 +196,6 @@ button{font-family:inherit; color:inherit}
   .hero .bubble::before{top:40px}
   .lesson-tag{display:none}
   .all-lessons{font-size:13.5px; padding:8px 11px}
-  .logo .logo-chu{height:46px}
-  .logo .logo-trau{width:36px}
   .guide{gap:12px}
   .guide-trau{width:60px}
   .guide .bubble{font-size:16px; padding:10px 12px}

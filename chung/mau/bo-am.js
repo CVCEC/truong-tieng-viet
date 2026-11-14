@@ -675,7 +675,7 @@ GAMES.g11 = {
       const path = (p, upto) => { ctx.beginPath(); p.slice(0, upto).forEach((q0, n) => { const q = P(q0, v); n ? ctx.lineTo(q.x, q.y) : ctx.moveTo(q.x, q.y); }); };
       ctx.lineCap = 'round'; ctx.lineJoin = 'round';
       s.strokes.forEach((p, n) => {
-        if (n < st.stroke || st.done) { ctx.strokeStyle = '#3E8E4A'; ctx.lineWidth = v.ly * 0.24; path(p, p.length); ctx.stroke(); return; }
+        if (n < st.stroke || st.done) { ctx.strokeStyle = '#316F3A'; ctx.lineWidth = v.ly * 0.24; path(p, p.length); ctx.stroke(); return; }
         ctx.setLineDash([v.ly * 0.05, v.ly * 0.22]); ctx.strokeStyle = n === st.stroke ? '#E2675A' : 'rgba(226,103,90,.35)'; ctx.lineWidth = v.ly * 0.17; path(p, p.length); ctx.stroke(); ctx.setLineDash([]);
       });
       if (st.demo != null) {
@@ -683,19 +683,19 @@ GAMES.g11 = {
         for (const p of s.strokes) { const n = Math.min(p.length, Math.floor(left)); if (n > 1) { path(p, n); ctx.stroke(); } left -= p.length; if (left <= 0) { const q = P(p[Math.max(0, n - 1)], v); ctx.fillStyle = '#DDAA55'; ctx.beginPath(); ctx.arc(q.x, q.y, Math.max(7, v.ly * 0.13), 0, Math.PI * 2); ctx.fill(); break; } }
         return;
       }
-      if (!st.done && st.progress > 1) { ctx.strokeStyle = 'rgba(62,142,74,.9)'; ctx.lineWidth = v.ly * 0.24; path(pts(), st.progress); ctx.stroke(); }
+      if (!st.done && st.progress > 1) { ctx.strokeStyle = 'rgba(49,111,58,.9)'; ctx.lineWidth = v.ly * 0.24; path(pts(), st.progress); ctx.stroke(); }
       ctx.strokeStyle = 'rgba(58,59,60,.45)'; ctx.lineWidth = Math.max(3, v.ly * 0.07);
       st.ink.forEach(line => { ctx.beginPath(); line.forEach((p, n) => n ? ctx.lineTo(p.x, p.y) : ctx.moveTo(p.x, p.y)); ctx.stroke(); });
       if (st.done) return;
       const p = pts();
-      ctx.fillStyle = '#B4553C';
+      ctx.fillStyle = '#924530';
       [0.35, 0.72].forEach(f => {
         const n = Math.floor(p.length * f), a = P(p[n], v), b = P(p[Math.min(n + 4, p.length - 1)], v);
         const ang = Math.atan2(b.y - a.y, b.x - a.x), r = v.ly * 0.2;
         ctx.save(); ctx.translate(a.x, a.y); ctx.rotate(ang); ctx.beginPath(); ctx.moveTo(r, 0); ctx.lineTo(-r * 0.7, -r * 0.75); ctx.lineTo(-r * 0.7, r * 0.75); ctx.closePath(); ctx.fill(); ctx.restore();
       });
       const a = P(p[0], v);
-      ctx.fillStyle = '#3E8E4A'; ctx.beginPath(); ctx.arc(a.x, a.y, Math.max(11, v.ly * 0.17), 0, Math.PI * 2); ctx.fill(); ctx.strokeStyle = '#FFFFFF'; ctx.lineWidth = 3; ctx.stroke();
+      ctx.fillStyle = '#316F3A'; ctx.beginPath(); ctx.arc(a.x, a.y, Math.max(11, v.ly * 0.17), 0, Math.PI * 2); ctx.fill(); ctx.strokeStyle = '#FFFFFF'; ctx.lineWidth = 3; ctx.stroke();
     };
     // Vẽ mẫu: chạy hết các nét theo đúng thứ tự, gần 3 ô li mỗi giây
     const demo = () => {
@@ -762,7 +762,7 @@ const ICONS = {
   doctu: () => { const w = AmLib.allWords()[0]; return SV(`<rect x="4" y="58" width="56" height="30" rx="8" fill="#FFFCF6"/>${TXT(32, 80, 17, w)}<g transform="translate(46 4) scale(.5)">${AmLib.pic(w).replace(/^<svg[^>]*>|<\/svg>$/g, '')}</g>`); },
   doccau: () => SV(`<g transform="translate(40 2) scale(.56)">${AmLib.pic(AM.cau[0]).replace(/^<svg[^>]*>|<\/svg>$/g, '')}</g><rect x="4" y="60" width="92" height="30" rx="8" fill="#FFFCF6"/><path d="M14 70 H50 M56 70 H86 M14 80 H40 M46 80 H70" stroke="#A39588" stroke-width="3"/>`),
   hai: () => SV(`<path d="M50 6 C26 6 10 20 12 38 C6 50 16 62 30 62 C38 70 62 70 70 62 C84 62 94 50 88 38 C90 20 74 6 50 6 Z" fill="#8FC07A" stroke="#4E8A3A"/><path d="M45 66 H55 V80 H45 Z" fill="#C68B59" stroke="none"/><circle cx="32" cy="30" r="9" fill="#E8743B"/><circle cx="64" cy="26" r="9" fill="#F2B134"/><circle cx="50" cy="48" r="9" fill="#D9573F"/><path d="M22 80 H78 L72 96 H28 Z" fill="#DDAA55"/>${TXT(50, 92, 13, AM.am[0], '#3A3B3C')}`),
-  noi: () => { const w = AmLib.vocab(); return SV(`<rect x="4" y="16" width="40" height="22" rx="6" fill="#FFFCF6"/>${TXT(24, 32, 12, w[0])}<rect x="4" y="60" width="40" height="22" rx="6" fill="#FFFCF6"/>${TXT(24, 76, 12, w[1] || '')}<path d="M44 27 L62 70 M44 71 L62 30" stroke="#3E8E4A" stroke-width="3" stroke-dasharray="4 4"/><g transform="translate(62 12) scale(.34)">${AmLib.pic(w[1] || w[0]).replace(/^<svg[^>]*>|<\/svg>$/g, '')}</g><g transform="translate(62 54) scale(.34)">${AmLib.pic(w[0]).replace(/^<svg[^>]*>|<\/svg>$/g, '')}</g>`); },
+  noi: () => { const w = AmLib.vocab(); return SV(`<rect x="4" y="16" width="40" height="22" rx="6" fill="#FFFCF6"/>${TXT(24, 32, 12, w[0])}<rect x="4" y="60" width="40" height="22" rx="6" fill="#FFFCF6"/>${TXT(24, 76, 12, w[1] || '')}<path d="M44 27 L62 70 M44 71 L62 30" stroke="#316F3A" stroke-width="3" stroke-dasharray="4 4"/><g transform="translate(62 12) scale(.34)">${AmLib.pic(w[1] || w[0]).replace(/^<svg[^>]*>|<\/svg>$/g, '')}</g><g transform="translate(62 54) scale(.34)">${AmLib.pic(w[0]).replace(/^<svg[^>]*>|<\/svg>$/g, '')}</g>`); },
   lat: () => SV(`<rect x="6" y="14" width="38" height="50" rx="7" fill="#DDAA55"/>${TXT(25, 47, 26, '?', '#FFFCF6')}<g transform="rotate(8 70 50)"><rect x="52" y="22" width="38" height="50" rx="7" fill="#FFFCF6"/>${TXT(71, 54, 16, AmLib.vocab()[0].split(' ')[0])}</g><path d="M30 84 C40 92 60 92 70 84" stroke="#C68B59" stroke-width="3"/><path d="M64 80 L70 84 L64 90" stroke="#C68B59" stroke-width="3"/>`),
   doan: () => SV(`<rect x="10" y="10" width="80" height="80" rx="10" fill="#FFFCF6"/><g transform="translate(12 12) scale(.76)">${AmLib.pic(AmLib.vocab()[0]).replace(/^<svg[^>]*>|<\/svg>$/g, '')}</g><rect x="10" y="10" width="40" height="40" rx="8" fill="#DDAA55"/><rect x="50" y="50" width="40" height="40" rx="8" fill="#DDAA55"/>${TXT(30, 39, 24, '?', '#FFFCF6')}${TXT(70, 79, 24, '?', '#FFFCF6')}`),
   to: () => SV(`<rect x="8" y="14" width="70" height="74" rx="6" fill="#FFFFFF"/><path d="M8 34 H78 M8 52 H78 M8 70 H78 M26 14 V88 M44 14 V88 M62 14 V88" stroke="#BFDDE8" stroke-width="1.6"/>${TXT(42, 70, 46, AM.am[0], '#D9573F', 800).replace('stroke="none"', 'stroke="none" opacity=".55"')}<g transform="rotate(35 80 60)"><rect x="75" y="22" width="10" height="48" rx="2" fill="#F2C14E"/><path d="M75 70 L80 82 L85 70 Z" fill="#F6D2B8"/><path d="M78.5 78 L80 82 L81.5 78 Z" fill="#3A3B3C"/></g>`)

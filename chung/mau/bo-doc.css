@@ -46,14 +46,14 @@
 .tau{display:flex; flex-wrap:wrap; align-items:flex-end; gap:8px; margin:0 auto 18px; padding:10px 12px; background:var(--card); border-radius:18px; box-shadow:var(--shadow); max-width:100%}
 .dau-tau svg{width:58px; height:58px; display:block}
 .toa-nhom{display:flex; flex-direction:column; gap:4px; padding:6px 8px 8px; background:#F6E3BC; border-radius:12px; border-bottom:5px solid #3A3B3C}
-.toa-nhom small{font:800 12px/1 var(--font-body); color:#8A6A44; text-align:center}
+.toa-nhom small{font:800 12px/1 var(--font-body); color:var(--wood-ink); text-align:center}
 .toa-nhom > div{display:flex; flex-wrap:wrap; gap:4px; justify-content:center}
 .toa{min-width:44px; padding:6px 10px; font:800 22px/1.1 var(--font-display); color:var(--ink); background:#FFFCF6; border:2px solid #C68B59; border-radius:8px; cursor:pointer}
 .ga-wrap{display:flex; flex-direction:column; gap:18px}
 .ga-row{display:grid; grid-template-columns:repeat(auto-fit, minmax(170px, 1fr)); gap:12px}
 .ga{display:flex; flex-direction:column; align-items:center; gap:4px; min-height:130px; padding:12px; background:var(--card); border:3px dashed #C68B59; border-radius:16px; cursor:pointer}
 .ga.over{border-style:solid; background:#FFF4DC}
-.ga strong{font:800 16px/1 var(--font-body); color:#8A6A44}
+.ga strong{font:800 16px/1 var(--font-body); color:var(--wood-ink)}
 .ga-chu{font:800 22px/1.1 var(--font-display); color:var(--ink)}
 .ga-tu{display:flex; flex-wrap:wrap; gap:6px; justify-content:center}
 .gword{padding:4px 10px; font:800 18px/1.2 var(--font-body); background:#CFE6C0; border-radius:8px}

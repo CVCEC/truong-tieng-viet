@@ -406,7 +406,7 @@ GAMES.g10 = {
       const path = (p, upto) => { ctx.beginPath(); p.slice(0, upto).forEach((q0, n) => { const q = P(q0, v); n ? ctx.lineTo(q.x, q.y) : ctx.moveTo(q.x, q.y); }); };
       ctx.lineCap = 'round'; ctx.lineJoin = 'round';
       s.strokes.forEach((p, n) => {
-        if (n < st.stroke || st.done) { ctx.strokeStyle = '#3E8E4A'; ctx.lineWidth = v.ly * 0.24; path(p, p.length); ctx.stroke(); return; }
+        if (n < st.stroke || st.done) { ctx.strokeStyle = '#316F3A'; ctx.lineWidth = v.ly * 0.24; path(p, p.length); ctx.stroke(); return; }
         ctx.setLineDash([v.ly * 0.05, v.ly * 0.22]); ctx.strokeStyle = n === st.stroke ? '#E2675A' : 'rgba(226,103,90,.35)'; ctx.lineWidth = v.ly * 0.17; path(p, p.length); ctx.stroke(); ctx.setLineDash([]);
       });
       if (st.demo != null) {
@@ -414,19 +414,19 @@ GAMES.g10 = {
         for (const p of s.strokes) { const n = Math.min(p.length, Math.floor(left)); if (n > 1) { path(p, n); ctx.stroke(); } left -= p.length; if (left <= 0) { const q = P(p[Math.max(0, n - 1)], v); ctx.fillStyle = '#DDAA55'; ctx.beginPath(); ctx.arc(q.x, q.y, Math.max(7, v.ly * 0.13), 0, Math.PI * 2); ctx.fill(); break; } }
         return;
       }
-      if (!st.done && st.progress > 1) { ctx.strokeStyle = 'rgba(62,142,74,.9)'; ctx.lineWidth = v.ly * 0.24; path(pts(), st.progress); ctx.stroke(); }
+      if (!st.done && st.progress > 1) { ctx.strokeStyle = 'rgba(49,111,58,.9)'; ctx.lineWidth = v.ly * 0.24; path(pts(), st.progress); ctx.stroke(); }
       ctx.strokeStyle = 'rgba(58,59,60,.45)'; ctx.lineWidth = Math.max(3, v.ly * 0.07);
       st.ink.forEach(line => { ctx.beginPath(); line.forEach((p, n) => n ? ctx.lineTo(p.x, p.y) : ctx.moveTo(p.x, p.y)); ctx.stroke(); });
       if (st.done) return;
       const p = pts();
-      ctx.fillStyle = '#B4553C';
+      ctx.fillStyle = '#924530';
       [0.35, 0.72].forEach(f => {
         const n = Math.floor(p.length * f), a = P(p[n], v), b = P(p[Math.min(n + 4, p.length - 1)], v);
         const ang = Math.atan2(b.y - a.y, b.x - a.x), r = v.ly * 0.2;
         ctx.save(); ctx.translate(a.x, a.y); ctx.rotate(ang); ctx.beginPath(); ctx.moveTo(r, 0); ctx.lineTo(-r * 0.7, -r * 0.75); ctx.lineTo(-r * 0.7, r * 0.75); ctx.closePath(); ctx.fill(); ctx.restore();
       });
       const a = P(p[0], v);
-      ctx.fillStyle = '#3E8E4A'; ctx.beginPath(); ctx.arc(a.x, a.y, Math.max(11, v.ly * 0.17), 0, Math.PI * 2); ctx.fill(); ctx.strokeStyle = '#FFFFFF'; ctx.lineWidth = 3; ctx.stroke();
+      ctx.fillStyle = '#316F3A'; ctx.beginPath(); ctx.arc(a.x, a.y, Math.max(11, v.ly * 0.17), 0, Math.PI * 2); ctx.fill(); ctx.strokeStyle = '#FFFFFF'; ctx.lineWidth = 3; ctx.stroke();
     };
     const demo = () => {
       const k = cur, total = LET[k].strokes.reduce((n, p) => n + p.length, 0), t0 = performance.now();
@@ -561,7 +561,7 @@ const ICONS = {
   tau: () => TAU_SVG,
   tho: SV(`<path d="M8 30 V84 C24 80 40 80 50 88 C60 80 76 80 92 84 V30" stroke="#C68B59" stroke-width="3"/><path d="M50 30 C40 22 24 22 12 26 V78 C24 74 40 74 50 82 Z" fill="#FFFCF6"/><path d="M50 30 C60 22 76 22 88 26 V78 C76 74 60 74 50 82 Z" fill="#FFFCF6"/><path d="M20 38 H40 M20 47 H40 M20 56 H36 M60 38 H80 M60 47 H80 M60 56 H76" stroke="#A39588" stroke-width="2"/><path d="M22 66 h5 M58 66 h5" stroke="#D9573F" stroke-width="4"/>`),
   khoi: () => { const k = DOC.khoi.find(x => DocLib.khoiPic(x)) || null; return k ? SV(`<g transform="translate(22 0) scale(.56)">${DocLib.khoiPic(k).replace(/^<svg[^>]*>|<\/svg>$/g, '')}</g><rect x="14" y="62" width="72" height="28" rx="8" fill="#FFFCF6"/>${TXT(50, 82, 16, k.tu)}`) : SV(`<rect x="10" y="12" width="80" height="50" rx="10" fill="#FFFCF6"/>${TXT(50, 50, 34, '?', '#C68B59', 800)}<rect x="14" y="68" width="72" height="22" rx="8" fill="#F6E3BC"/>${TXT(50, 84, 13, DOC.khoi[0].tu)}`); },
-  tumoi: () => SV(`<rect x="4" y="18" width="40" height="24" rx="6" fill="#FFFCF6"/>${TXT(24, 35, 11, DOC.tuMoi[0][0])}<rect x="56" y="58" width="40" height="28" rx="6" fill="#F6E3BC"/><path d="M62 68 H90 M62 76 H84" stroke="#A39588" stroke-width="2.5"/><path d="M44 30 C56 32 50 66 56 70" stroke="#3E8E4A" stroke-width="3" stroke-dasharray="4 4"/>`),
+  tumoi: () => SV(`<rect x="4" y="18" width="40" height="24" rx="6" fill="#FFFCF6"/>${TXT(24, 35, 11, DOC.tuMoi[0][0])}<rect x="56" y="58" width="40" height="28" rx="6" fill="#F6E3BC"/><path d="M62 68 H90 M62 76 H84" stroke="#A39588" stroke-width="2.5"/><path d="M44 30 C56 32 50 66 56 70" stroke="#316F3A" stroke-width="3" stroke-dasharray="4 4"/>`),
   tukho: () => SV(`<path d="M10 40 h8 l12 -10 v40 l-12 -10 h-8 Z" fill="#3A3B3C" stroke="none"/><path d="M36 40 c4 4 4 16 0 20" stroke-width="3"/><rect x="46" y="34" width="50" height="32" rx="8" fill="#FFFCF6"/>${TXT(71, 55, 11, DOC.tuKho[0])}`),
   doan: SV(`<rect x="14" y="10" width="72" height="80" rx="6" fill="#FFFCF6"/><path d="M24 26 H76 M24 36 H76 M24 46 H66" stroke="#A39588" stroke-width="3"/><path d="M24 60 H76 M24 70 H58" stroke="#DDAA55" stroke-width="5"/>`),
   hieu: SV(`<rect x="10" y="12" width="80" height="20" rx="6" fill="#FFFCF6"/><circle cx="22" cy="46" r="7" fill="#CFE6C0"/><circle cx="22" cy="64" r="7" fill="#FFFCF6"/><circle cx="22" cy="82" r="7" fill="#FFFCF6"/><path d="M36 46 H80 M36 64 H72 M36 82 H76" stroke="#A39588" stroke-width="3"/><path d="M18 46 l3 3 l6 -7" stroke="#3E8E4A" stroke-width="2.5"/>`),
