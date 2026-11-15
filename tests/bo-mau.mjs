@@ -1,8 +1,8 @@
 // Bộ mẫu chung mau.cvcec.org khi chạy thử: máy thử có thể không vào được mau.cvcec.org,
-// nên lấy cùng tệp đó từ kho CVCEC/mau-chung trên raw.githubusercontent.com (qua curl, theo proxy của máy).
+// nên lấy cùng tệp đó thẳng từ địa chỉ GitHub Pages mau.cvcec.org bằng curl (theo proxy của máy).
 // Không lấy được thì bỏ qua, trang vẫn chạy bằng màu dự phòng.
 import { execFileSync } from 'node:child_process';
-const RAW = 'https://raw.githubusercontent.com/CVCEC/mau-chung/main/';
+const RAW = 'https://mau.cvcec.org/';
 const cache = new Map();
 const TYPES = { css: 'text/css; charset=utf-8', js: 'text/javascript; charset=utf-8', png: 'image/png', svg: 'image/svg+xml' };
 export async function ganBoMau(ctx) {
