@@ -81,7 +81,7 @@ const SPEAKER = '<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 12h5l7-
    ===================================================================== */
 const Speech = (() => {
   const synth = ('speechSynthesis' in window) ? window.speechSynthesis : null;
-  let voice = null, maleVoice = false, hasVi = false, voicesKnown = false, files = null, token = 0, unlocked = false, heard = false;
+  let voice = null, maleVoice = false, hasVi = false, voicesKnown = false, files = null, token = 0, unlocked = false, heard = false, coGhiAmRieng = false;
   const audio = new Audio(); audio.preload = 'auto';
   function pickVoice() {
     if (!synth) return;
@@ -105,6 +105,8 @@ const Speech = (() => {
       const own = Array.isArray(j.files) ? j.files : [], shared = Array.isArray(j.chung) ? j.chung : [];
       if (!own.length && !shared.length) return;
       files = new Map(); shared.forEach(n => files.set(n, ASSET + 'audio/' + n)); own.forEach(n => files.set(n, 'audio/' + n));
+      // Chỉ coi là bài đã có ghi âm khi có file ghi âm riêng của bài (file dùng chung hiện chỉ là câu thơ lễ nghĩa giọng cô Hà)
+      coGhiAmRieng = own.length > 0;
       if (window.__voiceChanged) window.__voiceChanged();
     }).catch(() => {});
   // chữ, phụ âm ghép, tiếng, màu (và các mã bài khai báo trong LESSON.shortClips): đọc tách nhau bằng dấu phẩy
@@ -174,7 +176,7 @@ const Speech = (() => {
     if (wasBusy) await new Promise(r => setTimeout(r, 60));
     for (const c of chunks(ids)) { if (my !== token) return; await speakText(c, my); }
   }
-  return { say, stop, unlock, textOf, get hasVi() { return hasVi; }, get voicesKnown() { return voicesKnown; }, get hasRecordings() { return !!files; }, get supported() { return !!synth; }, get heard() { return heard; }, get voiceName() { return voice ? voice.name : ''; } };
+  return { say, stop, unlock, textOf, get hasVi() { return hasVi; }, get voicesKnown() { return voicesKnown; }, get hasRecordings() { return coGhiAmRieng; }, get supported() { return !!synth; }, get heard() { return heard; }, get voiceName() { return voice ? voice.name : ''; } };
 })();
 const SILENT_WAV = (() => {
   const b = new ArrayBuffer(46), v = new DataView(b); const w = (o, s) => { for (let i = 0; i < s.length; i++) v.setUint8(o + i, s.charCodeAt(i)); };

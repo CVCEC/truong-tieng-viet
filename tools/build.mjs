@@ -52,13 +52,16 @@ if (process.env.TU_TIM_VIDEO) {
 
 // Phần chung
 const KHUNG = read('chung/khung.html');
-const CSS_CHUNG = read('chung/giao-dien.css');
+const CSS_CHUNG = read('chung/giao-dien.css') + '\n' + read('chung/tho-le-nghia.css');
 // Phông tập đọc (Andika) cho chữ, tiếng, từ: ghép sau cùng để thắng phông trong mau/*.css và bai-NN/bai.css
 const CSS_TAP_DOC = read('chung/tap-doc.css');
 // Bộ mẫu chung "Làng Trâu Con": hai dòng này luôn là link ngoài (không gộp, không bỏ) trong mọi trang đóng gói
 const BO_MAU = '<link rel="stylesheet" href="https://mau.cvcec.org/v1/cvcec-chung.css">\n<script src="https://mau.cvcec.org/v1/cvcec-chung.js" defer></script>';
 if (!KHUNG.includes(BO_MAU)) throw new Error('chung/khung.html thiếu hai dòng nạp bộ mẫu chung mau.cvcec.org/v1');
-const JS_CHUNG = read('chung/chu-viet.js').replace(/^'use strict';\n/, '') + '\n' + read('chung/dong-co.js');
+const JS_CHUNG = read('chung/chu-viet.js').replace(/^'use strict';\n/, '') + '\n' + read('chung/dong-co.js') + '\n' + read('chung/tho-le-nghia.js');
+// Thơ lễ nghĩa: mỗi bài một đoạn thơ (chung/tho-le-nghia.json, mục "bai")
+const THO_LN = JSON.parse(read('chung/tho-le-nghia.json'));
+const thoLnOf = meta => { const m = !meta.on && THO_LN.bai[String(meta.so)]; if (!m) return null; const d = THO_LN.doan[m.doan - 1]; return { ...d, on: !!m.on }; };
 const sharedAudio = listMp3(join(ROOT, 'chung/audio'));
 const MAU = {
   'bo-am': { js: read('chung/tranh.js') + '\n' + read('chung/net-chu.js') + '\n' + read('chung/tro-on.js') + '\n' + read('chung/mau/bo-am.js'), css: read('chung/mau/bo-am.css') + '\n' + read('chung/mau/tro-on.css'), body: '<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><path id="measurePath" d="M0 0"/></svg>' },
@@ -108,7 +111,7 @@ for (const { dir, meta } of lessons) {
   const mau = meta.mau ? MAU[meta.mau] : { js: '', css: '', body: '' };
   if (!mau) throw new Error(`Bài ${meta.so}: không có mẫu "${meta.mau}"`);
   const js = "'use strict';\n" +
-    `const LESSON = ${JSON.stringify(lesson)};\nconst ASSET = '../chung/';\nconst TU_CU = ${JSON.stringify(meta.mau ? tuCuOf(meta.so) : [])};\n` +
+    `const LESSON = ${JSON.stringify(lesson)};\nconst ASSET = '../chung/';\nconst TU_CU = ${JSON.stringify(meta.mau ? tuCuOf(meta.so) : [])};\nconst THO_LN = ${JSON.stringify(thoLnOf(meta))};\n` +
     JS_CHUNG + '\n' + mau.js + '\n' + read(join(dir, 'bai.js')) + '\nApp.init();';
   const css = CSS_CHUNG + '\n' + mau.css + '\n' + (existsSync(join(ROOT, dir, 'bai.css')) ? read(join(dir, 'bai.css')) : '') + '\n' + CSS_TAP_DOC;
   const coPhieu = !!PHIEU_MAU[meta.mau] || existsSync(join(ROOT, dir, 'phieu-bai-tap.html')) || existsSync(join(ROOT, dir, 'phieu-bai-tap.pdf'));

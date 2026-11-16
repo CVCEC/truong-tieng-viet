@@ -771,7 +771,10 @@ const ICONS = {
 /* Điền tên vòng, mô tả và biểu tượng theo dữ liệu của bài; gọi ở cuối bai.js */
 function amSetup() {
   const A = AM.am, list = A.join(', ');
-  GAMES.g1.desc = 'Đọc tiếp sức khổ ' + AM.kho + ' bài thơ của Tản Đà, rồi xếp câu thơ theo thứ tự';
+  // Trò 1: Thơ lễ nghĩa (chung/tho-le-nghia.js) thay cho đọc tiếp sức cả khổ thơ như trước
+  const tln = typeof TLN !== 'undefined' ? TLN.game() : null;
+  if (tln) GAMES.g1 = tln;
+  else GAMES.g1.desc = 'Đọc tiếp sức khổ ' + AM.kho + ' bài thơ của Tản Đà, rồi xếp câu thơ theo thứ tự';
   GAMES.g2.levels = AM.onCu.tu && AM.onCu.tu.length ? ['Nghe chữ, chạm chữ', 'Nghe từ, chạm từ'] : [];
   GAMES.g2.desc = 'Nghe Trâu Con đọc, chạm đúng chữ của bài trước: ' + AM.onCu.chu.join(', ');
   const L = AmLib.cap(AmLib.loai);

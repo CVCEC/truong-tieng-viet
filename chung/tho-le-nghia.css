@@ -1,0 +1,31 @@
+/* Thơ lễ nghĩa (chung/tho-le-nghia.js) – dùng cho mọi bài 1–145, kể cả Bài 1, 2 không nạp bo-am.css */
+.tln{display:grid; gap:18px; max-width:760px; margin:0 auto}
+.tln-tho{background:var(--card); border:3px solid var(--line); border-radius:24px; padding:16px 18px 18px; box-shadow:var(--shadow)}
+.tln-dau{display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 12px; width:100%; background:none; border:0; padding:0 0 10px; margin:0 0 6px; border-bottom:2px dashed var(--line); font:inherit; color:var(--ink); text-align:left; cursor:pointer; min-height:44px}
+.tln-dau strong{font:800 clamp(22px,4vw,28px)/1.1 var(--font-display); letter-spacing:.04em}
+.tln-dau span{font-weight:700; color:var(--ink-soft)}
+.tln-dau small{margin-left:auto; font-weight:800; font-size:14px; color:var(--wood-ink); background:var(--straw-soft); border-radius:999px; padding:2px 10px}
+.tln-cau{display:grid; gap:8px}
+.tln-dong{display:flex; align-items:center; gap:12px; width:100%; min-height:56px; padding:6px 14px; background:var(--paper); border:2px solid transparent; border-radius:16px; font:inherit; color:var(--ink); text-align:left; cursor:pointer; touch-action:manipulation}
+.tln-dong .ltxt{font:700 clamp(24px,4.6vw,34px)/1.25 var(--font-read)}
+.tln-dong .who{flex:none; min-width:0; font-weight:800; font-size:13px; color:var(--ink-soft)}
+.tln-dong .who:empty{display:none}
+.tln-dong.turn-trau{border-color:var(--straw); background:var(--straw-soft)}
+.tln-dong.turn-you{border-color:var(--ok); background:var(--green)}
+.tln-dong.done{opacity:.72}
+.tln-dong.speaking{border-color:var(--straw)}
+.tln-nut{display:flex; flex-wrap:wrap; gap:10px; align-items:center}
+.tln-nut .btn{min-height:48px}
+.tln-y{background:var(--card); border:3px solid var(--straw); border-radius:24px; padding:16px 18px; display:grid; gap:10px}
+.tln-nhan{margin:0; font-weight:800; font-size:14px; letter-spacing:.06em; text-transform:uppercase; color:var(--wood-ink)}
+.tln-giai{margin:0; font:700 clamp(20px,3.6vw,26px)/1.45 var(--font-read); color:var(--ink)}
+.tln-en{margin:0; font-size:17px; color:var(--ink-soft)}
+.tln-hoi{display:block; width:100%; background:var(--card); border:3px solid var(--line); border-radius:20px; padding:14px 18px; font:800 clamp(22px,4vw,30px)/1.35 var(--font-read); color:var(--ink); text-align:center; cursor:pointer; min-height:56px}
+.tln-chon-ds{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:14px}
+.tln-chon{display:flex; align-items:center; gap:12px; min-height:72px; padding:10px 16px; background:var(--card); border:3px solid var(--charcoal); border-radius:20px; box-shadow:0 5px 0 var(--charcoal); font:700 clamp(19px,3.4vw,24px)/1.3 var(--font-read); color:var(--ink); text-align:left; cursor:pointer; touch-action:manipulation}
+.tln-chon b{flex:none; display:grid; place-items:center; width:36px; height:36px; border-radius:50%; background:var(--paper-deep); font:800 18px/1 var(--font-body)}
+.tln-chon.right{background:var(--green); border-color:var(--ok); box-shadow:0 5px 0 var(--ok)}
+.tln-sau{display:flex; align-items:center; gap:12px; min-height:56px; padding:12px 16px; background:var(--paper); border:2px dashed var(--wood); border-radius:18px; color:var(--ink); text-decoration:none; font-size:16px; line-height:1.4}
+.tln-sau b{color:var(--wood-ink)}
+.tln-sau-icon{font-size:26px}
+@media (max-width:560px){.tln-dau small{margin-left:0}}

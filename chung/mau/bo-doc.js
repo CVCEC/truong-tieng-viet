@@ -574,7 +574,10 @@ const ICONS = {
 /* Điền mô tả theo dữ liệu bài; gọi ở cuối bai.js */
 function docSetup() {
   if (!PHRASES.welcome) PHRASES.welcome = 'Chào các bạn! Hôm nay mình đọc bài “' + LESSON.ten + '” nhé!';
-  if (DOC.tho) {
+  // Trò 1: Thơ lễ nghĩa (chung/tho-le-nghia.js) thay cho đọc tiếp sức bài thơ như trước
+  const tln = typeof TLN !== 'undefined' ? TLN.game() : null;
+  if (tln) GAMES.g1 = tln;
+  else if (DOC.tho) {
     THO = Object.assign({ tg: '', id: 'tho', lucBat: true }, DOC.tho);
     PHRASES['doc-tho-title'] = DOC.tho.doc || (THO.ten.charAt(0) + THO.ten.slice(1).toLowerCase() + '.');
     GAMES.g1.title = DOC.tho.tieuDe || 'Thơ “' + THO.ten.charAt(0) + THO.ten.slice(1).toLowerCase() + '”';

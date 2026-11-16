@@ -9,6 +9,16 @@ Trang có hai phần, là hai góc học riêng trong cổng vietclass.cvcec.org
 
 Ranh giới đặt ở `BAI_DAU_VAN_HOA = 81` trong `tools/build.mjs`; nút "‹ Tất cả bài học" của mỗi bài quay về đúng mục lục của phần mình. Màu và ảnh Trâu Con của từng phần lấy từ `TTV_DANH_SACH` (bộ mẫu chung).
 
+## Thơ lễ nghĩa – trò số 1 của mọi bài (từ 16-11-2026)
+
+“Tiên học lễ, hậu học văn”: mỗi bài học một đoạn thơ của Tản Đà, trình độ cơ bản. Phần nâng cao (cô Hà giảng kỹ, viết văn) ở góc **Bài học cuộc sống** (cuocsong.cvcec.org).
+
+- Bài 1–54: 54 đoạn “Lên Sáu”; Bài 55–70 ôn lại. Bài 71–135: 64 đoạn “Lên Tám” (bỏ qua Bài 122); Bài 136–145 ôn lại. Bài ôn tập (on-tap-N) giữ trò cũ.
+- Ba vòng: Nghe và đọc theo (đọc tiếp sức với Trâu Con) → Thơ nói gì? (Trâu Con giải thích ngắn, nút EN) → Em làm được (chọn việc làm đúng).
+- Dữ liệu: `chung/tho-le-nghia.json` (đã duyệt 16-11-2026). Trò chơi: `chung/tho-le-nghia.js`, `.css`. `tools/build.mjs` gắn vào mỗi bài hằng `THO_LN` là đoạn của bài.
+- Câu thơ đọc bằng giọng cô Hà: `chung/audio/tho-ln-<đoạn>-<câu>.mp3`, cắt từ bản ghi âm của Bài học cuộc sống. Lời giải thích và câu hỏi chưa có ghi âm (dùng giọng máy dự phòng, xem ngoại lệ trong CLAUDE.md).
+- Sao lưu theo mã trò `g1` như trò thơ cũ, nên sao đã có của bé không mất.
+
 ## Cấu trúc
 
 ```

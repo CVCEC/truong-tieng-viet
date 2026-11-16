@@ -661,4 +661,6 @@ GAMES.g7 = {
     UI.guide(['s:g7-intro']);
   }
 };
+// Trò 1: Thơ lễ nghĩa (chung/tho-le-nghia.js), đoạn thơ của bài do tools/build.mjs gắn vào
+if (typeof TLN !== 'undefined' && TLN.co) GAMES.g1 = TLN.game();
 GAME_ORDER.push('g1', 'g2', 'g3', 'g4', 'g5', 'g6', 'g7');

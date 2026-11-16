@@ -1,0 +1,2475 @@
+{
+ "ghiChu": "Thơ lễ nghĩa (trình độ cơ bản) cho Bài 1–145. Câu thơ và ý lấy từ Bài học cuộc sống (cuocsong.cvcec.org); tools/build.mjs gắn vào mỗi bài đúng một đoạn theo \"bai\". Âm thanh câu thơ: chung/audio/tho-ln-<đoạn>-<câu>.mp3 (giọng cô Hà).",
+ "doan": [
+  {
+   "so": 1,
+   "tho": "lensau",
+   "baiCS": 1,
+   "cau": [
+    "Sách quốc ngữ,",
+    "Chữ nước ta.",
+    "Con cái nhà,",
+    "Đều phải học."
+   ],
+   "giai": "Chữ quốc ngữ là chữ của người Việt mình. Dù sống ở đâu, chúng mình đều cần học.",
+   "en": "Quốc ngữ is how we write Vietnamese. Wherever we live, we should learn it.",
+   "hoi": "Vì sao các bạn học chữ Việt?",
+   "dung": "Vì đó là chữ của người Việt mình.",
+   "sai": "Vì không có gì để làm."
+  },
+  {
+   "so": 2,
+   "tho": "lensau",
+   "baiCS": 1,
+   "cau": [
+    "Miệng thì đọc,",
+    "Tai thì nghe.",
+    "Chớ ngủ nhè,",
+    "Chớ láu táu."
+   ],
+   "giai": "Khi học, miệng đọc to, tai nghe kỹ. Không khóc nhè, không vội vàng.",
+   "en": "When you study, read aloud and listen carefully. No whining, no rushing.",
+   "hoi": "Trong giờ học, em làm gì?",
+   "dung": "Em đọc to và lắng nghe cô.",
+   "sai": "Em nói chuyện riêng với bạn."
+  },
+  {
+   "so": 3,
+   "tho": "lensau",
+   "baiCS": 1,
+   "cau": [
+    "Con lên sáu,",
+    "Đang vỡ lòng,",
+    "Học cho thông,",
+    "Thầy khỏi mắng."
+   ],
+   "giai": "Sáu tuổi là lúc bắt đầu học chữ. Học đến đâu hiểu đến đó, thầy cô sẽ vui lòng.",
+   "en": "Age six is when we start learning letters. Understand each step and your teacher will be happy.",
+   "hoi": "Học thế nào để thầy cô vui?",
+   "dung": "Học đến đâu hiểu đến đó.",
+   "sai": "Học qua loa cho xong."
+  },
+  {
+   "so": 4,
+   "tho": "lensau",
+   "baiCS": 2,
+   "cau": [
+    "Trong trời đất,",
+    "Nhất là người.",
+    "Ở trên đời,",
+    "Hơn giống vật."
+   ],
+   "giai": "Con người quý hơn loài vật vì biết suy nghĩ, biết yêu thương và có chữ viết.",
+   "en": "People are special because we can think, love and write.",
+   "hoi": "Con người hơn loài vật ở điểm nào?",
+   "dung": "Biết suy nghĩ và yêu thương.",
+   "sai": "Chạy nhanh hơn."
+  },
+  {
+   "so": 5,
+   "tho": "lensau",
+   "baiCS": 2,
+   "cau": [
+    "Con bé thật,",
+    "Chưa biết gì.",
+    "Còn ngu si,",
+    "Phải dạy bảo."
+   ],
+   "giai": "Lúc còn bé, chúng mình chưa biết nhiều nên cần cha mẹ, thầy cô dạy bảo.",
+   "en": "When we are small we know little, so parents and teachers guide us.",
+   "hoi": "Ai dạy bảo các bạn?",
+   "dung": "Cha mẹ và thầy cô.",
+   "sai": "Không ai cả."
+  },
+  {
+   "so": 6,
+   "tho": "lensau",
+   "baiCS": 2,
+   "cau": [
+    "Cho biết đạo,",
+    "Mới nên thân.",
+    "Sau lớn dần,",
+    "Con sẽ khá."
+   ],
+   "giai": "Được dạy bảo, chúng mình biết hiếu thảo, lễ phép. Lớn lên sẽ thành người tốt.",
+   "en": "With guidance we learn to respect our parents and be polite, and grow into good people.",
+   "hoi": "Khi cha mẹ dạy điều hay, em làm gì?",
+   "dung": "Em vâng lời và làm theo.",
+   "sai": "Em bỏ ngoài tai."
+  },
+  {
+   "so": 7,
+   "tho": "lensau",
+   "baiCS": 3,
+   "cau": [
+    "Ai đẻ ta?",
+    "Cha cùng mẹ.",
+    "Bồng lại bế,",
+    "Thương và yêu."
+   ],
+   "giai": "Cha mẹ sinh ra chúng mình, bồng bế và thương yêu chúng mình hết lòng.",
+   "en": "Our parents gave us life, carried us and love us with all their heart.",
+   "hoi": "Ai sinh ra và thương yêu các bạn?",
+   "dung": "Cha và mẹ.",
+   "sai": "Con mèo."
+  },
+  {
+   "so": 8,
+   "tho": "lensau",
+   "baiCS": 3,
+   "cau": [
+    "Ơn nhường bao,",
+    "Con phải ngẫm:",
+    "Áo mặc ấm,",
+    "Mẹ may cho.",
+    "Cơm ăn no,",
+    "Cha kiếm hộ."
+   ],
+   "giai": "Áo ấm mẹ lo, cơm no cha làm ra. Ơn cha mẹ lớn lắm.",
+   "en": "Mom gives us warm clothes and Dad works for our food. We owe them so much.",
+   "hoi": "Ăn cơm xong, em nói gì với cha mẹ?",
+   "dung": "Con cảm ơn bố mẹ ạ.",
+   "sai": "Em đi chơi luôn, không nói gì."
+  },
+  {
+   "so": 9,
+   "tho": "lensau",
+   "baiCS": 3,
+   "cau": [
+    "Cha mẹ đó,",
+    "Là hai thân."
+   ],
+   "giai": "Cha mẹ là “hai thân”, hai người thân nhất của mỗi chúng mình.",
+   "en": "Our parents are our two closest people.",
+   "hoi": "“Hai thân” là ai?",
+   "dung": "Cha và mẹ.",
+   "sai": "Hai người bạn."
+  },
+  {
+   "so": 10,
+   "tho": "lensau",
+   "baiCS": 4,
+   "cau": [
+    "Hai thân là,",
+    "Là thân nhất,",
+    "Trong trời đất,",
+    "Không ai hơn."
+   ],
+   "giai": "Trong trời đất, không ai thương chúng mình hơn cha mẹ.",
+   "en": "In the whole world, no one loves us more than our parents.",
+   "hoi": "Ai thương các bạn nhất?",
+   "dung": "Cha mẹ.",
+   "sai": "Người lạ."
+  },
+  {
+   "so": 11,
+   "tho": "lensau",
+   "baiCS": 4,
+   "cau": [
+    "Con biết ơn,",
+    "Nên phải hiếu.",
+    "Nghĩa chữ hiếu,",
+    "Đạo làm con,"
+   ],
+   "giai": "Biết ơn cha mẹ thì phải hiếu thảo: vâng lời, lễ phép, chăm học.",
+   "en": "Being grateful to our parents means respecting them: obey, be polite, study hard.",
+   "hoi": "Hiếu thảo là làm gì?",
+   "dung": "Vâng lời và giúp đỡ cha mẹ.",
+   "sai": "Cãi lại cha mẹ."
+  },
+  {
+   "so": 12,
+   "tho": "lensau",
+   "baiCS": 4,
+   "cau": [
+    "Con còn non,",
+    "Nên học trước.",
+    "Đi một bước,",
+    "Nhớ hai thân."
+   ],
+   "giai": "Đi đâu, làm gì cũng nhớ đến cha mẹ, để cha mẹ không lo.",
+   "en": "Wherever we go, we think of our parents so they don't worry.",
+   "hoi": "Trước khi sang nhà bạn chơi, em làm gì?",
+   "dung": "Em xin phép bố mẹ.",
+   "sai": "Em đi luôn không nói."
+  },
+  {
+   "so": 13,
+   "tho": "lensau",
+   "baiCS": 5,
+   "cau": [
+    "Con còn nhỏ,",
+    "Có mẹ cha,",
+    "Lúc vào ra,",
+    "Được vui vẻ."
+   ],
+   "giai": "Có cha mẹ chăm lo, ở nhà hay đi đâu chúng mình cũng vui vẻ.",
+   "en": "With our parents' care, we are happy at home and everywhere.",
+   "hoi": "Nhờ ai mà các bạn được vui vẻ?",
+   "dung": "Nhờ cha mẹ chăm lo.",
+   "sai": "Nhờ đồ chơi thôi."
+  },
+  {
+   "so": 14,
+   "tho": "lensau",
+   "baiCS": 5,
+   "cau": [
+    "Con còn bé,",
+    "Mẹ hay chiều,",
+    "Thấy mẹ yêu,",
+    "Chớ làm nũng."
+   ],
+   "giai": "Thấy mẹ thương mình, đừng làm nũng hay mè nheo đòi quà.",
+   "en": "Mom loves us, so we should not whine or nag for things.",
+   "hoi": "Mẹ chưa mua đồ chơi, em làm gì?",
+   "dung": "Em ngoan, không mè nheo.",
+   "sai": "Em khóc ăn vạ."
+  },
+  {
+   "so": 15,
+   "tho": "lensau",
+   "baiCS": 5,
+   "cau": [
+    "Đã đi học,",
+    "Phải cho ngoan,",
+    "Hay quấy càn,",
+    "Là chẳng hiếu."
+   ],
+   "giai": "Đi học phải ngoan. Nghịch phá làm cha mẹ buồn là không hiếu thảo.",
+   "en": "At school be good. Making trouble makes our parents sad.",
+   "hoi": "Ở lớp, em làm gì?",
+   "dung": "Em nghe lời cô, hoà thuận với bạn.",
+   "sai": "Em trêu chọc bạn."
+  },
+  {
+   "so": 16,
+   "tho": "lensau",
+   "baiCS": 6,
+   "cau": [
+    "Con còn bé,",
+    "Mẹ hay lo,",
+    "Ăn muốn cho,",
+    "Lại sợ độc."
+   ],
+   "giai": "Mẹ luôn lo cho chúng mình ăn ngon và ăn sạch.",
+   "en": "Mom always wants our food to be tasty and clean.",
+   "hoi": "Trước khi ăn, em làm gì?",
+   "dung": "Em rửa tay sạch sẽ.",
+   "sai": "Em ăn luôn, tay bẩn cũng được."
+  },
+  {
+   "so": 17,
+   "tho": "lensau",
+   "baiCS": 6,
+   "cau": [
+    "Con ốm nhọc,",
+    "Mẹ lo thương,",
+    "Tìm thuốc thang,",
+    "Che nắng gió."
+   ],
+   "giai": "Khi chúng mình ốm, mẹ thương lắm, mẹ tìm thuốc và chăm cho mình mau khỏi.",
+   "en": "When we are sick, Mom looks after us with medicine and care.",
+   "hoi": "Khi mẹ chăm mình lúc ốm, em nói gì?",
+   "dung": "Con cảm ơn mẹ ạ.",
+   "sai": "Em không nói gì."
+  },
+  {
+   "so": 18,
+   "tho": "lensau",
+   "baiCS": 6,
+   "cau": [
+    "Con nghĩ đó,",
+    "Sao cho ngoan,",
+    "Hay ăn càn,",
+    "Là chẳng hiếu."
+   ],
+   "giai": "Nhớ tình mẹ, chúng mình ăn uống sạch sẽ, đúng giờ để không bị ốm.",
+   "en": "Remembering Mom's love, we eat clean food on time so we stay healthy.",
+   "hoi": "Em nên ăn uống thế nào?",
+   "dung": "Sạch sẽ và đúng giờ.",
+   "sai": "Ăn quà vặt bừa bãi."
+  },
+  {
+   "so": 19,
+   "tho": "lensau",
+   "baiCS": 7,
+   "cau": [
+    "Anh em ruột,",
+    "Một mẹ cha,",
+    "Mẹ đẻ ra,",
+    "Trước sau đó."
+   ],
+   "giai": "Anh chị em ruột là cùng một cha một mẹ sinh ra.",
+   "en": "Brothers and sisters are born of the same parents.",
+   "hoi": "Anh chị em ruột là ai?",
+   "dung": "Người cùng cha mẹ sinh ra.",
+   "sai": "Bạn cùng lớp."
+  },
+  {
+   "so": 20,
+   "tho": "lensau",
+   "baiCS": 7,
+   "cau": [
+    "Cùng máu mủ,",
+    "Như tay chân,",
+    "Nên yêu thân,",
+    "Chớ ganh tị."
+   ],
+   "giai": "Anh em gắn bó như tay với chân, nên phải thương nhau, đừng ganh tị.",
+   "en": "Siblings are as close as hands and feet, so love each other and don't be jealous.",
+   "hoi": "Em có món đồ chơi mới, em làm gì?",
+   "dung": "Em cho anh chị em chơi cùng.",
+   "sai": "Em giấu đi, không cho ai."
+  },
+  {
+   "so": 21,
+   "tho": "lensau",
+   "baiCS": 7,
+   "cau": [
+    "Em coi chị,",
+    "Cũng như anh,",
+    "Trước là tình,",
+    "Sau có lễ."
+   ],
+   "giai": "Với anh chị, trước hết là thương yêu, sau là lễ phép.",
+   "en": "With older siblings, love comes first, then respect.",
+   "hoi": "Em nói với chị thế nào?",
+   "dung": "Em nói lễ phép, nhẹ nhàng.",
+   "sai": "Em nói trống không."
+  },
+  {
+   "so": 22,
+   "tho": "lensau",
+   "baiCS": 8,
+   "cau": [
+    "Bác cùng chú,",
+    "Cô cùng dì.",
+    "Đều họ hàng,",
+    "Là ruột thịt."
+   ],
+   "giai": "Bác, chú, cô, dì là họ hàng ruột thịt của chúng mình.",
+   "en": "Aunts and uncles are our close family.",
+   "hoi": "Bác, chú, cô, dì là ai?",
+   "dung": "Họ hàng ruột thịt.",
+   "sai": "Người lạ."
+  },
+  {
+   "so": 23,
+   "tho": "lensau",
+   "baiCS": 8,
+   "cau": [
+    "Người bề trên,",
+    "Phải kính trọng.",
+    "Kính người già,",
+    "Nhường người nhỏ."
+   ],
+   "giai": "Kính trọng người lớn tuổi, nhường nhịn các em nhỏ.",
+   "en": "Respect older people and be kind to younger ones.",
+   "hoi": "Có em bé muốn chơi cùng, em làm gì?",
+   "dung": "Em nhường em bé.",
+   "sai": "Em giành lấy đồ chơi."
+  },
+  {
+   "so": 24,
+   "tho": "lensau",
+   "baiCS": 8,
+   "cau": [
+    "Gặp người lớn,",
+    "Phải chào thưa.",
+    "Biết dạ thưa,",
+    "Biết kính nhường."
+   ],
+   "giai": "Gặp người lớn thì khoanh tay chào. Nói năng biết dạ, biết thưa.",
+   "en": "Greet adults politely, arms folded, and answer with “dạ”.",
+   "hoi": "Gặp bác hàng xóm, em làm gì?",
+   "dung": "Em khoanh tay chào bác.",
+   "sai": "Em đi qua không chào."
+  },
+  {
+   "so": 25,
+   "tho": "lensau",
+   "baiCS": 9,
+   "cau": [
+    "Người trong họ,",
+    "Tổ sinh ra,",
+    "Ông đến cha,",
+    "Bác cùng chú.",
+    "Họ nội đó,",
+    "Là tông chi,"
+   ],
+   "giai": "Họ nội là họ bên cha: ông, cha, bác, chú.",
+   "en": "Our father's side of the family is called họ nội.",
+   "hoi": "Bác và chú thuộc họ nào?",
+   "dung": "Họ nội, bên cha.",
+   "sai": "Họ ngoại, bên mẹ."
+  },
+  {
+   "so": 26,
+   "tho": "lensau",
+   "baiCS": 9,
+   "cau": [
+    "Cậu và dì,",
+    "Về họ mẹ."
+   ],
+   "giai": "Cậu và dì là anh chị em của mẹ, thuộc họ ngoại.",
+   "en": "Our mother's brothers and sisters belong to họ ngoại.",
+   "hoi": "Cậu và dì thuộc họ nào?",
+   "dung": "Họ ngoại, bên mẹ.",
+   "sai": "Họ nội, bên cha."
+  },
+  {
+   "so": 27,
+   "tho": "lensau",
+   "baiCS": 9,
+   "cau": [
+    "Con còn bé,",
+    "Nên dạy qua,",
+    "Còn họ xa,",
+    "Sau mới biết."
+   ],
+   "giai": "Bây giờ học những người thân gần trước. Họ hàng xa, lớn lên sẽ biết.",
+   "en": "First we learn our close family. We'll learn distant relatives later.",
+   "hoi": "Em nên học tên người thân nào trước?",
+   "dung": "Người thân gần trong nhà.",
+   "sai": "Không cần học ai."
+  },
+  {
+   "so": 28,
+   "tho": "lensau",
+   "baiCS": 10,
+   "cau": [
+    "Người trong họ,",
+    "Có bề trên,",
+    "Lạ hay quen,",
+    "Đều phải kính."
+   ],
+   "giai": "Người lớn trong họ, quen hay chưa quen, chúng mình đều phải kính trọng.",
+   "en": "We respect all older relatives, whether we know them well or not.",
+   "hoi": "Gặp người lớn trong họ lần đầu, em làm gì?",
+   "dung": "Em lễ phép chào hỏi.",
+   "sai": "Em trốn đi."
+  },
+  {
+   "so": 29,
+   "tho": "lensau",
+   "baiCS": 10,
+   "cau": [
+    "Có khách đến,",
+    "Không được đùa,",
+    "Ai cho quà,",
+    "Đừng lấy vội."
+   ],
+   "giai": "Nhà có khách thì không đùa nghịch. Ai cho quà thì nhận bằng hai tay và cảm ơn.",
+   "en": "When guests visit, don't run around. Take gifts with both hands and say thank you.",
+   "hoi": "Khách cho quà, em làm gì?",
+   "dung": "Em nhận bằng hai tay và cảm ơn.",
+   "sai": "Em giật lấy rồi chạy đi."
+  },
+  {
+   "so": 30,
+   "tho": "lensau",
+   "baiCS": 10,
+   "cau": [
+    "Ông bà gọi,",
+    "Phải dạ thưa.",
+    "Phàm người nhà,",
+    "Không được hỗn."
+   ],
+   "giai": "Ông bà gọi thì “dạ” thật lễ phép. Không được hỗn với người trong nhà.",
+   "en": "When grandparents call, answer “dạ” politely. Never be rude at home.",
+   "hoi": "Bà gọi, em trả lời thế nào?",
+   "dung": "Dạ, bà gọi cháu ạ.",
+   "sai": "Gì đấy?"
+  },
+  {
+   "so": 31,
+   "tho": "lensau",
+   "baiCS": 11,
+   "cau": [
+    "Con bé dại,",
+    "Mải vui chơi.",
+    "Muốn ra người,",
+    "Phải chăm học."
+   ],
+   "giai": "Trẻ nhỏ hay ham chơi, nhưng muốn lớn lên giỏi giang thì phải chăm học.",
+   "en": "Kids love to play, but to grow up capable we must study hard.",
+   "hoi": "Đến giờ học bài, em làm gì?",
+   "dung": "Em ngồi vào bàn học.",
+   "sai": "Em xem phim tiếp."
+  },
+  {
+   "so": 32,
+   "tho": "lensau",
+   "baiCS": 11,
+   "cau": [
+    "Miệng đang đọc,",
+    "Đừng trông ngang.",
+    "Học dở dang,",
+    "Đừng có chán."
+   ],
+   "giai": "Đọc bài thì nhìn vào sách. Bài khó cũng đừng chán, đừng bỏ dở.",
+   "en": "Keep your eyes on the book. Don't give up when it gets hard.",
+   "hoi": "Bài khó quá, em làm gì?",
+   "dung": "Em cố gắng, hỏi cô khi cần.",
+   "sai": "Em bỏ dở, không làm nữa."
+  },
+  {
+   "so": 33,
+   "tho": "lensau",
+   "baiCS": 11,
+   "cau": [
+    "Học có bạn,",
+    "Con dễ hay.",
+    "Mến trọng thầy,",
+    "Học chóng biết."
+   ],
+   "giai": "Học cùng bạn thì dễ hiểu. Yêu quý, kính trọng thầy cô thì học mau biết.",
+   "en": "Learning with friends helps, and respecting teachers helps us learn fast.",
+   "hoi": "Gặp cô giáo ở cổng trường, em làm gì?",
+   "dung": "Em khoanh tay chào cô.",
+   "sai": "Em quay mặt đi."
+  },
+  {
+   "so": 34,
+   "tho": "lensau",
+   "baiCS": 12,
+   "cau": [
+    "Dạy con biết,",
+    "Phép vệ sinh:",
+    "Ăn quả xanh,",
+    "Khó tiêu hoá.",
+    "Uống nước lã,",
+    "Có nhiều sâu."
+   ],
+   "giai": "Phải giữ vệ sinh: không ăn quả xanh, không uống nước lã chưa đun sôi.",
+   "en": "Stay healthy: don't eat unripe fruit or drink unboiled water.",
+   "hoi": "Em khát nước, em uống gì?",
+   "dung": "Nước đã đun sôi để nguội.",
+   "sai": "Nước lã chưa đun."
+  },
+  {
+   "so": 35,
+   "tho": "lensau",
+   "baiCS": 12,
+   "cau": [
+    "Áo mặc lâu,",
+    "Sinh ghẻ lở.",
+    "Mặt không rửa,",
+    "Sinh u mê."
+   ],
+   "giai": "Quần áo phải giặt sạch, mặt phải rửa mỗi ngày.",
+   "en": "Wash your clothes and your face every day.",
+   "hoi": "Buổi sáng ngủ dậy, em làm gì?",
+   "dung": "Em rửa mặt, đánh răng.",
+   "sai": "Em để nguyên mặt đi học."
+  },
+  {
+   "so": 36,
+   "tho": "lensau",
+   "baiCS": 12,
+   "cau": [
+    "Đang mùa hè,",
+    "Càng phải giữ."
+   ],
+   "giai": "Mùa hè trời nóng, càng phải giữ vệ sinh kỹ hơn.",
+   "en": "In hot summer we must keep extra clean.",
+   "hoi": "Mùa hè, em làm gì cho sạch sẽ?",
+   "dung": "Em tắm rửa, ăn đồ sạch.",
+   "sai": "Em ăn đồ để lâu ngoài trời."
+  },
+  {
+   "so": 37,
+   "tho": "lensau",
+   "baiCS": 13,
+   "cau": [
+    "Các giống vật,",
+    "Thật là nhiều:",
+    "Như con hươu,",
+    "Ở rừng cỏ.",
+    "Như con chó,",
+    "Nuôi giữ nhà."
+   ],
+   "giai": "Có nhiều loài vật: hươu sống ở rừng, chó nuôi giữ nhà.",
+   "en": "There are many animals: deer live in forests, dogs guard our homes.",
+   "hoi": "Con vật nào được nuôi để giữ nhà?",
+   "dung": "Con chó.",
+   "sai": "Con hươu."
+  },
+  {
+   "so": 38,
+   "tho": "lensau",
+   "baiCS": 13,
+   "cau": [
+    "Con ba ba,",
+    "Loài máu lạnh.",
+    "Loài có cánh,",
+    "Như chim câu."
+   ],
+   "giai": "Ba ba là loài máu lạnh. Chim bồ câu là loài có cánh.",
+   "en": "Soft-shell turtles are cold-blooded. Pigeons are birds with wings.",
+   "hoi": "Con vật nào biết bay?",
+   "dung": "Chim bồ câu.",
+   "sai": "Con ba ba."
+  },
+  {
+   "so": 39,
+   "tho": "lensau",
+   "baiCS": 13,
+   "cau": [
+    "Còn loài sâu,",
+    "Như bọ róm."
+   ],
+   "giai": "Sâu róm có lông độc. Các bạn không được chạm tay vào nhé.",
+   "en": "Hairy caterpillars can sting. Never touch them.",
+   "hoi": "Thấy con sâu róm, em làm gì?",
+   "dung": "Em không chạm vào.",
+   "sai": "Em cầm lên chơi."
+  },
+  {
+   "so": 40,
+   "tho": "lensau",
+   "baiCS": 14,
+   "cau": [
+    "Cây và cỏ,",
+    "Có khác loài,",
+    "Trông bề ngoài,",
+    "Cũng dễ biết."
+   ],
+   "giai": "Cây và cỏ có nhiều loài. Nhìn kỹ hình dáng là nhận ra.",
+   "en": "There are many kinds of plants. Look closely and you can tell them apart.",
+   "hoi": "Muốn biết tên cây, em làm gì?",
+   "dung": "Em quan sát kỹ và hỏi người lớn.",
+   "sai": "Em bẻ cành cho biết."
+  },
+  {
+   "so": 41,
+   "tho": "lensau",
+   "baiCS": 14,
+   "cau": [
+    "Như cây mít,",
+    "Có nhiều cành.",
+    "Lúa, cỏ gianh,",
+    "Có từng đốt,"
+   ],
+   "giai": "Cây mít có nhiều cành to. Cây lúa, cỏ gianh thân có từng đốt.",
+   "en": "Jackfruit trees have big branches; rice and grass stems have joints.",
+   "hoi": "Cây nào thân có từng đốt?",
+   "dung": "Cây lúa.",
+   "sai": "Cây mít."
+  },
+  {
+   "so": 42,
+   "tho": "lensau",
+   "baiCS": 14,
+   "cau": [
+    "Còn trong ruột,",
+    "Lại khác nhau.",
+    "Vài năm sau,",
+    "Con biết kỹ."
+   ],
+   "giai": "Bên trong thân cây cũng khác nhau. Lớn lên đi học, chúng mình sẽ biết kỹ hơn.",
+   "en": "The inside of plants differs too. We'll learn more as we grow.",
+   "hoi": "Muốn biết thêm về cây, em làm gì?",
+   "dung": "Em chăm học, đọc sách.",
+   "sai": "Em không cần biết."
+  },
+  {
+   "so": 43,
+   "tho": "lensau",
+   "baiCS": 15,
+   "cau": [
+    "Đá bờ sông,",
+    "Không sống chết,",
+    "Không có biết,",
+    "Không có ăn,",
+    "Không người lăn,",
+    "Cứ nằm đây."
+   ],
+   "giai": "Hòn đá không sống, không ăn. Không ai lăn thì nó cứ nằm yên.",
+   "en": "A stone isn't alive and doesn't eat. It stays still unless moved.",
+   "hoi": "Hòn đá có sống không?",
+   "dung": "Không, hòn đá không sống.",
+   "sai": "Có, hòn đá biết ăn."
+  },
+  {
+   "so": 44,
+   "tho": "lensau",
+   "baiCS": 15,
+   "cau": [
+    "Như đá cuội,",
+    "Như đá xanh,",
+    "Như mảnh sành,",
+    "Như đất thó,"
+   ],
+   "giai": "Đá cuội, đá xanh, mảnh sành, đất sét là những vật không sống.",
+   "en": "Pebbles, stones, pottery shards and clay are not alive.",
+   "hoi": "Vật nào không sống?",
+   "dung": "Đá cuội.",
+   "sai": "Con chim."
+  },
+  {
+   "so": 45,
+   "tho": "lensau",
+   "baiCS": 15,
+   "cau": [
+    "Các vật đó,",
+    "Theo loài kim."
+   ],
+   "giai": "Người xưa xếp đất đá vào “loài kim”.",
+   "en": "Long ago, people grouped rocks and soil as minerals.",
+   "hoi": "Đất đá thuộc loài nào?",
+   "dung": "Loài kim.",
+   "sai": "Loài cây."
+  },
+  {
+   "so": 46,
+   "tho": "lensau",
+   "baiCS": 16,
+   "cau": [
+    "Các loài kim,",
+    "Tìm ở đất.",
+    "Nhất là sắt,",
+    "Nhì là đồng,",
+    "Làm đồ dùng,",
+    "Khắp trong nước."
+   ],
+   "giai": "Sắt và đồng tìm thấy trong đất, dùng làm đồ dùng khắp nơi.",
+   "en": "Iron and copper come from the ground and are made into tools.",
+   "hoi": "Cái nồi thường làm bằng gì?",
+   "dung": "Bằng kim loại.",
+   "sai": "Bằng lá cây."
+  },
+  {
+   "so": 47,
+   "tho": "lensau",
+   "baiCS": 16,
+   "cau": [
+    "Như vàng bạc,",
+    "Càng quý hơn,",
+    "Đúc làm tiền,",
+    "Để mua bán,"
+   ],
+   "giai": "Vàng bạc rất quý, ngày xưa dùng đúc tiền để mua bán.",
+   "en": "Gold and silver are precious and were once made into coins.",
+   "hoi": "Ngày xưa người ta đúc tiền bằng gì?",
+   "dung": "Bằng vàng, bạc.",
+   "sai": "Bằng giấy vụn."
+  },
+  {
+   "so": 48,
+   "tho": "lensau",
+   "baiCS": 16,
+   "cau": [
+    "Ai có vạn,",
+    "Là người giàu."
+   ],
+   "giai": "Có nhiều tiền của là giàu. Nhưng muốn có, phải chăm chỉ làm việc.",
+   "en": "Having much money makes you rich, but it takes hard work.",
+   "hoi": "Muốn có của cải, người ta phải làm gì?",
+   "dung": "Chăm chỉ làm việc.",
+   "sai": "Ngồi chơi cả ngày."
+  },
+  {
+   "so": 49,
+   "tho": "lensau",
+   "baiCS": 17,
+   "cau": [
+    "Vốn xưa là,",
+    "Nhà Hồng Lạc,",
+    "Nay tên nước,",
+    "Gọi Việt Nam."
+   ],
+   "giai": "Người Việt là con cháu Lạc Long Quân và Âu Cơ. Nước ta tên là Việt Nam.",
+   "en": "Vietnamese people descend from Lạc Long Quân and Âu Cơ. Our country is Việt Nam.",
+   "hoi": "Nước ta tên là gì?",
+   "dung": "Việt Nam.",
+   "sai": "Đông Dương."
+  },
+  {
+   "so": 50,
+   "tho": "lensau",
+   "baiCS": 17,
+   "cau": [
+    "Bốn nghìn năm,",
+    "Ngày mở rộng.",
+    "Nam và Bắc,",
+    "Ấy hai miền,",
+    "Tuy khác tên,",
+    "Đất vẫn một."
+   ],
+   "giai": "Đất nước ta có bốn nghìn năm lịch sử. Bắc và Nam là một đất nước.",
+   "en": "Our country has 4,000 years of history. North and South are one land.",
+   "hoi": "Miền Bắc và miền Nam là mấy nước?",
+   "dung": "Một nước Việt Nam.",
+   "sai": "Hai nước khác nhau."
+  },
+  {
+   "so": 51,
+   "tho": "lensau",
+   "baiCS": 17,
+   "cau": [
+    "Lào, Miên, Việt,",
+    "Là Đông Dương."
+   ],
+   "giai": "Lào, Campuchia và Việt Nam là ba nước láng giềng.",
+   "en": "Laos, Cambodia and Vietnam are neighbours.",
+   "hoi": "Nước nào là láng giềng của Việt Nam?",
+   "dung": "Lào.",
+   "sai": "Canada."
+  },
+  {
+   "so": 52,
+   "tho": "lensau",
+   "baiCS": 18,
+   "cau": [
+    "Chữ nước ta,",
+    "Ta phải học,",
+    "Cho trí óc,",
+    "Ngày mở mang.",
+    "Muốn vẻ vang,",
+    "Phải làm lụng,"
+   ],
+   "giai": "Học chữ nước mình cho trí óc mở mang. Muốn vẻ vang phải chăm làm.",
+   "en": "Learn our language to grow your mind. To succeed, work hard.",
+   "hoi": "Học chữ Việt giúp em điều gì?",
+   "dung": "Trí óc mở mang.",
+   "sai": "Không giúp gì."
+  },
+  {
+   "so": 53,
+   "tho": "lensau",
+   "baiCS": 18,
+   "cau": [
+    "Đừng lêu lổng,",
+    "Mà hư thân.",
+    "Nước đang cần,",
+    "Người tài giỏi,"
+   ],
+   "giai": "Đừng lười biếng, chơi bời. Đất nước cần người tài giỏi.",
+   "en": "Don't be lazy. Our country needs capable people.",
+   "hoi": "Em muốn trở thành người thế nào?",
+   "dung": "Người chăm chỉ, giỏi giang.",
+   "sai": "Người lười biếng."
+  },
+  {
+   "so": 54,
+   "tho": "lensau",
+   "baiCS": 18,
+   "cau": [
+    "Cố học hỏi,",
+    "Để tiến nhanh,",
+    "Vừa ích mình,",
+    "Vừa lợi nước.",
+    "Chớ lùi bước,",
+    "Là kẻ hèn."
+   ],
+   "giai": "Cố gắng học để có ích cho mình và cho đất nước. Gặp khó đừng lùi bước.",
+   "en": "Study hard to help yourself and your country. Don't give up.",
+   "hoi": "Gặp bài khó, em làm gì?",
+   "dung": "Em kiên trì cố gắng.",
+   "sai": "Em bỏ cuộc ngay."
+  },
+  {
+   "so": 55,
+   "tho": "lentam",
+   "baiCS": 1,
+   "cau": [
+    "Các giống trong trời đất",
+    "Giống người là hơn nhất",
+    "Chủ trương mặt địa cầu",
+    "Sai dùng hết muôn vật."
+   ],
+   "giai": "Con người hơn mọi loài vì có trí óc, biết làm chủ và dùng muôn vật.",
+   "en": "People are special because our minds let us care for the Earth.",
+   "hoi": "Con người hơn mọi loài nhờ đâu?",
+   "dung": "Nhờ có trí óc.",
+   "sai": "Nhờ có nanh vuốt."
+  },
+  {
+   "so": 56,
+   "tho": "lentam",
+   "baiCS": 1,
+   "cau": [
+    "Ta sinh làm giống người",
+    "Bố mẹ đẻ ra đời",
+    "Ăn ngon, mắc áo ấm",
+    "Sướng hơn hết mọi loài."
+   ],
+   "giai": "Bố mẹ sinh ra và nuôi nấng chúng mình, cho mình ăn ngon, mặc ấm.",
+   "en": "Our parents gave us life and give us good food and warm clothes.",
+   "hoi": "Ai cho các bạn ăn ngon, mặc ấm?",
+   "dung": "Bố mẹ.",
+   "sai": "Tự nhiên mà có."
+  },
+  {
+   "so": 57,
+   "tho": "lentam",
+   "baiCS": 2,
+   "cau": [
+    "Lắm lúc ta ngồi nghĩ",
+    "Thật cũng không biết nghĩa",
+    "Bé dại như chúng ta",
+    "Tại sao mà sướng nhỉ?"
+   ],
+   "giai": "Mình còn bé mà được sung sướng. Vì sao nhỉ? Hãy cùng tìm hiểu nhé.",
+   "en": "We are small, yet we live so well. Why? Let's find out.",
+   "hoi": "Khi chưa hiểu điều gì, em làm gì?",
+   "dung": "Em hỏi bố mẹ, thầy cô.",
+   "sai": "Em bỏ qua luôn."
+  },
+  {
+   "so": 58,
+   "tho": "lentam",
+   "baiCS": 2,
+   "cau": [
+    "Ta nghĩ mãi không ra",
+    "Ta về hỏi mẹ cha",
+    "Nghĩa ấy ta đã hỏi",
+    "Hôm qua thầy bảo ta."
+   ],
+   "giai": "Không hiểu thì hỏi bố mẹ, hỏi thầy cô. Thầy cô sẽ giảng cho mình.",
+   "en": "When you don't understand, ask your parents and teachers.",
+   "hoi": "Muốn hỏi cô giáo, em làm gì?",
+   "dung": "Em giơ tay rồi hỏi lễ phép.",
+   "sai": "Em nói to cắt lời cô."
+  },
+  {
+   "so": 59,
+   "tho": "lentam",
+   "baiCS": 3,
+   "cau": [
+    "Rằng xưa giống người này",
+    "Cũng như loài chim cây",
+    "Chỉ hơn có óc tốt",
+    "Một ngày khôn một ngày."
+   ],
+   "giai": "Con người hơn chim muông nhờ có bộ óc tốt, nên mỗi ngày một khôn hơn.",
+   "en": "Thanks to our minds, people get wiser every day.",
+   "hoi": "Mỗi ngày đi học giúp em thế nào?",
+   "dung": "Mỗi ngày em khôn hơn.",
+   "sai": "Không thay đổi gì."
+  },
+  {
+   "so": 60,
+   "tho": "lentam",
+   "baiCS": 3,
+   "cau": [
+    "Khôn dần bởi tự học",
+    "Thực mạnh ở công học",
+    "Tổ tiên ta ngày xưa",
+    "Học mãi thực khó nhọc"
+   ],
+   "giai": "Con người khôn dần nhờ chăm học. Tổ tiên ta đã học rất vất vả.",
+   "en": "People grew wiser by studying. Our ancestors worked hard to learn.",
+   "hoi": "Muốn khôn lớn, em cần làm gì?",
+   "dung": "Chăm chỉ học tập.",
+   "sai": "Chỉ chơi điện thoại."
+  },
+  {
+   "so": 61,
+   "tho": "lentam",
+   "baiCS": 4,
+   "cau": [
+    "Sự học đủ mọi đường",
+    "Óc khôn ngày mở mang",
+    "Tài đức hai bề tiến",
+    "Hơn hẳn loài chim muông."
+   ],
+   "giai": "Nhờ học, trí óc mở mang, cả tài năng và đạo đức đều tiến bộ.",
+   "en": "Learning grows both our skills and our good character.",
+   "hoi": "Học giúp em giỏi điều gì?",
+   "dung": "Giỏi chữ và ngoan hơn.",
+   "sai": "Chỉ để được điểm cao."
+  },
+  {
+   "so": 62,
+   "tho": "lentam",
+   "baiCS": 4,
+   "cau": [
+    "Ấy khác người các nước",
+    "Nghìn vạn năm về trước",
+    "Cho nên ta ngày nay",
+    "Bé dại mà sung sướng."
+   ],
+   "giai": "Nhờ ông cha học tập từ xưa, ngày nay chúng mình được sống sung sướng.",
+   "en": "Thanks to our ancestors' learning, we live well today.",
+   "hoi": "Nhờ ai mà các bạn sống sung sướng?",
+   "dung": "Nhờ ông cha đi trước.",
+   "sai": "Nhờ may mắn."
+  },
+  {
+   "so": 63,
+   "tho": "lentam",
+   "baiCS": 5,
+   "cau": [
+    "Sung sướng như chúng ta",
+    "Thực là nhờ ông cha",
+    "Giếng sâu mạch nước tốt",
+    "Cây cao bóng rợp xa."
+   ],
+   "giai": "Ông cha như người đào giếng, trồng cây cho con cháu được hưởng.",
+   "en": "Our ancestors were like people who dug wells and planted trees for us.",
+   "hoi": "Em nhớ ơn ai đã đi trước?",
+   "dung": "Ông bà, tổ tiên.",
+   "sai": "Không cần nhớ ơn."
+  },
+  {
+   "so": 64,
+   "tho": "lentam",
+   "baiCS": 5,
+   "cau": [
+    "Nước giếng uống đỡ khát",
+    "Bóng cây ngồi râm mát",
+    "Ơn cây mong càng cao",
+    "Ơn giếng mong đừng cạn."
+   ],
+   "giai": "Uống nước nhớ nguồn: được hưởng điều tốt thì nhớ ơn người làm ra.",
+   "en": "When you drink water, remember its source: be grateful to those who came before.",
+   "hoi": "Ngày giỗ ông bà, em làm gì?",
+   "dung": "Em thắp hương, nhớ ơn ông bà.",
+   "sai": "Em mải chơi, không để ý."
+  },
+  {
+   "so": 65,
+   "tho": "lentam",
+   "baiCS": 6,
+   "cau": [
+    "Ta ơn sự học này",
+    "Như giếng lại như cây",
+    "Ông cha để lại đó",
+    "Ta mong ngày càng hay."
+   ],
+   "giai": "Sự học như giếng nước, cây cao ông cha để lại. Mình cố làm cho nó hay hơn.",
+   "en": "Learning is a gift from our ancestors. Let's make it even better.",
+   "hoi": "Em làm gì để giữ gìn sự học?",
+   "dung": "Em chăm học mỗi ngày.",
+   "sai": "Em bỏ học."
+  },
+  {
+   "so": 66,
+   "tho": "lentam",
+   "baiCS": 6,
+   "cau": [
+    "Ấy khắp người trong nước",
+    "Mong hay hay chửa được",
+    "Chúng ta còn trẻ thơ",
+    "Sự thường nên biết trước."
+   ],
+   "giai": "Còn nhỏ thì nên biết sớm những điều hay lẽ phải.",
+   "en": "While young, learn what is right early.",
+   "hoi": "Khi nào nên học điều hay?",
+   "dung": "Từ khi còn nhỏ.",
+   "sai": "Đợi lớn rồi mới học."
+  },
+  {
+   "so": 67,
+   "tho": "lentam",
+   "baiCS": 7,
+   "cau": [
+    "Trước hết hai thân ta",
+    "Hai thân là mẹ cha",
+    "Cha mẹ cùng sinh đẻ",
+    "Thân ta từ đấy ra."
+   ],
+   "giai": "Cha mẹ là “hai thân”, sinh ra chúng mình.",
+   "en": "Our parents, our “two closest people”, gave us life.",
+   "hoi": "Ai sinh ra các bạn?",
+   "dung": "Cha mẹ.",
+   "sai": "Bạn bè."
+  },
+  {
+   "so": 68,
+   "tho": "lentam",
+   "baiCS": 7,
+   "cau": [
+    "Tiếng khóc mới ra đời",
+    "Tai mắt đã nên người",
+    "Kinh hoàng thay lòng mẹ",
+    "Lo mừng biết mấy mươi!"
+   ],
+   "giai": "Khi con chào đời, mẹ vừa đau vừa lo, vừa mừng biết bao.",
+   "en": "When we were born, Mom felt pain, worry and great joy.",
+   "hoi": "Sinh nhật, em nói gì với mẹ?",
+   "dung": "Con cảm ơn mẹ đã sinh ra con.",
+   "sai": "Em chỉ đòi quà."
+  },
+  {
+   "so": 69,
+   "tho": "lentam",
+   "baiCS": 8,
+   "cau": [
+    "Ba tháng con biết lẫy",
+    "Ba tuổi con biết chạy",
+    "Thân con trong ba năm",
+    "Lòng mẹ lo áy náy."
+   ],
+   "giai": "Ba năm đầu đời, mẹ luôn lo lắng cho con từng chút.",
+   "en": "In our first three years, Mom worried over every little thing.",
+   "hoi": "Mẹ chăm mình từ bé, em làm gì?",
+   "dung": "Em ngoan để mẹ đỡ lo.",
+   "sai": "Em làm mẹ thêm mệt."
+  },
+  {
+   "so": 70,
+   "tho": "lentam",
+   "baiCS": 8,
+   "cau": [
+    "Thân con mẹ lo cho",
+    "Thân mẹ, mẹ không lo",
+    "Mẹ rét con thường ấm",
+    "Mẹ đói con thường no."
+   ],
+   "giai": "Mẹ lo cho con mà quên mình. Mẹ chịu rét để con ấm.",
+   "en": "Mom puts us first, even going cold so we stay warm.",
+   "hoi": "Mẹ đi làm về mệt, em làm gì?",
+   "dung": "Em lấy nước mời mẹ.",
+   "sai": "Em đòi mẹ chơi cùng ngay."
+  },
+  {
+   "so": 71,
+   "tho": "lentam",
+   "baiCS": 9,
+   "cau": [
+    "Thân con đà ấm no",
+    "Lòng mẹ chưa hết lo",
+    "Lo sầu thay lòng mẹ",
+    "Gang thước ai lường đo!"
+   ],
+   "giai": "Tình mẹ lớn đến mức không thước nào đo được.",
+   "en": "A mother's love is too big to measure.",
+   "hoi": "Em thể hiện tình yêu với mẹ thế nào?",
+   "dung": "Em ôm mẹ và nói con thương mẹ.",
+   "sai": "Em không nói gì cả."
+  },
+  {
+   "so": 72,
+   "tho": "lentam",
+   "baiCS": 9,
+   "cau": [
+    "Con ngã, lòng mẹ đau",
+    "Con khóc lòng mẹ sầu",
+    "Thân con liền ruột mẹ",
+    "Con thơ nào biết đâu!"
+   ],
+   "giai": "Con ngã mẹ đau, con khóc mẹ buồn. Con như ruột thịt của mẹ.",
+   "en": "When we fall, Mom hurts too. We are part of her.",
+   "hoi": "Em đi chơi thế nào để mẹ yên tâm?",
+   "dung": "Em chơi cẩn thận.",
+   "sai": "Em leo trèo nguy hiểm."
+  },
+  {
+   "so": 73,
+   "tho": "lentam",
+   "baiCS": 10,
+   "cau": [
+    "Thân mẹ, mẹ coi thường",
+    "Thân con quý như vàng",
+    "Mẹ sốt dầm mưa gió",
+    "Con sốt đà thuốc thang"
+   ],
+   "giai": "Mẹ coi con quý như vàng. Con sốt là mẹ lo thuốc ngay.",
+   "en": "Mom treasures us like gold and cares for us when we're sick.",
+   "hoi": "Khi mẹ ốm, em làm gì?",
+   "dung": "Em hỏi thăm và giúp mẹ.",
+   "sai": "Em vẫn đòi mẹ nấu món mình thích."
+  },
+  {
+   "so": 74,
+   "tho": "lentam",
+   "baiCS": 10,
+   "cau": [
+    "Thân con còn nhỏ bé",
+    "Lòng mẹ khôn xiết kể",
+    "Thân con như tôm cua",
+    "Lòng mẹ như sông bể."
+   ],
+   "giai": "Con nhỏ như tôm cua, lòng mẹ rộng như sông biển.",
+   "en": "We are small like shrimp, but Mom's love is as wide as the sea.",
+   "hoi": "Lòng mẹ được ví với gì?",
+   "dung": "Sông biển.",
+   "sai": "Hạt cát."
+  },
+  {
+   "so": 75,
+   "tho": "lentam",
+   "baiCS": 11,
+   "cau": [
+    "Sông bể chưa là đâu",
+    "Cha mẹ ân tình sâu",
+    "Nuôi con mới lên tám",
+    "Mừng con còn về sau."
+   ],
+   "giai": "Tình cha mẹ sâu hơn biển. Cha mẹ mong con lớn lên tốt đẹp.",
+   "en": "Parents' love is deeper than the sea. They hope we grow up well.",
+   "hoi": "Cha mẹ mong điều gì cho em?",
+   "dung": "Em lớn lên tốt đẹp.",
+   "sai": "Em lười học."
+  },
+  {
+   "so": 76,
+   "tho": "lentam",
+   "baiCS": 11,
+   "cau": [
+    "Như lúa còn con gái",
+    "Xanh xanh bên đường cái",
+    "Cha mẹ mong cho con",
+    "Một mai sẽ gặt hái."
+   ],
+   "giai": "Con như cây lúa non. Cha mẹ mong con lớn lên thành công.",
+   "en": "We are like young rice. Our parents hope we will flourish.",
+   "hoi": "Lúa non cần gì để lớn?",
+   "dung": "Được chăm sóc mỗi ngày.",
+   "sai": "Bị bỏ mặc."
+  },
+  {
+   "so": 77,
+   "tho": "lentam",
+   "baiCS": 12,
+   "cau": [
+    "Như chim vừa vỡ bọng",
+    "Lông cánh đương sinh mọc",
+    "Cha mẹ mong cho con",
+    "Một mai sẽ bay bổng."
+   ],
+   "giai": "Con như chim non. Cha mẹ mong con sẽ bay cao, bay xa.",
+   "en": "We are like baby birds. Our parents hope we will fly high.",
+   "hoi": "Muốn “bay cao” như chim, em cần làm gì?",
+   "dung": "Chăm học, chăm ngoan.",
+   "sai": "Ngủ cả ngày."
+  },
+  {
+   "so": 78,
+   "tho": "lentam",
+   "baiCS": 12,
+   "cau": [
+    "Mong con được nên đời",
+    "Mong con được nên người",
+    "Cha mẹ mua bút giấy",
+    "Cho con đi học ngoài."
+   ],
+   "giai": "Cha mẹ mua bút giấy, cho con đi học để thành người tốt.",
+   "en": "Our parents buy our school things so we can learn and grow.",
+   "hoi": "Em giữ đồ dùng học tập thế nào?",
+   "dung": "Em giữ gìn cẩn thận.",
+   "sai": "Em làm mất, làm hỏng."
+  },
+  {
+   "so": 79,
+   "tho": "lentam",
+   "baiCS": 13,
+   "cau": [
+    "Cơm áo cha mẹ lo",
+    "Bút giấy cha mẹ cho.",
+    "Một con được đi học",
+    "Hai thân bao công phu."
+   ],
+   "giai": "Để con được đi học, cha mẹ vất vả biết bao.",
+   "en": "Our parents work so hard so we can go to school.",
+   "hoi": "Biết cha mẹ vất vả, em làm gì?",
+   "dung": "Em chăm học cho cha mẹ vui.",
+   "sai": "Em trốn học."
+  },
+  {
+   "so": 80,
+   "tho": "lentam",
+   "baiCS": 13,
+   "cau": [
+    "Công nuôi nhờ mẹ cha,",
+    "Công học thầy dạy ta",
+    "Sách vở vô cùng tận",
+    "Nghĩa lý còn sâu xa."
+   ],
+   "giai": "Cha mẹ có công nuôi dưỡng, thầy cô có công dạy dỗ.",
+   "en": "Parents raise us; teachers teach us.",
+   "hoi": "Ai có công dạy dỗ các bạn?",
+   "dung": "Thầy cô.",
+   "sai": "Cái tivi."
+  },
+  {
+   "so": 81,
+   "tho": "lentam",
+   "baiCS": 14,
+   "cau": [
+    "Sâu thẳm bể đại dương",
+    "Xa thẳm con đường trường",
+    "Sự học từ đâu trước",
+    "Trước nhất từ luân thường."
+   ],
+   "giai": "Học điều gì trước? Trước nhất là học cách cư xử đúng với mọi người.",
+   "en": "What do we learn first? How to treat people well.",
+   "hoi": "“Tiên học lễ” nghĩa là gì?",
+   "dung": "Học lễ phép trước.",
+   "sai": "Học chơi trước."
+  },
+  {
+   "so": 82,
+   "tho": "lentam",
+   "baiCS": 14,
+   "cau": [
+    "Luân thường ta phải hiểu",
+    "Làm người ấy là đạo",
+    "Ta học đạo làm người",
+    "Mở đầu nên biết hiếu"
+   ],
+   "giai": "Học làm người, bài đầu tiên là hiếu thảo với cha mẹ.",
+   "en": "The first lesson in being a good person is respecting our parents.",
+   "hoi": "Bài học đầu tiên của đạo làm người là gì?",
+   "dung": "Hiếu thảo với cha mẹ.",
+   "sai": "Đòi quà thật nhiều."
+  },
+  {
+   "so": 83,
+   "tho": "lentam",
+   "baiCS": 15,
+   "cau": [
+    "Chữ hiếu đạo làm con",
+    "Cha mẹ ta biết ơn",
+    "Ơn cha cùng ơn mẹ",
+    "Như bể và như non."
+   ],
+   "giai": "Chữ hiếu là biết ơn cha mẹ. Ơn cha mẹ cao như núi, rộng như biển.",
+   "en": "Filial respect means gratitude; our parents' love is as high as mountains.",
+   "hoi": "Ơn cha mẹ được ví với gì?",
+   "dung": "Núi cao, biển rộng.",
+   "sai": "Cái cốc nhỏ."
+  },
+  {
+   "so": 84,
+   "tho": "lentam",
+   "baiCS": 15,
+   "cau": [
+    "Tưởng đến non cùng bể",
+    "Nghĩ lại ơn cha mẹ",
+    "Khó thay chút tình con.",
+    "Lấy gì đem giả nghĩa?"
+   ],
+   "giai": "Ơn cha mẹ lớn lắm, làm sao đền đáp cho đủ?",
+   "en": "Our parents give so much; how can we ever repay them?",
+   "hoi": "Em đền đáp cha mẹ bằng cách nào?",
+   "dung": "Ngoan ngoãn, chăm học.",
+   "sai": "Không cần đền đáp."
+  },
+  {
+   "so": 85,
+   "tho": "lentam",
+   "baiCS": 16,
+   "cau": [
+    "Bể rộng non thời cao",
+    "Ơn ấy biết nhường bao",
+    "Khó thay một đạo hiếu",
+    "Báo hiếu nên làm sao?"
+   ],
+   "giai": "Báo hiếu cha mẹ không dễ. Mỗi ngày làm một việc tốt cho cha mẹ vui.",
+   "en": "Repaying our parents isn't easy; do one good thing each day.",
+   "hoi": "Hôm nay em làm việc tốt gì cho cha mẹ?",
+   "dung": "Em dọn đồ chơi gọn gàng.",
+   "sai": "Em bày bừa khắp nhà."
+  },
+  {
+   "so": 86,
+   "tho": "lentam",
+   "baiCS": 16,
+   "cau": [
+    "Đạo hiếu rộng như bể",
+    "Một đời con chửa dễ",
+    "Chúng ta còn trẻ thơ",
+    "Thầy bảo sao hay thế."
+   ],
+   "giai": "Chúng mình còn nhỏ, hãy làm theo lời thầy cô dạy.",
+   "en": "We are still small, so let's follow what our teachers teach.",
+   "hoi": "Cô dặn làm bài tập, em làm gì?",
+   "dung": "Em làm bài đầy đủ.",
+   "sai": "Em quên luôn."
+  },
+  {
+   "so": 87,
+   "tho": "lentam",
+   "baiCS": 17,
+   "cau": [
+    "Ở nhà cùng hai thân,",
+    "Ra vào quanh dưới chân.",
+    "Đem lòng một tấc cỏ",
+    "Báo đáp cùng ba xuân."
+   ],
+   "giai": "Lòng con nhỏ như ngọn cỏ, vẫn muốn đền đáp tình cha mẹ ấm như mùa xuân.",
+   "en": "Our hearts are small like grass, but we want to repay our parents' warm love.",
+   "hoi": "Em làm gì để cha mẹ vui?",
+   "dung": "Em giúp việc nhà nhỏ.",
+   "sai": "Em giận dỗi."
+  },
+  {
+   "so": 88,
+   "tho": "lentam",
+   "baiCS": 17,
+   "cau": [
+    "Ba xuân như mẹ cha",
+    "Tấc cỏ như thân ta,",
+    "Nhờ xuân, cỏ xanh tốt,",
+    "Có cỏ xuân vui hoà."
+   ],
+   "giai": "Cha mẹ như mùa xuân, con như ngọn cỏ. Có nhau thì cùng vui.",
+   "en": "Parents are like spring, children like grass; together we thrive.",
+   "hoi": "Cả nhà vui khi nào?",
+   "dung": "Khi mọi người thương nhau.",
+   "sai": "Khi cãi nhau."
+  },
+  {
+   "so": 89,
+   "tho": "lentam",
+   "baiCS": 18,
+   "cau": [
+    "Ta nay như cỏ xuân,",
+    "Ngày ngày chơi trước sân.",
+    "Nghĩ sao trong tấc dạ,",
+    "Cho vui lòng hai thân."
+   ],
+   "giai": "Mỗi ngày vui chơi, chúng mình vẫn nghĩ cách làm cho cha mẹ vui.",
+   "en": "Even while playing, we think of ways to make our parents happy.",
+   "hoi": "Chơi xong, em làm gì?",
+   "dung": "Em cất đồ chơi gọn gàng.",
+   "sai": "Em để bừa ra sàn."
+  },
+  {
+   "so": 90,
+   "tho": "lentam",
+   "baiCS": 18,
+   "cau": [
+    "Khi vui nào được mấy",
+    "Lo buồn như dễ thấy,",
+    "Cha lo con nên thương,",
+    "Mẹ buồn con chớ quấy."
+   ],
+   "giai": "Cha lo thì con thương cha. Mẹ buồn thì con đừng quấy.",
+   "en": "When Dad worries, love him. When Mom is sad, don't bother her.",
+   "hoi": "Thấy mẹ mệt, em làm gì?",
+   "dung": "Em chơi nhẹ nhàng, không quấy.",
+   "sai": "Em làm ồn đòi mẹ."
+  },
+  {
+   "so": 91,
+   "tho": "lentam",
+   "baiCS": 19,
+   "cau": [
+    "Ta xem lòng mẹ cha",
+    "Ta suy làm lòng ta.",
+    "Quần áo mặc nên tiếc",
+    "Vui bạn đừng chơi xa."
+   ],
+   "giai": "Nghĩ đến cha mẹ, giữ gìn quần áo, đi chơi đừng đi quá xa.",
+   "en": "Think of your parents: take care of your clothes and don't wander far.",
+   "hoi": "Đi chơi với bạn, em làm gì?",
+   "dung": "Em chơi gần nhà, về đúng giờ.",
+   "sai": "Em đi thật xa không báo."
+  },
+  {
+   "so": 92,
+   "tho": "lentam",
+   "baiCS": 19,
+   "cau": [
+    "Trèo cao hay ngã đau",
+    "Cảm nắng thường ốm lâu",
+    "Thân ta của cha mẹ",
+    "Ta phải thường lo âu."
+   ],
+   "giai": "Thân thể là cha mẹ cho, phải giữ gìn: đừng trèo cao, đừng phơi nắng lâu.",
+   "en": "Our bodies come from our parents; stay safe and don't climb high.",
+   "hoi": "Trời nắng to, em làm gì?",
+   "dung": "Em đội mũ, chơi trong bóng râm.",
+   "sai": "Em chạy ngoài nắng cả buổi."
+  },
+  {
+   "so": 93,
+   "tho": "lentam",
+   "baiCS": 20,
+   "cau": [
+    "Ta nay còn trẻ thơ,",
+    "Chưa cho cha mẹ nhờ.",
+    "Cha mẹ lúc sai bảo,",
+    "Vui vẻ con dạ thưa."
+   ],
+   "giai": "Cha mẹ nhờ việc gì, con vui vẻ “dạ” và làm ngay.",
+   "en": "When parents ask for help, answer “dạ” cheerfully and do it.",
+   "hoi": "Mẹ nhờ lấy đồ, em làm gì?",
+   "dung": "Em “dạ” và lấy ngay.",
+   "sai": "Em làm như không nghe."
+  },
+  {
+   "so": 94,
+   "tho": "lentam",
+   "baiCS": 20,
+   "cau": [
+    "Đạo hiếu rộng như bể,",
+    "Thân ta còn nhỏ bé.",
+    "Nhớn lên mong về sau,",
+    "Trọn hiếu cùng cha mẹ"
+   ],
+   "giai": "Đạo hiếu rộng như biển. Con mong lớn lên hiếu thảo trọn vẹn.",
+   "en": "Filial respect is as wide as the sea; we hope to fulfil it as we grow.",
+   "hoi": "Lớn lên, em muốn làm gì cho cha mẹ?",
+   "dung": "Chăm sóc cha mẹ.",
+   "sai": "Bỏ mặc cha mẹ."
+  },
+  {
+   "so": 95,
+   "tho": "lentam",
+   "baiCS": 21,
+   "cau": [
+    "Suy lòng hiếu mẹ cha",
+    "Ở với anh em ta",
+    "Anh em, chị em ruột",
+    "Cha mẹ cùng sinh ra."
+   ],
+   "giai": "Thương cha mẹ thì phải thương cả anh chị em trong nhà.",
+   "en": "Loving our parents means loving our siblings too.",
+   "hoi": "Em đối xử với anh chị em thế nào?",
+   "dung": "Thương yêu, nhường nhịn.",
+   "sai": "Tranh giành, cãi nhau."
+  },
+  {
+   "so": 96,
+   "tho": "lentam",
+   "baiCS": 21,
+   "cau": [
+    "Giọt máu cùng chung nhau",
+    "Anh trước, em thời sau.",
+    "Thân hình khác dầu khác,",
+    "Xương thịt đau cùng đau."
+   ],
+   "giai": "Anh chị em cùng chung dòng máu. Ai đau thì người kia cũng đau.",
+   "en": "Siblings share the same blood; when one hurts, the other does too.",
+   "hoi": "Em của em bị ngã, em làm gì?",
+   "dung": "Em đỡ em dậy, hỏi han.",
+   "sai": "Em đứng cười."
+  },
+  {
+   "so": 97,
+   "tho": "lentam",
+   "baiCS": 22,
+   "cau": [
+    "Ta nghĩ tình thịt xương,",
+    "Không như người đi đường.",
+    "Vốn đã cùng cha mẹ",
+    "Nên biết cùng yêu thương."
+   ],
+   "giai": "Anh chị em ruột không phải người xa lạ. Phải thương yêu nhau.",
+   "en": "Siblings aren't strangers; love one another.",
+   "hoi": "Anh chị em là người thế nào với em?",
+   "dung": "Người thân ruột thịt.",
+   "sai": "Người qua đường."
+  },
+  {
+   "so": 98,
+   "tho": "lentam",
+   "baiCS": 22,
+   "cau": [
+    "Yêu nhau nhường miếng ăn,",
+    "Thương nhau nhường áo chăn,",
+    "No ấm không là mấy",
+    "Thơm thảo biết bao tình."
+   ],
+   "giai": "Thương nhau thì nhường nhau miếng ăn, áo mặc.",
+   "en": "Siblings who love each other share food and clothes.",
+   "hoi": "Còn một cái bánh, em làm gì?",
+   "dung": "Em chia cho anh chị em.",
+   "sai": "Em ăn một mình."
+  },
+  {
+   "so": 99,
+   "tho": "lentam",
+   "baiCS": 23,
+   "cau": [
+    "Anh em tình không xa",
+    "Sinh trưởng trong một nhà.",
+    "Như lan và như cúc,",
+    "Một chậu bao cành hoa."
+   ],
+   "giai": "Anh chị em như nhiều cành hoa trong một chậu.",
+   "en": "Siblings are like many flowers in one pot.",
+   "hoi": "Anh chị em được ví với gì?",
+   "dung": "Những cành hoa trong một chậu.",
+   "sai": "Những hòn đá rời nhau."
+  },
+  {
+   "so": 100,
+   "tho": "lentam",
+   "baiCS": 23,
+   "cau": [
+    "Ta xem hoa có giống,",
+    "Lan lan và cúc cúc,",
+    "Cùng giống hoa cùng hương.",
+    "Cây tốt hoa chen chúc"
+   ],
+   "giai": "Mỗi loài hoa một vẻ, một hương. Mỗi người trong nhà cũng có nét riêng.",
+   "en": "Each flower has its own look and scent; so does each sibling.",
+   "hoi": "Anh chị em khác tính em, em làm gì?",
+   "dung": "Em tôn trọng và thương nhau.",
+   "sai": "Em chê bai."
+  },
+  {
+   "so": 101,
+   "tho": "lentam",
+   "baiCS": 24,
+   "cau": [
+    "Hoa cúc và hoa lan,",
+    "Vinh hoa trong thế gian",
+    "Hoa tốt cây thêm quý",
+    "Hoa nhiều, hương càng hơn."
+   ],
+   "giai": "Hoa tốt làm cây thêm quý. Anh chị em ngoan làm nhà thêm vui.",
+   "en": "Good flowers make the plant precious; good siblings make a happy home.",
+   "hoi": "Nhà vui hơn khi nào?",
+   "dung": "Khi anh chị em ngoan, hoà thuận.",
+   "sai": "Khi anh chị em giận nhau."
+  },
+  {
+   "so": 102,
+   "tho": "lentam",
+   "baiCS": 24,
+   "cau": [
+    "Anh em trong một nhà",
+    "Thân tình như chậu hoa",
+    "Ở sao cho hữu ái",
+    "Cho vui lòng mẹ cha."
+   ],
+   "giai": "Anh chị em sống hoà thuận cho cha mẹ vui lòng.",
+   "en": "Siblings who get along make their parents happy.",
+   "hoi": "Anh chị em cãi nhau, em làm gì?",
+   "dung": "Em làm lành, nhường nhịn.",
+   "sai": "Em cãi to hơn."
+  },
+  {
+   "so": 103,
+   "tho": "lentam",
+   "baiCS": 25,
+   "cau": [
+    "Ai sinh ra mẹ cha",
+    "Trên có ông bà ta.",
+    "Bên nội và bên ngoại,",
+    "Nguồn gốc gần không xa."
+   ],
+   "giai": "Ông bà sinh ra cha mẹ. Có họ nội, có họ ngoại.",
+   "en": "Grandparents gave life to our parents; we have family on both sides.",
+   "hoi": "Ai sinh ra cha mẹ của các bạn?",
+   "dung": "Ông bà.",
+   "sai": "Cô giáo."
+  },
+  {
+   "so": 104,
+   "tho": "lentam",
+   "baiCS": 25,
+   "cau": [
+    "Nội ngoại họ hai chi",
+    "Chú, thím, cô, cậu, dì,",
+    "Anh em con chú bác",
+    "Tình nghĩa cùng sâm si."
+   ],
+   "giai": "Chú, thím, cô, cậu, dì đều là họ hàng gần gũi.",
+   "en": "Aunts, uncles and cousins are all close family.",
+   "hoi": "Gặp cô chú ngày Tết, em làm gì?",
+   "dung": "Em chúc Tết lễ phép.",
+   "sai": "Em không chào."
+  },
+  {
+   "so": 105,
+   "tho": "lentam",
+   "baiCS": 26,
+   "cau": [
+    "Tôn trưởng trong họ hàng",
+    "Thầy bạn trong nhà trường",
+    "Vào ra phải lễ kính",
+    "Ấy cùng trong luân thường."
+   ],
+   "giai": "Với người lớn trong họ, với thầy cô và bạn bè, đi về đều phải lễ phép.",
+   "en": "Be polite to older relatives, teachers and friends.",
+   "hoi": "Đi học về, em làm gì?",
+   "dung": "Em chào ông bà, cha mẹ.",
+   "sai": "Em vào phòng luôn."
+  },
+  {
+   "so": 106,
+   "tho": "lentam",
+   "baiCS": 26,
+   "cau": [
+    "Thông minh trời đất sinh",
+    "Học đạo để sửa mình.",
+    "Luân thường không lớn bé,",
+    "Chúng ta đừng coi khinh!"
+   ],
+   "giai": "Thông minh là trời cho, nhưng phải học điều hay để sửa mình.",
+   "en": "Cleverness is a gift, but we must learn good ways to grow.",
+   "hoi": "Bạn thông minh có cần học lễ không?",
+   "dung": "Có, ai cũng cần học lễ.",
+   "sai": "Không cần."
+  },
+  {
+   "so": 107,
+   "tho": "lentam",
+   "baiCS": 27,
+   "cau": [
+    "Sự học từ luân thường",
+    "Suy ra khắp mọi đường",
+    "Đức hạnh cùng trí thức,",
+    "Nghĩa lý hoà văn chương."
+   ],
+   "giai": "Học bắt đầu từ cách cư xử đúng, rồi mới tới hiểu biết và văn chương.",
+   "en": "Learning starts with good manners, then knowledge.",
+   "hoi": "Đi học, em học những gì?",
+   "dung": "Học lễ phép và học chữ.",
+   "sai": "Chỉ học chơi game."
+  },
+  {
+   "so": 108,
+   "tho": "lentam",
+   "baiCS": 27,
+   "cau": [
+    "Cha mẹ công khó nhọc,",
+    "Sinh con cho đi học",
+    "Con hay cha mẹ vinh",
+    "Hư hèn cha mẹ nhục."
+   ],
+   "giai": "Con ngoan, giỏi thì cha mẹ tự hào. Con hư thì cha mẹ buồn.",
+   "en": "When we are good, our parents are proud; when we misbehave, they are sad.",
+   "hoi": "Làm sao cho cha mẹ tự hào?",
+   "dung": "Ngoan ngoãn, chăm học.",
+   "sai": "Nghịch phá."
+  },
+  {
+   "so": 109,
+   "tho": "lentam",
+   "baiCS": 28,
+   "cau": [
+    "Con nghĩ đến mẹ cha",
+    "Sao cho hơn người ta.",
+    "Học hành phải chăm cố,",
+    "Ăn ở cho nết na."
+   ],
+   "giai": "Nghĩ đến cha mẹ, con chăm học và cư xử nết na.",
+   "en": "Thinking of our parents, we study hard and behave well.",
+   "hoi": "Ở trường, em cư xử thế nào?",
+   "dung": "Lễ phép, nết na.",
+   "sai": "Nói tục, chửi bậy."
+  },
+  {
+   "so": 110,
+   "tho": "lentam",
+   "baiCS": 28,
+   "cau": [
+    "Tài đức nổi thanh danh,",
+    "Ngu ác thiên hạ khinh",
+    "Phần hơn ta phải chọn,",
+    "Giữ nết, chăm học hành."
+   ],
+   "giai": "Có tài có đức thì được quý mến. Chọn điều tốt: giữ nết ngoan, chăm học.",
+   "en": "Talent and kindness earn respect; choose to be good and study hard.",
+   "hoi": "Em chọn làm bạn nhỏ thế nào?",
+   "dung": "Ngoan và chăm học.",
+   "sai": "Lười và hư."
+  },
+  {
+   "so": 111,
+   "tho": "lentam",
+   "baiCS": 29,
+   "cau": [
+    "Học sách phải quý sách",
+    "Sách vở giữ cho sạch.",
+    "Tờ giấy bao công phu,",
+    "Chúng ta đừng để rách,"
+   ],
+   "giai": "Phải quý sách, giữ sách vở sạch, đừng để rách.",
+   "en": "Treasure your books and keep them clean and whole.",
+   "hoi": "Em giữ sách vở thế nào?",
+   "dung": "Bọc sách, giữ sạch sẽ.",
+   "sai": "Vẽ bậy, xé giấy."
+  },
+  {
+   "so": 112,
+   "tho": "lentam",
+   "baiCS": 29,
+   "cau": [
+    "Học thầy, biết ơn thầy,",
+    "Có thầy ta mới hay.",
+    "Nghĩa lý không bờ bến,",
+    "Ai trỏ con đường ngay?"
+   ],
+   "giai": "Có thầy dạy ta mới giỏi. Học thầy thì phải biết ơn thầy.",
+   "en": "Teachers help us grow; be grateful to them.",
+   "hoi": "Ngày Nhà giáo, em làm gì?",
+   "dung": "Em làm thiệp cảm ơn thầy cô.",
+   "sai": "Em không nhớ đến thầy cô."
+  },
+  {
+   "so": 113,
+   "tho": "lentam",
+   "baiCS": 30,
+   "cau": [
+    "Học thầy vui có bạn,",
+    "Đua bạn, học không chán,",
+    "Bạn hiền, ta kính yêu,",
+    "Bạn dở đừng thân thiết."
+   ],
+   "giai": "Đi học vui vì có bạn. Bạn hiền thì quý, bạn chưa ngoan thì đừng chơi quá thân.",
+   "en": "School is fun with friends; choose kind friends.",
+   "hoi": "Bạn rủ em trốn học, em làm gì?",
+   "dung": "Em không đi và khuyên bạn.",
+   "sai": "Em đi theo bạn."
+  },
+  {
+   "so": 114,
+   "tho": "lentam",
+   "baiCS": 30,
+   "cau": [
+    "Thầy dạy ta biết ơn",
+    "Tư ích có bạn hiền,",
+    "Công học không ai giúp,",
+    "Siêng năng từ ta hơn."
+   ],
+   "giai": "Biết ơn thầy, quý bạn hiền. Nhưng tự mình siêng năng là hơn cả.",
+   "en": "Thank teachers and value friends, but your own effort matters most.",
+   "hoi": "Ai làm bài tập của em?",
+   "dung": "Em tự làm.",
+   "sai": "Nhờ bạn làm hộ."
+  },
+  {
+   "so": 115,
+   "tho": "lentam",
+   "baiCS": 31,
+   "cau": [
+    "Chúng ta tuổi còn xanh",
+    "Tính trời đang thanh minh.",
+    "Lúc học không cố học,",
+    "Đến sau rồi ăn năn."
+   ],
+   "giai": "Đang tuổi nhỏ dễ học. Không cố học thì lớn lên hối tiếc.",
+   "en": "Now is the best time to learn; don't regret it later.",
+   "hoi": "Khi nào là lúc tốt để học?",
+   "dung": "Ngay bây giờ.",
+   "sai": "Để mai tính."
+  },
+  {
+   "so": 116,
+   "tho": "lentam",
+   "baiCS": 31,
+   "cau": [
+    "Ta xem bao nhiêu người,",
+    "Dở dang hư một đời,",
+    "Nào phải chất óc kém,",
+    "Bởi xưa không học, lười."
+   ],
+   "giai": "Nhiều người dở dang không phải vì kém, mà vì ngày nhỏ lười học.",
+   "en": "Many people struggle not for lack of brains, but because they didn't study.",
+   "hoi": "Vì sao có người làm gì cũng dở dang?",
+   "dung": "Vì ngày nhỏ lười học.",
+   "sai": "Vì trời mưa."
+  },
+  {
+   "so": 117,
+   "tho": "lentam",
+   "baiCS": 32,
+   "cau": [
+    "Tư chất ai không tốt,",
+    "Học lười ai cũng dốt.",
+    "Thông minh chưa vững hay,",
+    "Siêng năng là sự cốt."
+   ],
+   "giai": "Thông minh chưa đủ, siêng năng mới là quan trọng nhất.",
+   "en": "Being clever isn't enough; hard work matters most.",
+   "hoi": "Điều gì quan trọng nhất để học giỏi?",
+   "dung": "Siêng năng.",
+   "sai": "Chỉ cần thông minh."
+  },
+  {
+   "so": 118,
+   "tho": "lentam",
+   "baiCS": 32,
+   "cau": [
+    "Ngày tháng như chim bay,",
+    "Nên nghĩ mà lo thay.",
+    "Một mai ta lớn tuổi,",
+    "Khó học hơn ngày nay."
+   ],
+   "giai": "Thời gian trôi nhanh như chim bay. Hãy học ngay hôm nay.",
+   "en": "Time flies like a bird; learn today.",
+   "hoi": "Em dùng thời gian thế nào?",
+   "dung": "Học và chơi đúng giờ.",
+   "sai": "Chơi cả ngày, để học sau."
+  }
+ ],
+ "bai": {
+  "1": {
+   "doan": 1,
+   "on": false
+  },
+  "2": {
+   "doan": 2,
+   "on": false
+  },
+  "3": {
+   "doan": 3,
+   "on": false
+  },
+  "4": {
+   "doan": 4,
+   "on": false
+  },
+  "5": {
+   "doan": 5,
+   "on": false
+  },
+  "6": {
+   "doan": 6,
+   "on": false
+  },
+  "7": {
+   "doan": 7,
+   "on": false
+  },
+  "8": {
+   "doan": 8,
+   "on": false
+  },
+  "9": {
+   "doan": 9,
+   "on": false
+  },
+  "10": {
+   "doan": 10,
+   "on": false
+  },
+  "11": {
+   "doan": 11,
+   "on": false
+  },
+  "12": {
+   "doan": 12,
+   "on": false
+  },
+  "13": {
+   "doan": 13,
+   "on": false
+  },
+  "14": {
+   "doan": 14,
+   "on": false
+  },
+  "15": {
+   "doan": 15,
+   "on": false
+  },
+  "16": {
+   "doan": 16,
+   "on": false
+  },
+  "17": {
+   "doan": 17,
+   "on": false
+  },
+  "18": {
+   "doan": 18,
+   "on": false
+  },
+  "19": {
+   "doan": 19,
+   "on": false
+  },
+  "20": {
+   "doan": 20,
+   "on": false
+  },
+  "21": {
+   "doan": 21,
+   "on": false
+  },
+  "22": {
+   "doan": 22,
+   "on": false
+  },
+  "23": {
+   "doan": 23,
+   "on": false
+  },
+  "24": {
+   "doan": 24,
+   "on": false
+  },
+  "25": {
+   "doan": 25,
+   "on": false
+  },
+  "26": {
+   "doan": 26,
+   "on": false
+  },
+  "27": {
+   "doan": 27,
+   "on": false
+  },
+  "28": {
+   "doan": 28,
+   "on": false
+  },
+  "29": {
+   "doan": 29,
+   "on": false
+  },
+  "30": {
+   "doan": 30,
+   "on": false
+  },
+  "31": {
+   "doan": 31,
+   "on": false
+  },
+  "32": {
+   "doan": 32,
+   "on": false
+  },
+  "33": {
+   "doan": 33,
+   "on": false
+  },
+  "34": {
+   "doan": 34,
+   "on": false
+  },
+  "35": {
+   "doan": 35,
+   "on": false
+  },
+  "36": {
+   "doan": 36,
+   "on": false
+  },
+  "37": {
+   "doan": 37,
+   "on": false
+  },
+  "38": {
+   "doan": 38,
+   "on": false
+  },
+  "39": {
+   "doan": 39,
+   "on": false
+  },
+  "40": {
+   "doan": 40,
+   "on": false
+  },
+  "41": {
+   "doan": 41,
+   "on": false
+  },
+  "42": {
+   "doan": 42,
+   "on": false
+  },
+  "43": {
+   "doan": 43,
+   "on": false
+  },
+  "44": {
+   "doan": 44,
+   "on": false
+  },
+  "45": {
+   "doan": 45,
+   "on": false
+  },
+  "46": {
+   "doan": 46,
+   "on": false
+  },
+  "47": {
+   "doan": 47,
+   "on": false
+  },
+  "48": {
+   "doan": 48,
+   "on": false
+  },
+  "49": {
+   "doan": 49,
+   "on": false
+  },
+  "50": {
+   "doan": 50,
+   "on": false
+  },
+  "51": {
+   "doan": 51,
+   "on": false
+  },
+  "52": {
+   "doan": 52,
+   "on": false
+  },
+  "53": {
+   "doan": 53,
+   "on": false
+  },
+  "54": {
+   "doan": 54,
+   "on": false
+  },
+  "55": {
+   "doan": 1,
+   "on": true
+  },
+  "56": {
+   "doan": 2,
+   "on": true
+  },
+  "57": {
+   "doan": 3,
+   "on": true
+  },
+  "58": {
+   "doan": 4,
+   "on": true
+  },
+  "59": {
+   "doan": 5,
+   "on": true
+  },
+  "60": {
+   "doan": 6,
+   "on": true
+  },
+  "61": {
+   "doan": 7,
+   "on": true
+  },
+  "62": {
+   "doan": 8,
+   "on": true
+  },
+  "63": {
+   "doan": 9,
+   "on": true
+  },
+  "64": {
+   "doan": 10,
+   "on": true
+  },
+  "65": {
+   "doan": 11,
+   "on": true
+  },
+  "66": {
+   "doan": 12,
+   "on": true
+  },
+  "67": {
+   "doan": 13,
+   "on": true
+  },
+  "68": {
+   "doan": 14,
+   "on": true
+  },
+  "69": {
+   "doan": 15,
+   "on": true
+  },
+  "70": {
+   "doan": 16,
+   "on": true
+  },
+  "71": {
+   "doan": 55,
+   "on": false
+  },
+  "72": {
+   "doan": 56,
+   "on": false
+  },
+  "73": {
+   "doan": 57,
+   "on": false
+  },
+  "74": {
+   "doan": 58,
+   "on": false
+  },
+  "75": {
+   "doan": 59,
+   "on": false
+  },
+  "76": {
+   "doan": 60,
+   "on": false
+  },
+  "77": {
+   "doan": 61,
+   "on": false
+  },
+  "78": {
+   "doan": 62,
+   "on": false
+  },
+  "79": {
+   "doan": 63,
+   "on": false
+  },
+  "80": {
+   "doan": 64,
+   "on": false
+  },
+  "81": {
+   "doan": 65,
+   "on": false
+  },
+  "82": {
+   "doan": 66,
+   "on": false
+  },
+  "83": {
+   "doan": 67,
+   "on": false
+  },
+  "84": {
+   "doan": 68,
+   "on": false
+  },
+  "85": {
+   "doan": 69,
+   "on": false
+  },
+  "86": {
+   "doan": 70,
+   "on": false
+  },
+  "87": {
+   "doan": 71,
+   "on": false
+  },
+  "88": {
+   "doan": 72,
+   "on": false
+  },
+  "89": {
+   "doan": 73,
+   "on": false
+  },
+  "90": {
+   "doan": 74,
+   "on": false
+  },
+  "91": {
+   "doan": 75,
+   "on": false
+  },
+  "92": {
+   "doan": 76,
+   "on": false
+  },
+  "93": {
+   "doan": 77,
+   "on": false
+  },
+  "94": {
+   "doan": 78,
+   "on": false
+  },
+  "95": {
+   "doan": 79,
+   "on": false
+  },
+  "96": {
+   "doan": 80,
+   "on": false
+  },
+  "97": {
+   "doan": 81,
+   "on": false
+  },
+  "98": {
+   "doan": 82,
+   "on": false
+  },
+  "99": {
+   "doan": 83,
+   "on": false
+  },
+  "100": {
+   "doan": 84,
+   "on": false
+  },
+  "101": {
+   "doan": 85,
+   "on": false
+  },
+  "102": {
+   "doan": 86,
+   "on": false
+  },
+  "103": {
+   "doan": 87,
+   "on": false
+  },
+  "104": {
+   "doan": 88,
+   "on": false
+  },
+  "105": {
+   "doan": 89,
+   "on": false
+  },
+  "106": {
+   "doan": 90,
+   "on": false
+  },
+  "107": {
+   "doan": 91,
+   "on": false
+  },
+  "108": {
+   "doan": 92,
+   "on": false
+  },
+  "109": {
+   "doan": 93,
+   "on": false
+  },
+  "110": {
+   "doan": 94,
+   "on": false
+  },
+  "111": {
+   "doan": 95,
+   "on": false
+  },
+  "112": {
+   "doan": 96,
+   "on": false
+  },
+  "113": {
+   "doan": 97,
+   "on": false
+  },
+  "114": {
+   "doan": 98,
+   "on": false
+  },
+  "115": {
+   "doan": 99,
+   "on": false
+  },
+  "116": {
+   "doan": 100,
+   "on": false
+  },
+  "117": {
+   "doan": 101,
+   "on": false
+  },
+  "118": {
+   "doan": 102,
+   "on": false
+  },
+  "119": {
+   "doan": 103,
+   "on": false
+  },
+  "120": {
+   "doan": 104,
+   "on": false
+  },
+  "121": {
+   "doan": 105,
+   "on": false
+  },
+  "123": {
+   "doan": 106,
+   "on": false
+  },
+  "124": {
+   "doan": 107,
+   "on": false
+  },
+  "125": {
+   "doan": 108,
+   "on": false
+  },
+  "126": {
+   "doan": 109,
+   "on": false
+  },
+  "127": {
+   "doan": 110,
+   "on": false
+  },
+  "128": {
+   "doan": 111,
+   "on": false
+  },
+  "129": {
+   "doan": 112,
+   "on": false
+  },
+  "130": {
+   "doan": 113,
+   "on": false
+  },
+  "131": {
+   "doan": 114,
+   "on": false
+  },
+  "132": {
+   "doan": 115,
+   "on": false
+  },
+  "133": {
+   "doan": 116,
+   "on": false
+  },
+  "134": {
+   "doan": 117,
+   "on": false
+  },
+  "135": {
+   "doan": 118,
+   "on": false
+  },
+  "136": {
+   "doan": 55,
+   "on": true
+  },
+  "137": {
+   "doan": 56,
+   "on": true
+  },
+  "138": {
+   "doan": 57,
+   "on": true
+  },
+  "139": {
+   "doan": 58,
+   "on": true
+  },
+  "140": {
+   "doan": 59,
+   "on": true
+  },
+  "141": {
+   "doan": 60,
+   "on": true
+  },
+  "142": {
+   "doan": 61,
+   "on": true
+  },
+  "143": {
+   "doan": 62,
+   "on": true
+  },
+  "144": {
+   "doan": 63,
+   "on": true
+  },
+  "145": {
+   "doan": 64,
+   "on": true
+  }
+ }
+}
