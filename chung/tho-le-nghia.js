@@ -99,7 +99,7 @@ const TLN = (() => {
     const btns = opts.map((o, n) => h('button', { class: 'tln-chon', type: 'button', onclick: e => {
       if (locked) return; const el = e.currentTarget; App.unlockAudio();
       // phản hồi chung của trường: "Đúng rồi!" / "Thử lại nhé!"
-      if (o === D.dung) { locked = true; el.classList.add('right'); UI.ok(el, ['s:ok1', 'k:' + o]); later(() => UI.finish(2, 'Các bạn đã chọn đúng việc làm ngoan.'), 2600); // 2 lựa chọn: sai một lần vẫn được 2 sao }
+      if (o === D.dung) { locked = true; el.classList.add('right'); UI.ok(el, ['s:ok1', 'k:' + o]); later(() => UI.finish(2, 'Các bạn đã chọn đúng việc làm ngoan.'), 2600); } // 2 lựa chọn: sai một lần vẫn được 2 sao
       else { wrong++; UI.no(el, ['s:retry1']); if (wrong >= 2) UI.hint(btns[opts.indexOf(D.dung)]); }
     } }, h('b', null, 'AB'[n]), h('span', null, o)));
     UI.stage.append(h('div', { class: 'tln' },

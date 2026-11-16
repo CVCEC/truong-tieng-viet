@@ -177,6 +177,17 @@ a.gcard{text-decoration:none; color:inherit}
 .gcard .gicon b{font:800 30px/1 var(--font-display); color:var(--charcoal)}
 .hero-trau img{width:100%; height:auto; display:block}
 .hero-trau{cursor:default}
+/* Học thử (khách chưa đăng nhập, mở trong cổng): bài thử mở, các bài khác mời đăng nhập */
+.gcard.khoa{opacity:.82}
+.gcard .nhan-khoa{display:block; margin-top:6px; font-weight:800; font-size:14px; color:var(--ink)}
+.gcard .nhan-thu{display:inline-block; margin-top:6px; padding:1px 10px; border-radius:999px; background:var(--ttv-goc-dam,#1F5FA8); color:#FFFFFF; font-weight:800; font-size:13px}
+.moi-dn{grid-column:1/-1; display:grid; grid-template-columns:auto 1fr; gap:10px 16px; align-items:start; background:var(--card); border:3px solid var(--ttv-goc,#3A86D4); border-radius:24px; padding:16px 18px}
+.moi-dn img{width:84px; height:auto}
+.moi-dn h2{margin:4px 0; font:800 clamp(20px,3.4vw,24px)/1.25 var(--font-display)}
+.moi-dn p{margin:4px 0}
+.moi-dn .hang{display:flex; flex-wrap:wrap; gap:10px; margin-top:10px}
+.moi-dn .hang a{min-height:48px; display:inline-flex; align-items:center; text-decoration:none}
+@media (max-width:560px){.moi-dn{grid-template-columns:1fr}.moi-dn img{width:70px}}
 </style>
 </head>
 <body>
@@ -213,6 +224,32 @@ if (ph) {
   document.title = ph.ten + ' – Trường Tiếng Việt Của Em';
   document.querySelectorAll('.gcard').forEach(function (a) { a.hidden = a.getAttribute('data-phan') !== phan; });
 }
+// Học thử: cổng báo chế độ qua bộ mẫu chung (TTV.cheDoHoc(), sự kiện "ttv-che-do"). Khách chỉ học bài thử của phần
+// (Bài 1 hoặc Bài 81); các bài khác ghi "Đăng nhập để học" và mở trang đăng nhập của cổng (cùng tab).
+function hocThu() {
+  var T = window.TTV; if (!T || !T.cheDoHoc || T.cheDoHoc() !== 'thu' || document.querySelector('.moi-dn')) return;
+  var thu = phan === 'van-hoa' ? 'bai-81/' : 'bai-1/';
+  var dn = function (ky) { return T.duongDangNhap ? T.duongDangNhap(ky) : 'https://vietclass.cvcec.org/dang-nhap/?' + (ky ? 'che-do=ky&' : '') + 've=%2F'; };
+  var theThu = null;
+  document.querySelectorAll('.gcard').forEach(function (a) {
+    if (a.hidden) return;
+    var d = a.querySelector('.gdesc');
+    if (a.getAttribute('href') === thu) { theThu = a; var t = document.createElement('span'); t.className = 'nhan-thu'; t.textContent = 'Học thử'; d.appendChild(t); return; }
+    a.classList.add('khoa'); a.href = dn(false); a.target = '_top';
+    var k = document.createElement('span'); k.className = 'nhan-khoa'; k.textContent = '🔒 Đăng nhập để học'; d.appendChild(k);
+  });
+  if (!theThu) return;
+  var moi = document.createElement('section'); moi.className = 'moi-dn'; moi.setAttribute('aria-label', 'Mời đăng nhập');
+  moi.innerHTML = '<img src="chung/img/trau-con.png" alt=""><div><p class="bubble"><span>Các bạn học thử bài này nhé! Muốn học tiếp các bài sau, các bạn nhờ bố mẹ đăng nhập giúp, mình sẽ cất sao cho các bạn.</span></p>' +
+    '<h2>🌟 Học trọn ' + (phan === 'van-hoa' ? 'Văn hoá truyền thống' : 'Tiếng Việt cơ bản') + '?</h2>' +
+    '<p>Đây là một phần của Trường Tiếng Việt Của Em – dự án phi lợi nhuận của CVCEC. Đăng nhập một lần để mở các bài tiếp theo và lưu sao, tiến độ của bé.</p>' +
+    '<div class="hang"><a class="btn" target="_top"></a><a class="btn ghost" target="_top"></a></div></div>';
+  var nut = moi.querySelectorAll('.hang a');
+  nut[0].href = dn(false); nut[0].textContent = 'Đăng nhập để học tiếp'; nut[1].href = dn(true); nut[1].textContent = 'Tạo tài khoản';
+  theThu.parentNode.insertBefore(moi, theThu.nextSibling);
+}
+document.addEventListener('ttv-che-do', hocThu);
+document.addEventListener('DOMContentLoaded', hocThu);
 // Màu và ảnh Trâu Con của góc lấy từ TTV_DANH_SACH của bộ mẫu (cả khi mở ở tên miền khác)
 document.addEventListener('DOMContentLoaded', function () {
   var T = window.TTV, m = T && (T.goc(ph ? ph.goc : 'baihoc') || T.goc('baihoc')); if (!m) return;
