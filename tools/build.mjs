@@ -27,6 +27,11 @@ const esc = s => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replac
 const only = process.argv.slice(2);
 const slugOf = m => m.on ? 'on-tap-' + m.on : 'bai-' + m.so;
 const nhanOf = m => m.on ? 'Ôn tập ' + m.on : 'Bài ' + m.so;
+// Hai phần (hai góc học trên cổng, cùng tên miền baihoc.cvcec.org):
+//   "tieng-viet" – Tiếng Việt cơ bản: Bài 1–80 và các bài ôn tập (góc "baihoc" trong TTV_DANH_SACH)
+//   "van-hoa"    – Văn hoá truyền thống: Bài 81–145 (góc "vanhoa")
+const BAI_DAU_VAN_HOA = 81;
+const phanOf = m => (!m.on && m.so >= BAI_DAU_VAN_HOA) ? 'van-hoa' : 'tieng-viet';
 const lessons = readdirSync(ROOT)
   .filter(d => /^(bai|on-tap)-\d{2,3}$/.test(d) && existsSync(join(ROOT, d, 'bai.json')))
   .map(d => ({ dir: d, meta: JSON.parse(read(join(d, 'bai.json'))) }))
@@ -121,10 +126,10 @@ for (const { dir, meta } of lessons) {
   const VIDEO = coVideo ? `<section class="bai-hoc" aria-labelledby="baiHocTitle"><h2 class="menu-title" id="baiHocTitle">Bài học hôm nay</h2>` +
     `<video class="bai-hoc-video" controls playsinline preload="metadata"${vPoster ? ` poster="${esc(vPoster)}"` : ''} src="${esc(vSrc)}"></video></section>` +
     `<script>document.addEventListener('click', e => { if (e.target.closest('#cards, #btnStart')) document.querySelectorAll('video.bai-hoc-video').forEach(v => v.pause()); });</script>` : '';
-  const fill = { VIDEO, SO: meta.so, NHAN: nhan, TEN: esc(meta.ten), MO_TA: esc(meta.moTa || ''), ASSET: '../chung/', HERO_THEM: meta.heroThem || '', BODY_TRUOC: mau.body + (meta.bodyTruoc || ''), NUT_PHIEU, CSS: css, JS: js };
+  const fill = { VIDEO, PHAN: phanOf(meta), SO: meta.so, NHAN: nhan, TEN: esc(meta.ten), MO_TA: esc(meta.moTa || ''), ASSET: '../chung/', HERO_THEM: meta.heroThem || '', BODY_TRUOC: mau.body + (meta.bodyTruoc || ''), NUT_PHIEU, CSS: css, JS: js };
   // Thay CSS và JS sau cùng, để chữ {{…}} trong mã không bị thay nhầm
   let html = KHUNG;
-  for (const k of ['NHAN', 'SO', 'TEN', 'MO_TA', 'ASSET', 'HERO_THEM', 'BODY_TRUOC', 'NUT_PHIEU', 'VIDEO']) html = html.split('{{' + k + '}}').join(String(fill[k]));
+  for (const k of ['PHAN', 'NHAN', 'SO', 'TEN', 'MO_TA', 'ASSET', 'HERO_THEM', 'BODY_TRUOC', 'NUT_PHIEU', 'VIDEO']) html = html.split('{{' + k + '}}').join(String(fill[k]));
   html = html.replace('{{CSS}}', () => css).replace('{{JS}}', () => js);
   writeFileSync(join(out, 'index.html'), html);
 
@@ -148,7 +153,7 @@ for (const { dir, meta } of lessons) {
 }
 
 // Trang mục lục của cả chương trình
-const items = lessons.map(({ meta }) => `      <a class="gcard${meta.on ? ' on-tap' : ''}" href="${slugOf(meta)}/"><span class="gicon"><b>${meta.on ? 'Ô' + meta.on : meta.so}</b></span><span class="gnum">${nhanOf(meta)}</span><span class="gname">${esc(meta.ten)}</span><span class="gdesc">${esc(meta.moTa || '')}</span></a>`).join('\n');
+const items = lessons.map(({ meta }) => `      <a class="gcard${meta.on ? ' on-tap' : ''}" data-phan="${phanOf(meta)}" href="${slugOf(meta)}/"><span class="gicon"><b>${meta.on ? 'Ô' + meta.on : meta.so}</b></span><span class="gnum">${nhanOf(meta)}</span><span class="gname">${esc(meta.ten)}</span><span class="gdesc">${esc(meta.moTa || '')}</span></a>`).join('\n');
 writeFileSync(join(OUT, 'index.html'), `<!doctype html>
 <html lang="vi">
 <head>
@@ -164,6 +169,8 @@ ${BO_MAU}
 <style>
 ${CSS_CHUNG}
 a.gcard{text-decoration:none; color:inherit}
+.gcard[hidden]{display:none}
+.phan-mo-ta{margin:4px 0 10px; font-weight:700}
 .gcard .gicon b{font:800 30px/1 var(--font-display); color:var(--charcoal)}
 .hero-trau img{width:100%; height:auto; display:block}
 .hero-trau{cursor:default}
@@ -179,6 +186,7 @@ a.gcard{text-decoration:none; color:inherit}
         <div>
           <p class="eyebrow">Trường Tiếng Việt Của Em</p>
           <h1 id="homeTitle">Các bài học</h1>
+          <p class="phan-mo-ta" id="phanMoTa" hidden></p>
           <div class="bubble"><span>Chào các bạn! Mình là Trâu Con. Các bạn chọn một bài để cùng mình học và chơi nhé!</span></div>
         </div>
       </div>
@@ -191,9 +199,20 @@ ${items}
   </main>
 </div>
 <script>
-// Màu và ảnh Trâu Con của góc "baihoc" lấy từ TTV_DANH_SACH của bộ mẫu (cả khi mở ở tên miền khác)
+// Phần đang mở (?phan=tieng-viet | van-hoa): chỉ hiện bài của phần đó, kèm tên phần
+var PHAN = { 'tieng-viet': { goc: 'baihoc', ten: 'Tiếng Việt cơ bản', moTa: 'Bài 1–80: bảng chữ cái, âm, vần, tập đọc, kèm 12 bài ôn tập.' },
+             'van-hoa': { goc: 'vanhoa', ten: 'Văn hoá truyền thống', moTa: 'Bài 81–145: lễ Tết, phong tục và đời sống Việt qua bài đọc và trò chơi.' } };
+var phan = (new URLSearchParams(location.search).get('phan') || '');
+var ph = PHAN[phan] || null;
+if (ph) {
+  document.getElementById('homeTitle').textContent = ph.ten;
+  var mt = document.getElementById('phanMoTa'); mt.textContent = ph.moTa; mt.hidden = false;
+  document.title = ph.ten + ' – Trường Tiếng Việt Của Em';
+  document.querySelectorAll('.gcard').forEach(function (a) { a.hidden = a.getAttribute('data-phan') !== phan; });
+}
+// Màu và ảnh Trâu Con của góc lấy từ TTV_DANH_SACH của bộ mẫu (cả khi mở ở tên miền khác)
 document.addEventListener('DOMContentLoaded', function () {
-  var T = window.TTV, m = T && T.goc('baihoc'); if (!m) return;
+  var T = window.TTV, m = T && (T.goc(ph ? ph.goc : 'baihoc') || T.goc('baihoc')); if (!m) return;
   if (!T.gocHienTai()) { var s = document.documentElement.style; s.setProperty('--ttv-goc', m.mau); s.setProperty('--ttv-goc-dam', m.mau_dam); s.setProperty('--ttv-goc-nhat', m.mau_nhat); }
   var img = document.getElementById('trauGoc'), cu = img.src;
   img.onerror = function () { img.onerror = null; img.src = cu; };

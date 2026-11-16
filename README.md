@@ -2,6 +2,13 @@
 
 Trò chơi tương tác cho từng bài học tiếng Việt, dẫn dắt bởi Trâu Con. Đăng tại **https://baihoc.cvcec.org/** (mỗi bài ở `/bai-N/`, bài ôn tập ở `/on-tap-N/`).
 
+Trang có hai phần, là hai góc học riêng trong cổng vietclass.cvcec.org:
+
+- **Tiếng Việt cơ bản** – Bài 1–80 và các bài ôn tập. Mục lục: `/?phan=tieng-viet` (cổng: `#baihoc`).
+- **Văn hoá truyền thống** – Bài 81–145. Mục lục: `/?phan=van-hoa` (cổng: `#vanhoa`).
+
+Ranh giới đặt ở `BAI_DAU_VAN_HOA = 81` trong `tools/build.mjs`; nút "‹ Tất cả bài học" của mỗi bài quay về đúng mục lục của phần mình. Màu và ảnh Trâu Con của từng phần lấy từ `TTV_DANH_SACH` (bộ mẫu chung).
+
 ## Cấu trúc
 
 ```
