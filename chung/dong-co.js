@@ -76,28 +76,22 @@ function clipFile(id) {
 const SPEAKER = '<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 12h5l7-6v20l-7-6H5z" fill="#3A3B3C"/><path d="M21 11.5c1.6 1.2 2.5 2.7 2.5 4.5s-.9 3.3-2.5 4.5M24.5 8c2.6 2 4 4.9 4 8s-1.4 6-4 8" fill="none" stroke="#3A3B3C" stroke-width="2.6" stroke-linecap="round"/></svg>';
 
 /* =====================================================================
-   GIỌNG TRÂU CON — ưu tiên file ghi âm trong audio/, sau đó giọng đọc tiếng Việt của máy (ưu tiên giọng nam);
-   máy không có giọng tiếng Việt thì im lặng và hiện lời nhắc, không đọc bằng giọng tiếng Anh.
+   GIỌNG TRÂU CON — ưu tiên file ghi âm trong audio/; chưa có thì giọng đọc tiếng Việt của máy làm dự phòng
+   (ngoại lệ tạm thời của kho, xem CLAUDE.md). Giọng máy đi qua bộ mẫu chung (TTV.giong.doc, quy tắc 7):
+   trang không gọi speechSynthesis trực tiếp. Máy không có giọng tiếng Việt thì im lặng và hiện lời nhắc.
    ===================================================================== */
 const Speech = (() => {
-  const synth = ('speechSynthesis' in window) ? window.speechSynthesis : null;
-  let voice = null, maleVoice = false, hasVi = false, voicesKnown = false, files = null, token = 0, unlocked = false, heard = false, coGhiAmRieng = false;
+  // Bộ mẫu nạp kiểu defer: chỉ dùng TTV.giong khi đã có (sau DOMContentLoaded, hoặc khi bé chạm)
+  const giong = () => (window.TTV && window.TTV.giong) || null;
+  const supported = !!window.speechSynthesis; // chỉ kiểm tra máy có chức năng đọc tiếng, không gọi trực tiếp
+  let hasVi = false, voicesKnown = false, files = null, token = 0, unlocked = false, heard = false, coGhiAmRieng = false, dangTim = false;
   const audio = new Audio(); audio.preload = 'auto';
   function pickVoice() {
-    if (!synth) return;
-    const vs = synth.getVoices(); if (!vs.length) return;
-    voicesKnown = true;
-    const vi = vs.filter(v => /^vi([-_]|$)/i.test(v.lang));
-    hasVi = vi.length > 0;
-    const male = vi.find(v => /namminh|nam minh/i.test(v.name)) || vi.find(v => /\ban\b|\bmale\b/i.test(v.name));
-    voice = male || vi.find(v => /natural|neural|enhanced|premium|google/i.test(v.name)) || vi[0] || null;
-    maleVoice = !!male;
-    if (window.__voiceChanged) window.__voiceChanged();
+    const g = giong(); if (!g || !supported || dangTim || hasVi) return; // chưa thấy giọng Việt thì tìm lại (danh sách giọng nạp chậm)
+    dangTim = true;
+    g.coGiongViet().then(co => { dangTim = false; voicesKnown = true; hasVi = !!co; if (window.__voiceChanged) window.__voiceChanged(); }, () => { dangTim = false; });
   }
-  if (synth) {
-    pickVoice(); synth.onvoiceschanged = pickVoice;
-    let tries = 0; const poll = setInterval(() => { if (voicesKnown || ++tries > 24) clearInterval(poll); else pickVoice(); }, 250);
-  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', pickVoice); else pickVoice();
   fetch('audio/manifest.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : null)
     .then(j => {
       // manifest.json do tools/build.mjs tự tạo: files = file ghi âm riêng của bài (audio/), chung = file dùng chung cho mọi bài (chung/audio/)
@@ -132,8 +126,9 @@ const Speech = (() => {
     if (cur.length) out.push(textOf(cur));
     return out;
   }
-  function stop() { token++; try { audio.pause(); } catch (e) {} if (synth && (synth.speaking || synth.pending)) synth.cancel(); }
+  function stop() { token++; try { audio.pause(); } catch (e) {} const g = giong(); if (g) { try { g.dung(); } catch (e) {} } }
   function unlock() { // gọi trong mỗi lần chạm cho tới khi trình duyệt cho phép phát tiếng (iPad)
+    pickVoice();
     if (unlocked || !audio.paused) return;
     try { audio.src = SILENT_WAV; const p = audio.play(); if (p) p.then(() => { unlocked = true; }).catch(() => {}); } catch (e) {}
   }
@@ -148,24 +143,22 @@ const Speech = (() => {
   }
   function speakText(text, my) {
     return new Promise(res => {
-      if (!synth || my !== token || !text) return res();
-      if (!voicesKnown) pickVoice();
+      const g = giong();
+      if (!g || !supported || my !== token || !text) return res();
+      pickVoice();
       if (voicesKnown && !hasVi) { fail(); return res(); } // máy không có giọng tiếng Việt
-      const u = new SpeechSynthesisUtterance(text);
-      u.lang = 'vi-VN'; if (voice) { try { u.voice = voice; } catch (e) {} }
-      u.rate = 0.82; u.pitch = maleVoice ? 1.35 : 1.08;
-      let done = false, started = false; const fin = () => { if (!done) { done = true; res(); } };
-      u.onstart = () => { started = true; if (!heard) { heard = true; if (window.__speechOk) window.__speechOk(); } };
-      u.onend = fin; u.onerror = fin;
-      try { synth.resume(); } catch (e) {}
-      synth.speak(u);
-      setTimeout(() => { if (!started && my === token) fail(); }, 2600);
-      setTimeout(fin, 2600 + text.length * 150);
+      let done = false; const fin = () => { if (!done) { done = true; res(); } };
+      g.doc(text, { toc: 0.82, baoThieu: false }).then(ok => {
+        if (ok && !heard) { heard = true; if (window.__speechOk) window.__speechOk(); }
+        else if (!ok && my === token) fail();
+        fin();
+      }, fin);
+      // máy không báo đọc xong (iPad đang im lặng…): không chờ mãi
+      setTimeout(() => { if (!done && !heard && my === token) fail(); fin(); }, 2600 + text.length * 150);
     });
   }
   async function say(ids) {
     ids = [].concat(ids || []).filter(Boolean);
-    const wasBusy = synth && (synth.speaking || synth.pending);
     stop(); const my = token;
     if (!ids.length) return;
     const names = ids.map(clipFile);
@@ -173,10 +166,9 @@ const Speech = (() => {
       for (const n of names) { if (my !== token) return; await playFile(n, my); }
       return;
     }
-    if (wasBusy) await new Promise(r => setTimeout(r, 60));
     for (const c of chunks(ids)) { if (my !== token) return; await speakText(c, my); }
   }
-  return { say, stop, unlock, textOf, get hasVi() { return hasVi; }, get voicesKnown() { return voicesKnown; }, get hasRecordings() { return coGhiAmRieng; }, get supported() { return !!synth; }, get heard() { return heard; }, get voiceName() { return voice ? voice.name : ''; } };
+  return { say, stop, unlock, textOf, get hasVi() { return hasVi; }, get voicesKnown() { return voicesKnown; }, get hasRecordings() { return coGhiAmRieng; }, get supported() { return supported; }, get heard() { return heard; }, get voiceName() { return ''; } };
 })();
 const SILENT_WAV = (() => {
   const b = new ArrayBuffer(46), v = new DataView(b); const w = (o, s) => { for (let i = 0; i < s.length; i++) v.setUint8(o + i, s.charCodeAt(i)); };
@@ -331,6 +323,15 @@ const UI = {
     const best = Store.get('stars', {});
     if ((best[Runner.id] || 0) < stars) { best[Runner.id] = stars; Store.set('stars', best); }
     const g = GAMES[Runner.id];
+    // Ghi kết quả học lên cổng (bộ mẫu tự bỏ qua khi ngoài cổng hoặc học thử). Không tạo khoá localStorage mới.
+    try {
+      const T = window.TTV, n = Math.max(1, Math.round(total) || 1);
+      if (T && T.ghiKetQua) T.ghiKetQua({
+        bai: LESSON.slug, hoatDong: Runner.id, soTroChoi: GAME_ORDER.length,
+        diem: Math.max(0, Math.min(n, Math.round(n - this.mistakes))), diemToiDa: n, sao: stars,
+        thoiGianGiay: Math.round((Date.now() - (Runner.batDau || Date.now())) / 1000)
+      });
+    } catch (e) { /* không để việc ghi kết quả làm hỏng màn hoàn thành */ }
     $('#finStars').innerHTML = '★'.repeat(stars) + '<span class="off">' + '★'.repeat(3 - stars) + '</span>';
     $('#finStars').setAttribute('aria-label', stars + ' trên 3 sao');
     $('#finText').textContent = text || '';
@@ -347,12 +348,12 @@ const UI = {
   }
 };
 const Runner = {
-  id: null, level: 0, timers: [], seq: 0,
+  id: null, level: 0, timers: [], seq: 0, batDau: 0,
   clear() { this.seq++; this.timers.forEach(clearTimeout); this.timers = []; Speech.stop(); },
   open(id, level = 0) {
     const g = GAMES[id]; if (!g) return;
     this.clear(); this.id = id; this.level = Math.min(Math.max(0, level), Math.max(0, g.levels.length - 1));
-    UI.mistakes = 0;
+    UI.mistakes = 0; this.batDau = Date.now();
     $('#home').hidden = true; $('#game').hidden = false; $('#finish').hidden = true;
     $('#gEyebrow').textContent = 'Trò chơi ' + g.num + ' / ' + GAME_ORDER.length + (g.levels.length > 1 ? ' · Vòng ' + (this.level + 1) + ' / ' + g.levels.length : '');
     $('#gTitle').textContent = g.title;

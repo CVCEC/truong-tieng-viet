@@ -62,6 +62,7 @@ Không cần cài thư viện nào để đóng gói (chỉ cần Node 18+). Th�
 
 - Mở thẳng trò chơi: `#g1`, `#g2`…; mở vòng (đếm từ 1): `#g4-3` là vòng 3 của trò chơi 4.
 - Điểm sao lưu trên máy theo từng bài (`ttvce-bN-stars`).
+- Ghi kết quả học: chơi xong một trò (mỗi lần `UI.finish` trong `chung/dong-co.js`), trang gọi `TTV.ghiKetQua({ bai: "bai-12" | "on-tap-3", hoatDong: "gN", soTroChoi: số trò của bài, diem, diemToiDa, sao, thoiGianGiay })` của bộ mẫu chung; cổng ghi vào tài khoản người học (ngoài cổng hoặc học thử thì bộ mẫu bỏ qua). Không thêm khoá localStorage nào.
 - File ghi âm: bỏ `.mp3` vào `chung/audio/` hoặc `bai-NN/audio/`, đặt đúng tên trong AM-THANH.md. Bước đóng gói tự tạo `manifest.json`. File của bài được ưu tiên hơn file dùng chung cùng tên.
 - Thêm bài mới: chép `bai-02/` thành `bai-NN/`, sửa `bai.json` và `bai.js`. Chỉ thêm vào `chung/` những gì mọi bài đều cần.
 
@@ -72,7 +73,7 @@ Mọi trang (mục lục và từng bài) nạp bộ mẫu chung của trường
 `https://mau.cvcec.org/v1/cvcec-chung.css` và `https://mau.cvcec.org/v1/cvcec-chung.js`. Bộ mẫu chèn thanh các góc học (khi mở riêng, không chèn khi nằm trong khung của vietclass.cvcec.org) và dòng bản quyền. Màu, phông lấy từ biến `--ttv-*`; biến cũ trong `chung/giao-dien.css` (`--ink`, `--card`…) chỉ trỏ sang biến chung. Màu chức năng của trò chơi (nhóm âm, đúng/sai, tranh) vẫn giữ trong trang. Chữ cho bé tập đọc dùng Andika (`--ttv-phong-tap-doc`, quy định trong `chung/tap-doc.css`, ghép sau cùng).
 
 ### Ngoại lệ tạm thời: giọng máy cho lời Trâu Con
-Quy tắc chung của trường (CLAUDE.md, quy tắc 7) không dùng giọng máy của thiết bị. Kho này **tạm thời** giữ giọng máy làm dự phòng vì Trâu Con đọc là phần chính của bài và chưa có tệp ghi âm nào: trang ưu tiên tệp ghi âm trong `audio/manifest.json`, chưa có tệp thì mới dùng giọng tiếng Việt của máy (`chung/dong-co.js`). Không gỡ phần dự phòng này cho đến khi đủ tệp theo AM-THANH.md của mọi bài.
+Quy tắc chung của trường (CLAUDE.md, quy tắc 7) không dùng giọng máy của thiết bị. Kho này **tạm thời** giữ giọng máy làm dự phòng vì Trâu Con đọc là phần chính của bài và chưa có tệp ghi âm nào: trang ưu tiên tệp ghi âm trong `audio/manifest.json`, chưa có tệp thì mới dùng giọng tiếng Việt của máy, đọc qua bộ mẫu chung `TTV.giong.doc` (`chung/dong-co.js` không gọi speechSynthesis trực tiếp, theo quy tắc 7 mới). Không gỡ phần dự phòng này cho đến khi đủ tệp theo AM-THANH.md của mọi bài.
 
 ---
 
