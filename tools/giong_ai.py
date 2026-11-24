@@ -443,7 +443,8 @@ def main():
                     h = len(nhom) // 2; hang[:0] = [nhom[:h], nhom[h:]]
                 continue
             kem = sum(1 for x in kq if x[3] < 0.5)
-            if len(nhom) > 1 and kem > max(2, len(nhom) * 0.3):
+            # chữ cái, vần, đánh vần: Whisper hay nghe sai tiếng rất ngắn, nên không dựa vào đó để đọc lại cả lô (tốn lượt gọi)
+            if len(nhom) > 1 and nhom[0]['cach'] != 'van' and kem > max(2, len(nhom) * 0.3):
                 ghi(f'Lô {len(nhom)} câu có {kem} câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại')
                 h = len(nhom) // 2; hang[:0] = [nhom[:h], nhom[h:]]
                 continue
