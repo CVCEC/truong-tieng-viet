@@ -14,3 +14,4 @@
 0.91  Dấu nặng thì đặt ở dưới chữ a các bạn nhé.  |  Giống nặng thì đặt ở dưới chữ A các bạn nhé!
 1.00  Các bạn đặt ngón tay vào chấm xanh, rồi tô theo nét chấm đỏ nhé!  |  Các bạn đặt ngón tay vào chấm xanh, rồi tô theo nét chấm đỏ nhé.
 1.00  Các bạn bắt đầu từ chấm xanh nhé!  |  Các bạn bắt đầu từ chấm xanh nhé!
+1.00  Các bạn tô sát theo nét chấm đỏ nhé!  |  Các bạn, tô sát theo nét chấm đỏ nhé!
