@@ -1,7 +1,7 @@
 # Giọng đọc AI – trạng thái (Tiếng Việt cơ bản (Bài 1–7))
 
-- Lần chạy gần nhất: 2026-11-24 03:37 UTC
+- Lần chạy gần nhất: 2026-11-24 03:40 UTC
 - Mô hình: gemini-3.1-flash-tts-preview · giọng Kore · miền Bắc
-- Đã có tiếng: **18 / 686** câu (lần này thêm 18, dùng 1 lượt gọi)
+- Đã có tiếng: **30 / 686** câu (lần này thêm 30, dùng 2 lượt gọi)
 - Câu Whisper nghe hơi khác chữ (cần nghe kỹ, xem kiem-tra.tsv): 0
 - Câu bỏ qua theo yêu cầu (bo.txt): 0 · câu lỗi: 0

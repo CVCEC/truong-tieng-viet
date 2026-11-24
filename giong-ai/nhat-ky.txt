@@ -17,3 +17,16 @@ Lô 18 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
 0.80  Lên Sáu. Thơ Tản Đà.  |  Lên sẩu Thơ tản đà
 1.00  Các bạn nghe câu thơ, rồi chạm vào bức tranh đúng nhé!  |  Các bạn nghe câu thơ rồi chạm vào bức tranh đúng nhé!
 1.00  Các bạn xếp các câu thơ theo đúng thứ tự nhé! Chạm vào câu thơ để nghe.  |  Các bạn xếp các câu thơ theo đúng thứ tự nhé, chạm vào câu thơ để nghe.
+Lô 12 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
+1.00  Câu thơ này chưa đúng chỗ. Các bạn thử lại nhé!  |  Câu thơ này chưa đúng chỗ Các bạn thử lại nhé
+0.93  Có hai đoàn tàu đang chờ các bạn. Tàu vàng chở nguyên âm, tàu xanh chở phụ âm. Các bạn đưa từng chữ lên đúng tàu nhé!  |  Có hai đoàn tàu đang chờ các bạn, tàu vàng chờ nguyên âm, tàu xanh chờ phụ âm, các bạn đưa từng chữ lên đúng tàu nhé.
+0.84  là nguyên âm, lên tàu vàng các bạn nhé!  |  Y là nguyên âm, lên tẩu vàng các bạn nhé!
+0.84  là phụ âm, lên tàu xanh các bạn nhé!  |  ca là phụ âm lên tẩu xanh các bạn nhé
+0.93  Tu tu! Đủ hai mươi chín chữ cái rồi. Tàu chạy thôi các bạn ơi!  |  Tu Tu, đủ 29 triệu cái rồi, tàu chạy thôi các bạn ơi!
+1.00  Mỗi chữ in hoa có một người bạn là chữ in thường. Các bạn chạm vào hai chữ là đôi bạn nhé!  |  Mỗi chữ in hoa có một người bạn là chữ in thường Các bạn chạm vào hai chữ là đôi bạn nhé
+1.00  Các bạn lật hai thẻ, tìm hai chữ là đôi bạn nhé!  |  Các bạn lật 2 thẻ, tìm 2 chữ là đôi bạn nhé.
+0.90  Hai chữ này chưa phải đôi bạn. Thử lại nhé!  |  Hai chữ này chua phải đôi bạn. Thử lại nhé!
+1.00  Nguyên âm trốn ở đâu? Các bạn chạm vào các nguyên âm trong tiếng  |  Nguyên âm trốn ở đâu? Các bạn chạm vào các nguyên âm trong tiếng.
+0.97  Phụ âm trốn ở đâu? Các bạn chạm vào các phụ âm trong tiếng  |  Phụ âm trốn ở đâu? Các bạn chạm vào các phụ âm trong tiếng H
+1.00  là phụ âm. Các bạn tìm nguyên âm nhé!  |  là phụ âm, các bạn tìm nguyên âm nhé!
+0.95  là nguyên âm. Các bạn tìm phụ âm nhé!  |  Y là nguyên âm, các bạn tìm phụ âm nhé!
