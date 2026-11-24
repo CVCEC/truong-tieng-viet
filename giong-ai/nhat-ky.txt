@@ -1,0 +1,19 @@
+Lô 18 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
+1.00  Xin chào các bạn! Các bạn có nghe thấy mình nói không?  |  Xin chào các bạn! Các bạn có nghe thấy mình nói không?
+1.00  Các bạn chọn một trò chơi để bắt đầu nhé!  |  Các bạn chọn một trò chơi để bắt đầu nhé!
+1.00  Đúng rồi!  |  Đúng rồi!
+1.00  Giỏi quá!  |  Giỏi quá!
+1.00  Các bạn làm tốt lắm!  |  Các bạn làm tốt lắm!
+1.00  Tuyệt vời!  |  Tuyệt vời!
+1.00  Chính xác!  |  Chính xác
+1.00  Thử lại nhé!  |  Thử lại nhé!
+1.00  Chưa đúng đâu, các bạn thử lại nhé!  |  Chưa đúng đâu, các bạn thử lại nhé!
+1.00  Không sao đâu, mình cùng thử lại nhé!  |  Không sao đâu, mình cùng thử lại nhé!
+1.00  Hoan hô! Các bạn giỏi quá!  |  Hoan hô! Các bạn giỏi quá!
+1.00  Các bạn nghe nhé:  |  Các bạn nghe nhé
+1.00  Các bạn tìm được hết rồi!  |  Các bạn tìm được hết rồi!
+0.96  Chào các bạn! Mình là Trâu Con. Hôm nay mình cùng các bạn học Bài 1: bảng chữ cái, nguyên âm và phụ âm nhé!  |  Chào các bạn! Mình là Châu Con. Hôm nay mình cùng các bạn học bài một, bảng chữ cái, nguyên âm và phụ âm nhé!
+0.96  Các bạn ơi, mình cùng đọc bài thơ Lên Sáu của nhà thơ Tản Đà nhé. Các bạn chạm vào từng câu thơ để nghe mình đọc.  |  Các bạn ơi, mình cùng đọc bài thơ Lên xấu của nhà thơ Tản Đà nhé! Các bạn chạm vào từng câu thơ để nghe mình đọc
+0.80  Lên Sáu. Thơ Tản Đà.  |  Lên sẩu Thơ tản đà
+1.00  Các bạn nghe câu thơ, rồi chạm vào bức tranh đúng nhé!  |  Các bạn nghe câu thơ rồi chạm vào bức tranh đúng nhé!
+1.00  Các bạn xếp các câu thơ theo đúng thứ tự nhé! Chạm vào câu thơ để nghe.  |  Các bạn xếp các câu thơ theo đúng thứ tự nhé, chạm vào câu thơ để nghe.
