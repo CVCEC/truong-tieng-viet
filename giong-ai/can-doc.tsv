@@ -1,0 +1,687 @@
+tep	chu	nhom	cach
+chung/audio/loi-check.mp3	Xin chào các bạn! Các bạn có nghe thấy mình nói không?	bai-01	
+chung/audio/loi-menu.mp3	Các bạn chọn một trò chơi để bắt đầu nhé!	bai-01	
+chung/audio/loi-ok1.mp3	Đúng rồi!	bai-01	
+chung/audio/loi-ok2.mp3	Giỏi quá!	bai-01	
+chung/audio/loi-ok3.mp3	Các bạn làm tốt lắm!	bai-01	
+chung/audio/loi-ok4.mp3	Tuyệt vời!	bai-01	
+chung/audio/loi-ok5.mp3	Chính xác!	bai-01	
+chung/audio/loi-retry1.mp3	Thử lại nhé!	bai-01	
+chung/audio/loi-retry2.mp3	Chưa đúng đâu, các bạn thử lại nhé!	bai-01	
+chung/audio/loi-retry3.mp3	Không sao đâu, mình cùng thử lại nhé!	bai-01	
+chung/audio/loi-finish.mp3	Hoan hô! Các bạn giỏi quá!	bai-01	
+chung/audio/loi-listen.mp3	Các bạn nghe nhé:	bai-01	
+chung/audio/loi-all.mp3	Các bạn tìm được hết rồi!	bai-01	
+bai-01/audio/loi-welcome.mp3	Chào các bạn! Mình là Trâu Con. Hôm nay mình cùng các bạn học Bài 1: bảng chữ cái, nguyên âm và phụ âm nhé!	bai-01	
+bai-01/audio/loi-g1-intro.mp3	Các bạn ơi, mình cùng đọc bài thơ Lên Sáu của nhà thơ Tản Đà nhé. Các bạn chạm vào từng câu thơ để nghe mình đọc.	bai-01	
+chung/audio/loi-g1-title.mp3	Lên Sáu. Thơ Tản Đà.	bai-01	
+bai-01/audio/loi-g1-pick.mp3	Các bạn nghe câu thơ, rồi chạm vào bức tranh đúng nhé!	bai-01	
+bai-01/audio/loi-g1-order.mp3	Các bạn xếp các câu thơ theo đúng thứ tự nhé! Chạm vào câu thơ để nghe.	bai-01	
+bai-01/audio/loi-g1-place.mp3	Câu thơ này chưa đúng chỗ. Các bạn thử lại nhé!	bai-01	
+bai-01/audio/loi-g2-intro.mp3	Có hai đoàn tàu đang chờ các bạn. Tàu vàng chở nguyên âm, tàu xanh chở phụ âm. Các bạn đưa từng chữ lên đúng tàu nhé!	bai-01	
+bai-01/audio/loi-g2-to-v.mp3	là nguyên âm, lên tàu vàng các bạn nhé!	bai-01	
+bai-01/audio/loi-g2-to-c.mp3	là phụ âm, lên tàu xanh các bạn nhé!	bai-01	
+bai-01/audio/loi-g2-go.mp3	Tu tu! Đủ hai mươi chín chữ cái rồi. Tàu chạy thôi các bạn ơi!	bai-01	
+bai-01/audio/loi-g3-intro.mp3	Mỗi chữ in hoa có một người bạn là chữ in thường. Các bạn chạm vào hai chữ là đôi bạn nhé!	bai-01	
+bai-01/audio/loi-g3-flip.mp3	Các bạn lật hai thẻ, tìm hai chữ là đôi bạn nhé!	bai-01	
+bai-01/audio/loi-g3-no.mp3	Hai chữ này chưa phải đôi bạn. Thử lại nhé!	bai-01	
+bai-01/audio/loi-g4-v.mp3	Nguyên âm trốn ở đâu? Các bạn chạm vào các nguyên âm trong tiếng	bai-01	
+bai-01/audio/loi-g4-c.mp3	Phụ âm trốn ở đâu? Các bạn chạm vào các phụ âm trong tiếng	bai-01	
+bai-01/audio/loi-g4-not-v.mp3	là phụ âm. Các bạn tìm nguyên âm nhé!	bai-01	
+bai-01/audio/loi-g4-not-c.mp3	là nguyên âm. Các bạn tìm phụ âm nhé!	bai-01	
+bai-01/audio/loi-g4-all.mp3	Các bạn tìm được hết rồi!	bai-01	
+bai-01/audio/loi-g5-intro.mp3	Mỗi tiếng giống như một ngôi nhà có ba phòng: âm đầu, âm chính và âm cuối. Các bạn đưa từng chữ vào đúng phòng nhé!	bai-01	
+bai-01/audio/loi-g5-word.mp3	Mình cùng xây nhà cho tiếng	bai-01	
+bai-01/audio/loi-g5-tone.mp3	Tiếng này mang thanh gì? Các bạn đặt dấu thanh lên mái nhà nhé!	bai-01	
+bai-01/audio/loi-g5-main-v.mp3	Phòng âm chính dành cho nguyên âm các bạn ạ.	bai-01	
+bai-01/audio/loi-g5-no-onset.mp3	Tiếng này không có âm đầu đâu các bạn ạ.	bai-01	
+bai-01/audio/loi-g5-no-coda.mp3	Tiếng này không có âm cuối đâu các bạn ạ.	bai-01	
+bai-01/audio/loi-g5-other.mp3	Chữ này ở phòng khác cơ. Thử lại nhé!	bai-01	
+bai-01/audio/loi-g5-remember.mp3	Các bạn nhớ nhé: mỗi tiếng luôn phải có âm chính.	bai-01	
+bai-01/audio/loi-g6-intro.mp3	Các bạn nghe mình đọc, rồi đặt dấu thanh lên chữ a nhé!	bai-01	
+bai-01/audio/loi-g6-listen.mp3	Các bạn nghe nhé:	bai-01	
+bai-01/audio/loi-g6-made.mp3	Đây là tiếng	bai-01	
+bai-01/audio/loi-g6-need.mp3	Mình cần tiếng	bai-01	
+bai-01/audio/loi-g6-nang.mp3	Dấu nặng thì đặt ở dưới chữ a các bạn nhé.	bai-01	
+bai-01/audio/loi-g7-intro.mp3	Các bạn đặt ngón tay vào chấm xanh, rồi tô theo nét chấm đỏ nhé!	bai-01	
+bai-01/audio/loi-g7-start.mp3	Các bạn bắt đầu từ chấm xanh nhé!	bai-01	
+bai-01/audio/loi-g7-off.mp3	Các bạn tô sát theo nét chấm đỏ nhé!	bai-01	
+chung/audio/chu-a.mp3	a	bai-01	van
+chung/audio/chu-aw.mp3	á	bai-01	van
+chung/audio/chu-aa.mp3	ớ	bai-01	van
+chung/audio/chu-b.mp3	bờ	bai-01	van
+chung/audio/chu-c.mp3	cờ	bai-01	van
+chung/audio/chu-d.mp3	dờ	bai-01	van
+chung/audio/chu-dd.mp3	đờ	bai-01	van
+chung/audio/chu-e.mp3	e	bai-01	van
+chung/audio/chu-ee.mp3	ê	bai-01	van
+chung/audio/chu-g.mp3	gờ	bai-01	van
+chung/audio/chu-h.mp3	hờ	bai-01	van
+chung/audio/chu-i.mp3	i	bai-01	van
+chung/audio/chu-k.mp3	ca	bai-01	van
+chung/audio/chu-l.mp3	lờ	bai-01	van
+chung/audio/chu-m.mp3	mờ	bai-01	van
+chung/audio/chu-n.mp3	nờ	bai-01	van
+chung/audio/chu-o.mp3	o	bai-01	van
+chung/audio/chu-oo.mp3	ô	bai-01	van
+chung/audio/chu-ow.mp3	ơ	bai-01	van
+chung/audio/chu-p.mp3	pờ	bai-01	van
+chung/audio/chu-q.mp3	quy	bai-01	van
+chung/audio/chu-r.mp3	rờ	bai-01	van
+chung/audio/chu-s.mp3	sờ	bai-01	van
+chung/audio/chu-t.mp3	tờ	bai-01	van
+chung/audio/chu-u.mp3	u	bai-01	van
+chung/audio/chu-uw.mp3	ư	bai-01	van
+chung/audio/chu-v.mp3	vờ	bai-01	van
+chung/audio/chu-x.mp3	xờ	bai-01	van
+chung/audio/chu-y.mp3	i dài	bai-01	van
+chung/audio/ghep-ch.mp3	chờ	bai-01	van
+chung/audio/ghep-gh.mp3	gờ kép	bai-01	van
+chung/audio/ghep-gi.mp3	di	bai-01	van
+chung/audio/ghep-kh.mp3	khờ	bai-01	van
+chung/audio/ghep-ng.mp3	ngờ	bai-01	van
+chung/audio/ghep-ngh.mp3	ngờ kép	bai-01	van
+chung/audio/ghep-nh.mp3	nhờ	bai-01	van
+chung/audio/ghep-ph.mp3	phờ	bai-01	van
+chung/audio/ghep-qu.mp3	quờ	bai-01	van
+chung/audio/ghep-th.mp3	thờ	bai-01	van
+chung/audio/ghep-tr.mp3	trờ	bai-01	van
+chung/audio/tu-ddu-ddur.mp3	đu đủ	bai-01	
+bai-01/audio/tu-traau.mp3	trâu	bai-01	
+chung/audio/tu-nhaf.mp3	nhà	bai-01	
+bai-01/audio/tu-cawpj.mp3	cặp	bai-01	
+chung/audio/tu-cas.mp3	cá	bai-01	
+chung/audio/tu-gaf.mp3	gà	bai-01	
+chung/audio/tu-las.mp3	lá	bai-01	
+bai-01/audio/tu-xe.mp3	xe	bai-01	
+bai-01/audio/tu-vowr.mp3	vở	bai-01	
+chung/audio/tu-mux.mp3	mũ	bai-01	
+bai-01/audio/tu-nons.mp3	nón	bai-01	
+chung/audio/tu-oo.mp3	ô	bai-01	
+bai-01/audio/tu-sen.mp3	sen	bai-01	
+bai-01/audio/tu-too.mp3	tô	bai-01	
+bai-01/audio/tu-toom.mp3	tôm	bai-01	
+bai-01/audio/tu-oocs.mp3	ốc	bai-01	
+bai-01/audio/tu-mawts.mp3	mắt	bai-01	
+bai-01/audio/tu-coocs.mp3	cốc	bai-01	
+bai-01/audio/tu-aams.mp3	ấm	bai-01	
+bai-01/audio/tu-em.mp3	em	bai-01	
+chung/audio/tu-la.mp3	la	bai-01	
+chung/audio/tu-laf.mp3	là	bai-01	
+chung/audio/tu-laj.mp3	lạ	bai-01	
+chung/audio/tu-lar.mp3	lả	bai-01	
+chung/audio/tu-lax.mp3	lã	bai-01	
+chung/audio/tu-ma.mp3	ma	bai-01	
+chung/audio/tu-maf.mp3	mà	bai-01	
+chung/audio/tu-mas.mp3	má	bai-01	
+chung/audio/tu-maj.mp3	mạ	bai-01	
+chung/audio/tu-mar.mp3	mả	bai-01	
+chung/audio/tu-max.mp3	mã	bai-01	
+chung/audio/tho-01.mp3	Sách quốc ngữ,	bai-01	
+chung/audio/tho-02.mp3	Chữ nước ta.	bai-01	
+chung/audio/tho-03.mp3	Con cái nhà,	bai-01	
+chung/audio/tho-04.mp3	Đều phải học.	bai-01	
+chung/audio/tho-05.mp3	Miệng thì đọc,	bai-01	
+chung/audio/tho-06.mp3	Tai thì nghe.	bai-01	
+chung/audio/tho-07.mp3	Chớ ngủ nhè,	bai-01	
+chung/audio/tho-08.mp3	Chớ láu táu.	bai-01	
+chung/audio/tho-09.mp3	Con lên sáu,	bai-01	
+chung/audio/tho-10.mp3	Đang vỡ lòng,	bai-01	
+chung/audio/tho-11.mp3	Học cho thông,	bai-01	
+chung/audio/tho-12.mp3	Thầy khỏi mắng.	bai-01	
+chung/audio/thanh-ngang.mp3	thanh ngang	bai-01	van
+chung/audio/thanh-sac.mp3	thanh sắc	bai-01	van
+chung/audio/thanh-huyen.mp3	thanh huyền	bai-01	van
+chung/audio/thanh-hoi.mp3	thanh hỏi	bai-01	van
+chung/audio/thanh-nga.mp3	thanh ngã	bai-01	van
+chung/audio/thanh-nang.mp3	thanh nặng	bai-01	van
+bai-01/audio/net-ngang.mp3	Nét ngang	bai-01	
+bai-01/audio/net-so-thang.mp3	Nét sổ thẳng	bai-01	
+bai-01/audio/net-xien-trai.mp3	Nét xiên trái	bai-01	
+bai-01/audio/net-xien-phai.mp3	Nét xiên phải	bai-01	
+bai-01/audio/net-moc-xuoi.mp3	Nét móc xuôi	bai-01	
+bai-01/audio/net-moc-nguoc.mp3	Nét móc ngược	bai-01	
+bai-01/audio/net-moc-hai-dau.mp3	Nét móc hai đầu	bai-01	
+bai-01/audio/net-cong-ho-phai.mp3	Nét cong hở phải	bai-01	
+bai-01/audio/net-cong-ho-trai.mp3	Nét cong hở trái	bai-01	
+bai-01/audio/net-cong-kin.mp3	Nét cong kín	bai-01	
+bai-01/audio/net-khuyet-tren.mp3	Nét khuyết trên	bai-01	
+bai-01/audio/net-khuyet-duoi.mp3	Nét khuyết dưới	bai-01	
+bai-02/audio/loi-welcome.mp3	Chào các bạn! Mình là Trâu Con. Hôm nay mình cùng các bạn học Bài 2: phụ âm ghép nhé!	bai-02	
+bai-02/audio/loi-nam-bap.mp3	Miền Nam gọi là bắp.	bai-02	
+bai-02/audio/loi-nam-trai.mp3	Miền Nam gọi là trái.	bai-02	
+bai-02/audio/loi-g1-intro.mp3	Các bạn ơi, mình cùng ôn bài thơ Lên Sáu nhé! Mình đọc một câu, các bạn đọc câu tiếp theo. Đọc xong, các bạn bấm nút Đọc xong nhé.	bai-02	
+bai-02/audio/loi-g1-you.mp3	Đến lượt các bạn đọc!	bai-02	
+bai-02/audio/loi-g1-good.mp3	Bạn nào làm đúng lời thơ? Các bạn nghe câu thơ, rồi chạm vào bức tranh đúng nhé!	bai-02	
+bai-02/audio/loi-g2-intro.mp3	Các bạn nghe mình đọc, rồi chạm vào nguyên âm đúng nhé!	bai-02	
+bai-02/audio/loi-g3-cards.mp3	Phụ âm ghép được ghép từ hai hoặc ba chữ cái. Các bạn chạm vào từng thẻ để nghe mình đọc nhé!	bai-02	
+bai-02/audio/loi-g3-group.mp3	Các bạn nghe hết nhóm này rồi. Mình sang nhóm tiếp theo nhé!	bai-02	
+bai-02/audio/loi-g3-build.mp3	Các bạn kéo chữ cái vào ô trống, theo thứ tự từ trái sang phải nhé!	bai-02	
+bai-02/audio/loi-g3-make.mp3	Các bạn ghép phụ âm	bai-02	
+bai-02/audio/loi-g3-in.mp3	trong tiếng	bai-02	
+bai-02/audio/loi-g3-place.mp3	Chữ này đứng ở ô khác cơ. Thử lại nhé!	bai-02	
+bai-02/audio/loi-g3-notin.mp3	Phụ âm ghép này không có chữ	bai-02	
+bai-02/audio/loi-g3-ngh.mp3	Ngờ kép có ba chữ cái: nờ, gờ và hờ.	bai-02	
+bai-02/audio/loi-g4-listen.mp3	Các bạn nghe tiếng, rồi chạm vào phụ âm ghép đứng đầu tiếng nhé!	bai-02	
+bai-02/audio/loi-house-intro.mp3	Phụ âm ghép có hai, ba chữ cái, nhưng chỉ ở chung một phòng: phòng âm đầu. Các bạn đưa từng chữ vào đúng phòng nhé!	bai-02	
+bai-02/audio/loi-house-word.mp3	Mình cùng xây nhà cho tiếng	bai-02	
+bai-02/audio/loi-house-tone.mp3	Tiếng này mang thanh gì? Các bạn đặt dấu thanh lên mái nhà nhé!	bai-02	
+bai-02/audio/loi-house-main-v.mp3	Phòng âm chính dành cho nguyên âm các bạn ạ.	bai-02	
+bai-02/audio/loi-house-onset.mp3	Chữ này thuộc phụ âm ghép, ở phòng âm đầu các bạn ạ.	bai-02	
+bai-02/audio/loi-house-no-coda.mp3	Tiếng này không có âm cuối đâu các bạn ạ.	bai-02	
+bai-02/audio/loi-house-other.mp3	Chữ này ở phòng khác cơ. Thử lại nhé!	bai-02	
+bai-02/audio/loi-house-ngang.mp3	Thanh ngang thì không có dấu các bạn nhé.	bai-02	
+bai-02/audio/loi-dk-intro.mp3	Gờ đơn hay gờ kép? Ngờ đơn hay ngờ kép? Các bạn nhìn chữ đứng sau nhé!	bai-02	
+bai-02/audio/loi-dk-rule.mp3	Trước e, ê, i, mình viết gờ kép, ngờ kép. Trước các chữ khác, mình viết gờ đơn, ngờ đơn.	bai-02	
+bai-02/audio/loi-g-don.mp3	gờ đơn	bai-02	
+bai-02/audio/loi-ng-don.mp3	ngờ đơn	bai-02	
+bai-02/audio/loi-nghe-trau.mp3	Nghé là con trâu nhỏ, giống mình đấy!	bai-02	
+bai-02/audio/loi-g5-match.mp3	Các bạn nối phụ âm ghép với tranh đúng nhé!	bai-02	
+bai-02/audio/loi-g5-read.mp3	Các bạn tự đọc chữ, rồi chạm vào tranh đúng nhé!	bai-02	
+bai-02/audio/loi-g5-phrase.mp3	Các bạn đọc cụm từ, rồi chạm vào tranh đúng nhé!	bai-02	
+bai-02/audio/loi-g6-say.mp3	Đây là gì? Các bạn nói to, rồi bấm nút để nghe mình nói nhé!	bai-02	
+bai-02/audio/loi-g6-again.mp3	Các bạn nói theo mình nhé!	bai-02	
+bai-02/audio/loi-g6-paint.mp3	Các bạn nghe mình nói, rồi tô đúng màu cho bức tranh nhé!	bai-02	
+bai-02/audio/loi-g7-intro.mp3	Phụ âm ghép đang trốn trong bài thơ! Các bạn chạm vào các tiếng có phụ âm ghép đứng đầu nhé!	bai-02	
+bai-02/audio/loi-g7-end.mp3	Chữ này đứng ở cuối tiếng. Mình tìm phụ âm ghép đứng đầu tiếng nhé!	bai-02	
+bai-02/audio/loi-g7-none.mp3	Tiếng này không có phụ âm ghép đứng đầu. Thử lại nhé!	bai-02	
+bai-02/audio/tu-chos.mp3	chó	bai-02	
+bai-02/audio/tu-ghees.mp3	ghế	bai-02	
+bai-02/audio/tu-gios.mp3	gió	bai-02	
+bai-02/audio/tu-gior.mp3	giỏ	bai-02	
+bai-02/audio/tu-khees.mp3	khế	bai-02	
+bai-02/audio/tu-ngoo.mp3	ngô	bai-02	
+bai-02/audio/tu-ngheej.mp3	nghệ	bai-02	
+bai-02/audio/tu-phowr.mp3	phở	bai-02	
+bai-02/audio/tu-quar.mp3	quả	bai-02	
+bai-02/audio/tu-thor.mp3	thỏ	bai-02	
+bai-02/audio/tu-troongs.mp3	trống	bai-02	
+bai-02/audio/tu-tre.mp3	tre	bai-02	
+bai-02/audio/tu-goox.mp3	gỗ	bai-02	
+bai-02/audio/tu-ghej.mp3	ghẹ	bai-02	
+bai-02/audio/tu-ngur.mp3	ngủ	bai-02	
+bai-02/audio/tu-nghes.mp3	nghé	bai-02	
+bai-02/audio/tu-chuwx.mp3	chữ	bai-02	
+bai-02/audio/tu-chos-nhor.mp3	chó nhỏ	bai-02	
+bai-02/audio/tu-ghees-goox.mp3	ghế gỗ	bai-02	
+bai-02/audio/tu-gior-quar.mp3	giỏ quả	bai-02	
+bai-02/audio/tu-nhaf-baf.mp3	nhà bà	bai-02	
+bai-02/audio/tu-phowr-bof.mp3	phở bò	bai-02	
+bai-02/audio/tu-troongs-ddor.mp3	trống đỏ	bai-02	
+bai-02/audio/tu-thor-bes.mp3	thỏ bé	bai-02	
+bai-02/audio/tu-ngoo-to.mp3	ngô to	bai-02	
+bai-02/audio/tu-quar-khees.mp3	quả khế	bai-02	
+bai-02/audio/tu-sachs.mp3	sách	bai-02	
+bai-02/audio/tu-quoocs.mp3	quốc	bai-02	
+bai-02/audio/tu-nguwx.mp3	ngữ	bai-02	
+bai-02/audio/tu-nuwowcs.mp3	nước	bai-02	
+bai-02/audio/tu-ta.mp3	ta	bai-02	
+bai-02/audio/tu-con.mp3	con	bai-02	
+bai-02/audio/tu-cais.mp3	cái	bai-02	
+bai-02/audio/tu-ddeeuf.mp3	đều	bai-02	
+bai-02/audio/tu-phair.mp3	phải	bai-02	
+bai-02/audio/tu-hocj.mp3	học	bai-02	
+bai-02/audio/tu-mieengj.mp3	miệng	bai-02	
+bai-02/audio/tu-thif.mp3	thì	bai-02	
+bai-02/audio/tu-ddocj.mp3	đọc	bai-02	
+bai-02/audio/tu-tai.mp3	tai	bai-02	
+bai-02/audio/tu-nghe.mp3	nghe	bai-02	
+bai-02/audio/tu-chows.mp3	chớ	bai-02	
+bai-02/audio/tu-nhef.mp3	nhè	bai-02	
+bai-02/audio/tu-laus.mp3	láu	bai-02	
+bai-02/audio/tu-taus.mp3	táu	bai-02	
+bai-02/audio/tu-leen.mp3	lên	bai-02	
+bai-02/audio/tu-saus.mp3	sáu	bai-02	
+bai-02/audio/tu-ddang.mp3	đang	bai-02	
+bai-02/audio/tu-vowx.mp3	vỡ	bai-02	
+bai-02/audio/tu-longf.mp3	lòng	bai-02	
+bai-02/audio/tu-cho.mp3	cho	bai-02	
+bai-02/audio/tu-thoong.mp3	thông	bai-02	
+bai-02/audio/tu-thaayf.mp3	thầy	bai-02	
+bai-02/audio/tu-khoir.mp3	khỏi	bai-02	
+bai-02/audio/tu-mawngs.mp3	mắng	bai-02	
+bai-02/audio/cau-ddaay-laf-con-chos.mp3	Đây là con chó.	bai-02	
+bai-02/audio/cau-ddaay-laf-cais-ghees.mp3	Đây là cái ghế.	bai-02	
+bai-02/audio/cau-ddaay-laf-cais-gior.mp3	Đây là cái giỏ.	bai-02	
+bai-02/audio/cau-ddaay-laf-quar-khees.mp3	Đây là quả khế.	bai-02	
+bai-02/audio/cau-ddaay-laf-bawps-ngoo.mp3	Đây là bắp ngô.	bai-02	
+bai-02/audio/cau-ddaay-laf-ngooi-nhaf.mp3	Đây là ngôi nhà.	bai-02	
+bai-02/audio/cau-ddaay-laf-bats-phowr.mp3	Đây là bát phở.	bai-02	
+bai-02/audio/cau-ddaay-laf-con-thor.mp3	Đây là con thỏ.	bai-02	
+bai-02/audio/cau-ddaay-laf-cais-troongs.mp3	Đây là cái trống.	bai-02	
+bai-02/audio/cau-ddaay-laf-cur-ngheej.mp3	Đây là củ nghệ.	bai-02	
+bai-02/audio/cau-con-thor-mauf-trawngs.mp3	Con thỏ màu trắng.	bai-02	
+bai-02/audio/cau-cais-troongs-mauf-ddor.mp3	Cái trống màu đỏ.	bai-02	
+bai-02/audio/cau-bawps-ngoo-mauf-vangf.mp3	Bắp ngô màu vàng.	bai-02	
+bai-02/audio/cau-quar-cam-mauf-cam.mp3	Quả cam màu cam.	bai-02	
+bai-02/audio/cau-caay-tre-mauf-xanh.mp3	Cây tre màu xanh.	bai-02	
+bai-02/audio/mau-do.mp3	màu đỏ	bai-02	
+bai-02/audio/mau-vang.mp3	màu vàng	bai-02	
+bai-02/audio/mau-trang.mp3	màu trắng	bai-02	
+bai-02/audio/mau-cam.mp3	màu cam	bai-02	
+bai-02/audio/mau-xanh.mp3	màu xanh	bai-02	
+chung/audio/loi-am-tho-intro.mp3	Mình đọc một câu, các bạn đọc câu tiếp theo nhé!	bai-03	
+chung/audio/loi-am-tho-title.mp3	Lên Sáu. Thơ Tản Đà.	bai-03	
+chung/audio/loi-am-tho-you.mp3	Đến lượt các bạn!	bai-03	
+chung/audio/loi-am-tho-order.mp3	Các bạn xếp câu thơ cho đúng nhé!	bai-03	
+chung/audio/loi-am-on-chu.mp3	Nghe rồi chạm vào chữ đúng nhé!	bai-03	
+chung/audio/loi-am-on-tu.mp3	Nghe rồi chạm vào từ đúng nhé!	bai-03	
+chung/audio/loi-am-moi-intro.mp3	Các bạn kéo chữ vào ô để ghép tiếng nhé!	bai-03	
+chung/audio/loi-am-moi-tone.mp3	Thêm dấu thanh nhé!	bai-03	
+chung/audio/loi-am-bang-intro.mp3	Nghe rồi chạm vào tiếng đúng nhé!	bai-03	
+chung/audio/loi-am-dau-intro.mp3	Nghe rồi đặt dấu thanh nhé!	bai-03	
+chung/audio/loi-am-dau-nang.mp3	Dấu nặng đặt dưới chữ nhé.	bai-03	
+chung/audio/loi-am-tu-intro.mp3	Các bạn đọc từ, rồi chạm vào tranh đúng nhé!	bai-03	
+chung/audio/loi-am-hai-intro.mp3	Các bạn hái quả có âm	bai-03	
+chung/audio/loi-am-noi-intro.mp3	Các bạn nối từ với tranh nhé!	bai-03	
+chung/audio/loi-am-lat-intro.mp3	Các bạn lật thẻ, tìm từ và tranh giống nhau nhé!	bai-03	
+chung/audio/loi-am-doan-intro.mp3	Tranh gì đây? Các bạn mở ô, rồi chọn từ đúng nhé!	bai-03	
+chung/audio/loi-am-cau-intro.mp3	Các bạn đọc câu, rồi chạm vào tranh đúng nhé!	bai-03	
+chung/audio/loi-am-xep-intro.mp3	Các bạn xếp các tiếng thành câu nhé!	bai-03	
+chung/audio/loi-am-luat-intro.mp3	Chọn chữ đúng để điền nhé!	bai-03	
+chung/audio/loi-am-to-intro.mp3	Các bạn tô theo nét chấm đỏ nhé!	bai-03	
+chung/audio/loi-am-to-start.mp3	Bắt đầu từ chấm xanh nhé!	bai-03	
+chung/audio/loi-am-to-off.mp3	Tô sát nét chấm đỏ nhé!	bai-03	
+chung/audio/loi-am-to-next.mp3	Nét tiếp theo nhé!	bai-03	
+bai-03/audio/loi-welcome.mp3	Chào các bạn! Hôm nay mình học âm bờ và âm cờ nhé!	bai-03	
+bai-03/audio/tu-bi.mp3	bi	bai-03	
+bai-03/audio/tu-bi-boo.mp3	bi bô	bai-03	
+chung/audio/tu-boos.mp3	bố	bai-03	
+bai-03/audio/tu-boos-bees-bes.mp3	bố bế bé	bai-03	
+chung/audio/tu-cas-cowf.mp3	cá cờ	bai-03	
+chung/audio/tu-cowf.mp3	cờ	bai-03	
+chung/audio/tu-ba-ba.mp3	ba ba	bai-03	
+chung/audio/tu-bees-bes.mp3	bế bé	bai-03	
+chung/audio/tu-baf-ba.mp3	bà ba	bai-03	
+chung/audio/tu-bos-cor.mp3	bó cỏ	bai-03	
+chung/audio/tu-beer-cas.mp3	bể cá	bai-03	
+chung/audio/tu-ba.mp3	ba	bai-03	
+bai-03/audio/tu-bas.mp3	bá	bai-03	
+chung/audio/tu-baf.mp3	bà	bai-03	
+bai-03/audio/tu-bar.mp3	bả	bai-03	
+bai-03/audio/tu-bax.mp3	bã	bai-03	
+bai-03/audio/tu-baj.mp3	bạ	bai-03	
+bai-03/audio/tu-bee.mp3	bê	bai-03	
+chung/audio/tu-bees.mp3	bế	bai-03	
+bai-03/audio/tu-beef.mp3	bề	bai-03	
+chung/audio/tu-beer.mp3	bể	bai-03	
+bai-03/audio/tu-beex.mp3	bễ	bai-03	
+bai-03/audio/tu-beej.mp3	bệ	bai-03	
+bai-03/audio/tu-bis.mp3	bí	bai-03	
+bai-03/audio/tu-bif.mp3	bì	bai-03	
+bai-03/audio/tu-bir.mp3	bỉ	bai-03	
+bai-03/audio/tu-bix.mp3	bĩ	bai-03	
+chung/audio/tu-bij.mp3	bị	bai-03	
+bai-03/audio/tu-boo.mp3	bô	bai-03	
+bai-03/audio/tu-boof.mp3	bồ	bai-03	
+bai-03/audio/tu-boor.mp3	bổ	bai-03	
+bai-03/audio/tu-boox.mp3	bỗ	bai-03	
+chung/audio/tu-booj.mp3	bộ	bai-03	
+bai-03/audio/tu-bu.mp3	bu	bai-03	
+bai-03/audio/tu-bus.mp3	bú	bai-03	
+bai-03/audio/tu-buf.mp3	bù	bai-03	
+bai-03/audio/tu-bur.mp3	bủ	bai-03	
+bai-03/audio/tu-bux.mp3	bũ	bai-03	
+bai-03/audio/tu-buj.mp3	bụ	bai-03	
+chung/audio/tu-ca.mp3	ca	bai-03	
+chung/audio/tu-caf.mp3	cà	bai-03	
+chung/audio/tu-car.mp3	cả	bai-03	
+bai-03/audio/tu-cax.mp3	cã	bai-03	
+bai-03/audio/tu-caj.mp3	cạ	bai-03	
+bai-03/audio/tu-co.mp3	co	bai-03	
+chung/audio/tu-cos.mp3	có	bai-03	
+bai-03/audio/tu-cof.mp3	cò	bai-03	
+chung/audio/tu-cor.mp3	cỏ	bai-03	
+bai-03/audio/tu-cox.mp3	cõ	bai-03	
+chung/audio/tu-coj.mp3	cọ	bai-03	
+bai-03/audio/tu-cow.mp3	cơ	bai-03	
+bai-03/audio/tu-cows.mp3	cớ	bai-03	
+bai-03/audio/tu-cowr.mp3	cở	bai-03	
+bai-03/audio/tu-cowx.mp3	cỡ	bai-03	
+bai-03/audio/tu-cowj.mp3	cợ	bai-03	
+chung/audio/tu-coo.mp3	cô	bai-03	
+bai-03/audio/tu-coos.mp3	cố	bai-03	
+bai-03/audio/tu-coof.mp3	cồ	bai-03	
+bai-03/audio/tu-coor.mp3	cổ	bai-03	
+bai-03/audio/tu-coox.mp3	cỗ	bai-03	
+bai-03/audio/tu-cooj.mp3	cộ	bai-03	
+bai-03/audio/tu-cu.mp3	cu	bai-03	
+bai-03/audio/tu-cus.mp3	cú	bai-03	
+bai-03/audio/tu-cuf.mp3	cù	bai-03	
+bai-03/audio/tu-cur.mp3	củ	bai-03	
+chung/audio/tu-cux.mp3	cũ	bai-03	
+bai-03/audio/tu-cuj.mp3	cụ	bai-03	
+chung/audio/tu-bes.mp3	bé	bai-03	
+bai-03/audio/tu-bof.mp3	bò	bai-03	
+chung/audio/tu-bos.mp3	bó	bai-03	
+chung/audio/tho-2-1.mp3	Trong trời đất,	bai-03	
+chung/audio/tho-2-2.mp3	Nhất là người.	bai-03	
+chung/audio/tho-2-3.mp3	Ở trên đời,	bai-03	
+chung/audio/tho-2-4.mp3	Hơn giống vật.	bai-03	
+chung/audio/tho-2-5.mp3	Con bé thật,	bai-03	
+chung/audio/tho-2-6.mp3	Chưa biết gì.	bai-03	
+chung/audio/tho-2-7.mp3	Phải dạy bảo,	bai-03	
+chung/audio/tho-2-8.mp3	Cho biết đạo,	bai-03	
+chung/audio/tho-2-9.mp3	Mới nên thân.	bai-03	
+chung/audio/tho-2-10.mp3	Sau lớn dần,	bai-03	
+chung/audio/tho-2-11.mp3	Con sẽ khá.	bai-03	
+bai-03/audio/cau-baf-ba-bees-bes-bi.mp3	Bà Ba bế bé Bi.	bai-03	
+bai-03/audio/cau-bof-bee-cos-ba-bos-cor.mp3	Bò bê có ba bó cỏ.	bai-03	
+bai-03/audio/cau-bes-cos-cowf-cos-car-bi.mp3	Bé có cờ, có cả bi.	bai-03	
+bai-04/audio/loi-welcome.mp3	Chào các bạn! Hôm nay mình học âm dờ và âm đờ nhé!	bai-04	
+bai-04/audio/tu-da.mp3	da	bai-04	
+bai-04/audio/tu-da-der.mp3	da dẻ	bai-04	
+chung/audio/tu-dif.mp3	dì	bai-04	
+bai-04/audio/tu-dif-ba.mp3	dì Ba	bai-04	
+bai-04/audio/tu-ddur.mp3	đủ	bai-04	
+chung/audio/tu-ddor.mp3	đỏ	bai-04	
+bai-04/audio/tu-ddo-ddor.mp3	đo đỏ	bai-04	
+chung/audio/tu-dee.mp3	dê	bai-04	
+chung/audio/tu-doox-bes.mp3	dỗ bé	bai-04	
+chung/audio/tu-e-def.mp3	e dè	bai-04	
+chung/audio/tu-dda-dda.mp3	đa đa	bai-04	
+chung/audio/tu-bowf-ddee.mp3	bờ đê	bai-04	
+chung/audio/tu-ddi-booj.mp3	đi bộ	bai-04	
+bai-04/audio/tu-das.mp3	dá	bai-04	
+bai-04/audio/tu-daf.mp3	dà	bai-04	
+bai-04/audio/tu-dar.mp3	dả	bai-04	
+bai-04/audio/tu-dax.mp3	dã	bai-04	
+bai-04/audio/tu-daj.mp3	dạ	bai-04	
+bai-04/audio/tu-do.mp3	do	bai-04	
+bai-04/audio/tu-dos.mp3	dó	bai-04	
+bai-04/audio/tu-dof.mp3	dò	bai-04	
+bai-04/audio/tu-dor.mp3	dỏ	bai-04	
+bai-04/audio/tu-dox.mp3	dõ	bai-04	
+bai-04/audio/tu-doj.mp3	dọ	bai-04	
+bai-04/audio/tu-de.mp3	de	bai-04	
+bai-04/audio/tu-des.mp3	dé	bai-04	
+chung/audio/tu-def.mp3	dè	bai-04	
+bai-04/audio/tu-der.mp3	dẻ	bai-04	
+bai-04/audio/tu-dex.mp3	dẽ	bai-04	
+bai-04/audio/tu-dej.mp3	dẹ	bai-04	
+bai-04/audio/tu-di.mp3	di	bai-04	
+bai-04/audio/tu-dis.mp3	dí	bai-04	
+bai-04/audio/tu-dir.mp3	dỉ	bai-04	
+bai-04/audio/tu-dix.mp3	dĩ	bai-04	
+bai-04/audio/tu-dij.mp3	dị	bai-04	
+bai-04/audio/tu-du.mp3	du	bai-04	
+bai-04/audio/tu-dus.mp3	dú	bai-04	
+bai-04/audio/tu-duf.mp3	dù	bai-04	
+bai-04/audio/tu-dur.mp3	dủ	bai-04	
+bai-04/audio/tu-dux.mp3	dũ	bai-04	
+bai-04/audio/tu-duj.mp3	dụ	bai-04	
+chung/audio/tu-dda.mp3	đa	bai-04	
+bai-04/audio/tu-ddas.mp3	đá	bai-04	
+chung/audio/tu-ddaf.mp3	đà	bai-04	
+bai-04/audio/tu-ddar.mp3	đả	bai-04	
+chung/audio/tu-ddax.mp3	đã	bai-04	
+bai-04/audio/tu-ddaj.mp3	đạ	bai-04	
+bai-04/audio/tu-ddoo.mp3	đô	bai-04	
+bai-04/audio/tu-ddoos.mp3	đố	bai-04	
+bai-04/audio/tu-ddoof.mp3	đồ	bai-04	
+bai-04/audio/tu-ddoor.mp3	đổ	bai-04	
+chung/audio/tu-ddoox.mp3	đỗ	bai-04	
+bai-04/audio/tu-ddooj.mp3	độ	bai-04	
+chung/audio/tu-ddee.mp3	đê	bai-04	
+bai-04/audio/tu-ddees.mp3	đế	bai-04	
+bai-04/audio/tu-ddeef.mp3	đề	bai-04	
+bai-04/audio/tu-ddeer.mp3	để	bai-04	
+bai-04/audio/tu-ddeex.mp3	đễ	bai-04	
+bai-04/audio/tu-ddeej.mp3	đệ	bai-04	
+chung/audio/tu-ddi.mp3	đi	bai-04	
+bai-04/audio/tu-ddis.mp3	đí	bai-04	
+bai-04/audio/tu-ddif.mp3	đì	bai-04	
+bai-04/audio/tu-ddir.mp3	đỉ	bai-04	
+bai-04/audio/tu-ddix.mp3	đĩ	bai-04	
+bai-04/audio/tu-ddij.mp3	đị	bai-04	
+bai-04/audio/tu-ddu.mp3	đu	bai-04	
+bai-04/audio/tu-ddus.mp3	đú	bai-04	
+bai-04/audio/tu-dduf.mp3	đù	bai-04	
+bai-04/audio/tu-ddux.mp3	đũ	bai-04	
+bai-04/audio/tu-dduj.mp3	đụ	bai-04	
+bai-04/audio/tu-ddof.mp3	đò	bai-04	
+bai-04/audio/tu-dees.mp3	dế	bai-04	
+chung/audio/tu-owr.mp3	ở	bai-04	
+chung/audio/tu-bowf.mp3	bờ	bai-04	
+chung/audio/tu-doox.mp3	dỗ	bai-04	
+bai-04/audio/tu-ddo.mp3	đo	bai-04	
+chung/audio/tu-e.mp3	e	bai-04	
+bai-04/audio/cau-dif-ba-bees-bes-ddi-ddof.mp3	Dì Ba bế bé đi đò.	bai-04	
+bai-04/audio/cau-bes-ddi-ddas-dees-owr-bowf-ddee.mp3	Bé đi đá dế ở bờ đê.	bai-04	
+bai-04/audio/cau-baf-doox-bes-dif-ba-bees-bes.mp3	Bà dỗ bé, dì Ba bế bé.	bai-04	
+bai-05/audio/loi-welcome.mp3	Chào các bạn! Hôm nay mình học âm ca và âm hờ nhé!	bai-05	
+bai-05/audio/loi-am-luat-ck.mp3	Các bạn nhớ nhé: đứng trước e, ê, i thì viết k, còn lại viết c.	bai-05	
+bai-05/audio/tu-kix.mp3	kĩ	bai-05	
+bai-05/audio/tu-cux-kix.mp3	cũ kĩ	bai-05	
+bai-05/audio/tu-keej.mp3	kệ	bai-05	
+chung/audio/tu-hoof.mp3	hồ	bai-05	
+chung/audio/tu-bowf-hoof.mp3	bờ hồ	bai-05	
+bai-05/audio/tu-hoor.mp3	hổ	bai-05	
+bai-05/audio/tu-hoor-duwx.mp3	hổ dữ	bai-05	
+chung/audio/tu-kif-ddaf.mp3	kì đà	bai-05	
+chung/audio/tu-ee-ke.mp3	ê ke	bai-05	
+chung/audio/tu-kif-coj.mp3	kì cọ	bai-05	
+chung/audio/tu-hoof-cas.mp3	hồ cá	bai-05	
+chung/audio/tu-cas-hoos.mp3	cá hố	bai-05	
+bai-05/audio/tu-his-his.mp3	hí hí	bai-05	
+chung/audio/tu-ke.mp3	ke	bai-05	
+bai-05/audio/tu-kes.mp3	ké	bai-05	
+bai-05/audio/tu-kef.mp3	kè	bai-05	
+bai-05/audio/tu-ker.mp3	kẻ	bai-05	
+bai-05/audio/tu-kex.mp3	kẽ	bai-05	
+bai-05/audio/tu-kej.mp3	kẹ	bai-05	
+bai-05/audio/tu-kee.mp3	kê	bai-05	
+bai-05/audio/tu-kees.mp3	kế	bai-05	
+bai-05/audio/tu-keef.mp3	kề	bai-05	
+bai-05/audio/tu-keer.mp3	kể	bai-05	
+bai-05/audio/tu-keex.mp3	kễ	bai-05	
+bai-05/audio/tu-ki.mp3	ki	bai-05	
+bai-05/audio/tu-kis.mp3	kí	bai-05	
+chung/audio/tu-kif.mp3	kì	bai-05	
+bai-05/audio/tu-kir.mp3	kỉ	bai-05	
+bai-05/audio/tu-kij.mp3	kị	bai-05	
+bai-05/audio/tu-ky.mp3	ky	bai-05	
+bai-05/audio/tu-kys.mp3	ký	bai-05	
+bai-05/audio/tu-kyf.mp3	kỳ	bai-05	
+bai-05/audio/tu-kyr.mp3	kỷ	bai-05	
+bai-05/audio/tu-kyx.mp3	kỹ	bai-05	
+bai-05/audio/tu-kyj.mp3	kỵ	bai-05	
+bai-05/audio/tu-ha.mp3	ha	bai-05	
+bai-05/audio/tu-has.mp3	há	bai-05	
+bai-05/audio/tu-haf.mp3	hà	bai-05	
+bai-05/audio/tu-har.mp3	hả	bai-05	
+bai-05/audio/tu-hax.mp3	hã	bai-05	
+bai-05/audio/tu-haj.mp3	hạ	bai-05	
+bai-05/audio/tu-hoo.mp3	hô	bai-05	
+chung/audio/tu-hoos.mp3	hố	bai-05	
+bai-05/audio/tu-hoox.mp3	hỗ	bai-05	
+bai-05/audio/tu-hooj.mp3	hộ	bai-05	
+bai-05/audio/tu-he.mp3	he	bai-05	
+bai-05/audio/tu-hes.mp3	hé	bai-05	
+bai-05/audio/tu-hef.mp3	hè	bai-05	
+bai-05/audio/tu-her.mp3	hẻ	bai-05	
+bai-05/audio/tu-hex.mp3	hẽ	bai-05	
+bai-05/audio/tu-hej.mp3	hẹ	bai-05	
+bai-05/audio/tu-hi.mp3	hi	bai-05	
+bai-05/audio/tu-his.mp3	hí	bai-05	
+bai-05/audio/tu-hif.mp3	hì	bai-05	
+bai-05/audio/tu-hir.mp3	hỉ	bai-05	
+bai-05/audio/tu-hix.mp3	hĩ	bai-05	
+bai-05/audio/tu-hij.mp3	hị	bai-05	
+bai-05/audio/tu-hu.mp3	hu	bai-05	
+bai-05/audio/tu-hus.mp3	hú	bai-05	
+bai-05/audio/tu-huf.mp3	hù	bai-05	
+bai-05/audio/tu-hur.mp3	hủ	bai-05	
+bai-05/audio/tu-hux.mp3	hũ	bai-05	
+bai-05/audio/tu-huj.mp3	hụ	bai-05	
+bai-05/audio/tu-ker-oo.mp3	kẻ ô	bai-05	
+bai-05/audio/tu-ho.mp3	ho	bai-05	
+bai-05/audio/tu-duwx.mp3	dữ	bai-05	
+chung/audio/tu-ee.mp3	ê	bai-05	
+chung/audio/tho-3-1.mp3	Ai đẻ ta?	bai-05	
+chung/audio/tho-3-2.mp3	Cha cùng mẹ.	bai-05	
+chung/audio/tho-3-3.mp3	Bồng lại bế,	bai-05	
+chung/audio/tho-3-4.mp3	Thương và yêu.	bai-05	
+chung/audio/tho-3-5.mp3	Ơn nhường bao,	bai-05	
+chung/audio/tho-3-6.mp3	Con phải ngẫm:	bai-05	
+chung/audio/tho-3-7.mp3	Áo mặc ấm,	bai-05	
+chung/audio/tho-3-8.mp3	Mẹ may cho.	bai-05	
+chung/audio/tho-3-9.mp3	Cơm ăn no,	bai-05	
+chung/audio/tho-3-10.mp3	Cha kiếm hộ.	bai-05	
+chung/audio/tho-3-11.mp3	Cha mẹ đó,	bai-05	
+chung/audio/tho-3-12.mp3	Là hai thân.	bai-05	
+bai-05/audio/cau-coo-ba-cos-keej-ddax-cux-kix.mp3	Cô Ba có kệ đã cũ kĩ.	bai-05	
+bai-05/audio/cau-bes-bij-ho-baf-bees-bes-baf-doox-bes.mp3	Bé bị ho, bà bế bé, bà dỗ bé.	bai-05	
+bai-05/audio/cau-boos-bees-bes-ddi-booj-owr-bowf-hoof.mp3	Bố bế bé đi bộ ở bờ hồ.	bai-05	
+bai-06/audio/loi-welcome.mp3	Chào các bạn! Hôm nay mình học âm lờ và âm mờ nhé!	bai-06	
+bai-06/audio/tu-las-cowf.mp3	lá cờ	bai-06	
+chung/audio/tu-loj.mp3	lọ	bai-06	
+bai-06/audio/tu-mif.mp3	mì	bai-06	
+bai-06/audio/tu-mif-ys.mp3	mì Ý	bai-06	
+bai-06/audio/tu-mej.mp3	mẹ	bai-06	
+bai-06/audio/tu-mej-bees-bes.mp3	mẹ bế bé	bai-06	
+chung/audio/tu-lee.mp3	lê	bai-06	
+chung/audio/tu-li.mp3	li	bai-06	
+chung/audio/tu-le-le.mp3	le le	bai-06	
+chung/audio/tu-me.mp3	me	bai-06	
+chung/audio/tu-mow.mp3	mơ	bai-06	
+bai-06/audio/tu-loo.mp3	lô	bai-06	
+bai-06/audio/tu-loos.mp3	lố	bai-06	
+bai-06/audio/tu-loof.mp3	lồ	bai-06	
+bai-06/audio/tu-loor.mp3	lổ	bai-06	
+bai-06/audio/tu-loox.mp3	lỗ	bai-06	
+bai-06/audio/tu-looj.mp3	lộ	bai-06	
+bai-06/audio/tu-low.mp3	lơ	bai-06	
+bai-06/audio/tu-lows.mp3	lớ	bai-06	
+bai-06/audio/tu-lowf.mp3	lờ	bai-06	
+bai-06/audio/tu-lowr.mp3	lở	bai-06	
+bai-06/audio/tu-lowx.mp3	lỡ	bai-06	
+bai-06/audio/tu-lowj.mp3	lợ	bai-06	
+chung/audio/tu-le.mp3	le	bai-06	
+bai-06/audio/tu-les.mp3	lé	bai-06	
+bai-06/audio/tu-lef.mp3	lè	bai-06	
+bai-06/audio/tu-ler.mp3	lẻ	bai-06	
+bai-06/audio/tu-lex.mp3	lẽ	bai-06	
+bai-06/audio/tu-lej.mp3	lẹ	bai-06	
+bai-06/audio/tu-lu.mp3	lu	bai-06	
+bai-06/audio/tu-lus.mp3	lú	bai-06	
+bai-06/audio/tu-luf.mp3	lù	bai-06	
+bai-06/audio/tu-lur.mp3	lủ	bai-06	
+bai-06/audio/tu-lux.mp3	lũ	bai-06	
+bai-06/audio/tu-luj.mp3	lụ	bai-06	
+bai-06/audio/tu-mee.mp3	mê	bai-06	
+bai-06/audio/tu-mees.mp3	mế	bai-06	
+bai-06/audio/tu-meef.mp3	mề	bai-06	
+bai-06/audio/tu-meer.mp3	mể	bai-06	
+bai-06/audio/tu-meex.mp3	mễ	bai-06	
+bai-06/audio/tu-meej.mp3	mệ	bai-06	
+bai-06/audio/tu-mows.mp3	mớ	bai-06	
+bai-06/audio/tu-mowf.mp3	mờ	bai-06	
+bai-06/audio/tu-mowr.mp3	mở	bai-06	
+bai-06/audio/tu-mowx.mp3	mỡ	bai-06	
+bai-06/audio/tu-mowj.mp3	mợ	bai-06	
+bai-06/audio/tu-mi.mp3	mi	bai-06	
+bai-06/audio/tu-mis.mp3	mí	bai-06	
+bai-06/audio/tu-mir.mp3	mỉ	bai-06	
+bai-06/audio/tu-mix.mp3	mĩ	bai-06	
+bai-06/audio/tu-mij.mp3	mị	bai-06	
+bai-06/audio/tu-mu.mp3	mu	bai-06	
+bai-06/audio/tu-mus.mp3	mú	bai-06	
+bai-06/audio/tu-muf.mp3	mù	bai-06	
+bai-06/audio/tu-mur.mp3	mủ	bai-06	
+bai-06/audio/tu-muj.mp3	mụ	bai-06	
+bai-06/audio/tu-ys.mp3	ý	bai-06	
+bai-06/audio/cau-bes-cos-lee.mp3	Bé có lê.	bai-06	
+bai-06/audio/cau-mej-bees-bes.mp3	Mẹ bế bé.	bai-06	
+bai-06/audio/cau-baf-cos-loj-caf-cos-car-loj-ddoox.mp3	Bà có lọ cà, có cả lọ đỗ.	bai-06	
+bai-06/audio/cau-dif-ba-ca-laf-las-la-la.mp3	Dì Ba ca: là lá la la.	bai-06	
+bai-07/audio/loi-welcome.mp3	Chào các bạn! Hôm nay mình học âm nờ và âm rờ nhé!	bai-07	
+bai-07/audio/tu-na.mp3	na	bai-07	
+bai-07/audio/tu-now.mp3	nơ	bai-07	
+bai-07/audio/tu-now-ddor.mp3	nơ đỏ	bai-07	
+bai-07/audio/tu-reex.mp3	rễ	bai-07	
+bai-07/audio/tu-booj-reex.mp3	bộ rễ	bai-07	
+bai-07/audio/tu-roo.mp3	rô	bai-07	
+bai-07/audio/tu-cas-roo.mp3	cá rô	bai-07	
+bai-07/audio/tu-ca-noo.mp3	ca nô	bai-07	
+bai-07/audio/tu-mux-nir.mp3	mũ nỉ	bai-07	
+bai-07/audio/tu-nuj-caf.mp3	nụ cà	bai-07	
+bai-07/audio/tu-roor-cas.mp3	rổ cá	bai-07	
+bai-07/audio/tu-rof-rir.mp3	rò rỉ	bai-07	
+bai-07/audio/tu-nowr-rooj.mp3	nở rộ	bai-07	
+bai-07/audio/tu-nas.mp3	ná	bai-07	
+bai-07/audio/tu-naf.mp3	nà	bai-07	
+bai-07/audio/tu-nar.mp3	nả	bai-07	
+bai-07/audio/tu-nax.mp3	nã	bai-07	
+bai-07/audio/tu-naj.mp3	nạ	bai-07	
+bai-07/audio/tu-nee.mp3	nê	bai-07	
+bai-07/audio/tu-nees.mp3	nế	bai-07	
+bai-07/audio/tu-neef.mp3	nề	bai-07	
+bai-07/audio/tu-neer.mp3	nể	bai-07	
+bai-07/audio/tu-neex.mp3	nễ	bai-07	
+bai-07/audio/tu-neej.mp3	nệ	bai-07	
+bai-07/audio/tu-nows.mp3	nớ	bai-07	
+bai-07/audio/tu-nowf.mp3	nờ	bai-07	
+bai-07/audio/tu-nowr.mp3	nở	bai-07	
+bai-07/audio/tu-nowx.mp3	nỡ	bai-07	
+bai-07/audio/tu-nowj.mp3	nợ	bai-07	
+bai-07/audio/tu-ni.mp3	ni	bai-07	
+bai-07/audio/tu-nis.mp3	ní	bai-07	
+bai-07/audio/tu-nif.mp3	nì	bai-07	
+bai-07/audio/tu-nir.mp3	nỉ	bai-07	
+bai-07/audio/tu-nix.mp3	nĩ	bai-07	
+bai-07/audio/tu-nij.mp3	nị	bai-07	
+bai-07/audio/tu-nu.mp3	nu	bai-07	
+bai-07/audio/tu-nus.mp3	nú	bai-07	
+bai-07/audio/tu-nuf.mp3	nù	bai-07	
+bai-07/audio/tu-nur.mp3	nủ	bai-07	
+bai-07/audio/tu-nux.mp3	nũ	bai-07	
+bai-07/audio/tu-nuj.mp3	nụ	bai-07	
+bai-07/audio/tu-ra.mp3	ra	bai-07	
+bai-07/audio/tu-ras.mp3	rá	bai-07	
+bai-07/audio/tu-raf.mp3	rà	bai-07	
+bai-07/audio/tu-rar.mp3	rả	bai-07	
+bai-07/audio/tu-rax.mp3	rã	bai-07	
+bai-07/audio/tu-raj.mp3	rạ	bai-07	
+bai-07/audio/tu-ro.mp3	ro	bai-07	
+bai-07/audio/tu-ros.mp3	ró	bai-07	
+bai-07/audio/tu-rof.mp3	rò	bai-07	
+bai-07/audio/tu-ror.mp3	rỏ	bai-07	
+bai-07/audio/tu-rox.mp3	rõ	bai-07	
+bai-07/audio/tu-roj.mp3	rọ	bai-07	
+bai-07/audio/tu-re.mp3	re	bai-07	
+bai-07/audio/tu-res.mp3	ré	bai-07	
+bai-07/audio/tu-ref.mp3	rè	bai-07	
+bai-07/audio/tu-rer.mp3	rẻ	bai-07	
+bai-07/audio/tu-rex.mp3	rẽ	bai-07	
+bai-07/audio/tu-rej.mp3	rẹ	bai-07	
+bai-07/audio/tu-ri.mp3	ri	bai-07	
+bai-07/audio/tu-ris.mp3	rí	bai-07	
+bai-07/audio/tu-rif.mp3	rì	bai-07	
+bai-07/audio/tu-rir.mp3	rỉ	bai-07	
+bai-07/audio/tu-rix.mp3	rĩ	bai-07	
+bai-07/audio/tu-rij.mp3	rị	bai-07	
+bai-07/audio/tu-ruw.mp3	rư	bai-07	
+bai-07/audio/tu-ruws.mp3	rứ	bai-07	
+bai-07/audio/tu-ruwf.mp3	rừ	bai-07	
+bai-07/audio/tu-ruwr.mp3	rử	bai-07	
+bai-07/audio/tu-ruwx.mp3	rữ	bai-07	
+bai-07/audio/tu-ruwj.mp3	rự	bai-07	
+bai-07/audio/tu-roor.mp3	rổ	bai-07	
+bai-07/audio/tu-noo.mp3	nô	bai-07	
+bai-07/audio/tu-rooj.mp3	rộ	bai-07	
+bai-07/audio/tho-4-1.mp3	Hai thân là,	bai-07	
+bai-07/audio/tho-4-2.mp3	Là thân nhất,	bai-07	
+bai-07/audio/tho-4-3.mp3	Trong trời đất,	bai-07	
+bai-07/audio/tho-4-4.mp3	Không ai hơn.	bai-07	
+bai-07/audio/tho-4-5.mp3	Con biết ơn,	bai-07	
+bai-07/audio/tho-4-6.mp3	Nên phải hiếu.	bai-07	
+bai-07/audio/tho-4-7.mp3	Nghĩa chữ hiếu,	bai-07	
+bai-07/audio/tho-4-8.mp3	Đạo làm con,	bai-07	
+bai-07/audio/tho-4-9.mp3	Con còn non,	bai-07	
+bai-07/audio/tho-4-10.mp3	Nên học trước.	bai-07	
+bai-07/audio/tho-4-11.mp3	Đi một bước,	bai-07	
+bai-07/audio/tho-4-12.mp3	Nhớ hai thân.	bai-07	
+bai-07/audio/cau-bes-cos-now.mp3	Bé có nơ.	bai-07	
+bai-07/audio/cau-bes-ra-bowf-hoof.mp3	Bé ra bờ hồ.	bai-07	
+bai-07/audio/cau-baf-cos-roor-cas-roo.mp3	Bà có rổ cá rô.	bai-07	
