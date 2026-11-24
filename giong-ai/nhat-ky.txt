@@ -23,3 +23,12 @@ Lô 10 câu không cắt được, chia đôi để đọc lại
 Lô 5 câu có 4 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
 0.00  a  |  Á
 0.00  á  |  Hả?
+Lô 3 câu có 3 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
+Lô 1 câu – Gemini không trả tiếng: 400: {
+  "error": {
+    "code": 400,
+    "message": "Request contains an invalid argument.",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
