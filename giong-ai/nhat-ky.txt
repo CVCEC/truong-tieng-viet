@@ -1,32 +1,16 @@
-Lô 18 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
-1.00  Xin chào các bạn! Các bạn có nghe thấy mình nói không?  |  Xin chào các bạn! Các bạn có nghe thấy mình nói không?
-1.00  Các bạn chọn một trò chơi để bắt đầu nhé!  |  Các bạn chọn một trò chơi để bắt đầu nhé!
-1.00  Đúng rồi!  |  Đúng rồi!
-1.00  Giỏi quá!  |  Giỏi quá!
-1.00  Các bạn làm tốt lắm!  |  Các bạn làm tốt lắm!
-1.00  Tuyệt vời!  |  Tuyệt vời!
-1.00  Chính xác!  |  Chính xác
-1.00  Thử lại nhé!  |  Thử lại nhé!
-1.00  Chưa đúng đâu, các bạn thử lại nhé!  |  Chưa đúng đâu, các bạn thử lại nhé!
-1.00  Không sao đâu, mình cùng thử lại nhé!  |  Không sao đâu, mình cùng thử lại nhé!
-1.00  Hoan hô! Các bạn giỏi quá!  |  Hoan hô! Các bạn giỏi quá!
-1.00  Các bạn nghe nhé:  |  Các bạn nghe nhé
 1.00  Các bạn tìm được hết rồi!  |  Các bạn tìm được hết rồi!
-0.96  Chào các bạn! Mình là Trâu Con. Hôm nay mình cùng các bạn học Bài 1: bảng chữ cái, nguyên âm và phụ âm nhé!  |  Chào các bạn! Mình là Châu Con. Hôm nay mình cùng các bạn học bài một, bảng chữ cái, nguyên âm và phụ âm nhé!
-0.96  Các bạn ơi, mình cùng đọc bài thơ Lên Sáu của nhà thơ Tản Đà nhé. Các bạn chạm vào từng câu thơ để nghe mình đọc.  |  Các bạn ơi, mình cùng đọc bài thơ Lên xấu của nhà thơ Tản Đà nhé! Các bạn chạm vào từng câu thơ để nghe mình đọc
-0.80  Lên Sáu. Thơ Tản Đà.  |  Lên sẩu Thơ tản đà
-1.00  Các bạn nghe câu thơ, rồi chạm vào bức tranh đúng nhé!  |  Các bạn nghe câu thơ rồi chạm vào bức tranh đúng nhé!
-1.00  Các bạn xếp các câu thơ theo đúng thứ tự nhé! Chạm vào câu thơ để nghe.  |  Các bạn xếp các câu thơ theo đúng thứ tự nhé, chạm vào câu thơ để nghe.
-Lô 12 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
-1.00  Câu thơ này chưa đúng chỗ. Các bạn thử lại nhé!  |  Câu thơ này chưa đúng chỗ Các bạn thử lại nhé
-0.93  Có hai đoàn tàu đang chờ các bạn. Tàu vàng chở nguyên âm, tàu xanh chở phụ âm. Các bạn đưa từng chữ lên đúng tàu nhé!  |  Có hai đoàn tàu đang chờ các bạn, tàu vàng chờ nguyên âm, tàu xanh chờ phụ âm, các bạn đưa từng chữ lên đúng tàu nhé.
-0.84  là nguyên âm, lên tàu vàng các bạn nhé!  |  Y là nguyên âm, lên tẩu vàng các bạn nhé!
-0.84  là phụ âm, lên tàu xanh các bạn nhé!  |  ca là phụ âm lên tẩu xanh các bạn nhé
-0.93  Tu tu! Đủ hai mươi chín chữ cái rồi. Tàu chạy thôi các bạn ơi!  |  Tu Tu, đủ 29 triệu cái rồi, tàu chạy thôi các bạn ơi!
-1.00  Mỗi chữ in hoa có một người bạn là chữ in thường. Các bạn chạm vào hai chữ là đôi bạn nhé!  |  Mỗi chữ in hoa có một người bạn là chữ in thường Các bạn chạm vào hai chữ là đôi bạn nhé
-1.00  Các bạn lật hai thẻ, tìm hai chữ là đôi bạn nhé!  |  Các bạn lật 2 thẻ, tìm 2 chữ là đôi bạn nhé.
-0.90  Hai chữ này chưa phải đôi bạn. Thử lại nhé!  |  Hai chữ này chua phải đôi bạn. Thử lại nhé!
-1.00  Nguyên âm trốn ở đâu? Các bạn chạm vào các nguyên âm trong tiếng  |  Nguyên âm trốn ở đâu? Các bạn chạm vào các nguyên âm trong tiếng.
-0.97  Phụ âm trốn ở đâu? Các bạn chạm vào các phụ âm trong tiếng  |  Phụ âm trốn ở đâu? Các bạn chạm vào các phụ âm trong tiếng H
-1.00  là phụ âm. Các bạn tìm nguyên âm nhé!  |  là phụ âm, các bạn tìm nguyên âm nhé!
-0.95  là nguyên âm. Các bạn tìm phụ âm nhé!  |  Y là nguyên âm, các bạn tìm phụ âm nhé!
+1.00  Mỗi tiếng giống như một ngôi nhà có ba phòng: âm đầu, âm chính và âm cuối. Các bạn đưa từng chữ vào đúng phòng nhé!  |  Mỗi tiếng giống như một ngôi nhà có ba phòng, âm đầu, âm chính và âm cuối. Các bạn đưa từng chữ vào đúng phòng nhé.
+1.00  Mình cùng xây nhà cho tiếng  |  Mình cùng xây nhà cho Tiếng
+1.00  Tiếng này mang thanh gì? Các bạn đặt dấu thanh lên mái nhà nhé!  |  Tiếng này mang thanh gì? Các bạn đặt dấu thanh lên mái nhà nhé!
+0.80  Phòng âm chính dành cho nguyên âm các bạn ạ.  |  Phòng âm chính dành cho nguyên âm các bạ đạ.
+1.00  Tiếng này không có âm đầu đâu các bạn ạ.  |  Tiếng này không có âm đầu đâu các bạn ạ.
+1.00  Tiếng này không có âm cuối đâu các bạn ạ.  |  Tiếng này không có âm cuối đâu các bạn ạ.
+0.89  Chữ này ở phòng khác cơ. Thử lại nhé!  |  Chữ này ở phong khác cơ. Thử lại nhé!
+1.00  Các bạn nhớ nhé: mỗi tiếng luôn phải có âm chính.  |  Các bạn nhớ nhé, mỗi tiếng luôn phải có âm chính.
+1.00  Các bạn nghe mình đọc, rồi đặt dấu thanh lên chữ a nhé!  |  Các bạn nghe mình đọc rồi đặt dấu thanh lên chữ A nhé.
+1.00  Các bạn nghe nhé:  |  Các bạn nghe nhé
+1.00  Đây là tiếng  |  Đây là tiếng
+1.00  Mình cần tiếng  |  Mình cần tiếng
+0.91  Dấu nặng thì đặt ở dưới chữ a các bạn nhé.  |  Giống nặng thì đặt ở dưới chữ A các bạn nhé!
+1.00  Các bạn đặt ngón tay vào chấm xanh, rồi tô theo nét chấm đỏ nhé!  |  Các bạn đặt ngón tay vào chấm xanh, rồi tô theo nét chấm đỏ nhé.
+1.00  Các bạn bắt đầu từ chấm xanh nhé!  |  Các bạn bắt đầu từ chấm xanh nhé!
