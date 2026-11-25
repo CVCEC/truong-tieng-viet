@@ -60,3 +60,5 @@ Lô 5 câu có 4 câu lệch nhiều – có thể cắt sai, chia đôi để �
 0.00  trâu  |  Chào!
 Lô 3 câu có 3 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
 0.00  nhà  |  Nha!
+0.00  cặp  |  Cảm ơn.
+0.00  cá  |  Gá
