@@ -1,11 +1,21 @@
 ma	lan	ly_do
-chung/audio/chu-k.mp3	0	không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your request, or try your request in unary mode if
-chung/audio/chu-l.mp3	0	không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your request, or try your request in unary mode if
-chung/audio/chu-m.mp3	0	không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your request, or try your request in unary mode if
-chung/audio/chu-n.mp3	0	không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your request, or try your request in unary mode if
-chung/audio/chu-o.mp3	0	không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your request, or try your request in unary mode if
-chung/audio/chu-oo.mp3	0	không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your request, or try your request in unary mode if
-chung/audio/chu-ow.mp3	0	không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your request, or try your request in unary mode if
-chung/audio/chu-p.mp3	0	không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your request, or try your request in unary mode if
-chung/audio/chu-q.mp3	0	không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your request, or try your request in unary mode if
-chung/audio/chu-r.mp3	0	không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your request, or try your request in unary mode if
+chung/audio/chu-aa.mp3	0	400: {   "error": {     "code": 400,     "message": "Request contains an invalid argument.",     "status": "INVALID_ARGUMENT"   } } 
+chung/audio/chu-b.mp3	0	400: {   "error": {     "code": 400,     "message": "Request contains an invalid argument.",     "status": "INVALID_ARGUMENT"   } } 
+chung/audio/chu-c.mp3	0	400: {   "error": {     "code": 400,     "message": "Request contains an invalid argument.",     "status": "INVALID_ARGUMENT"   } } 
+chung/audio/chu-d.mp3	0	400: {   "error": {     "code": 400,     "message": "Request contains an invalid argument.",     "status": "INVALID_ARGUMENT"   } } 
+chung/audio/chu-dd.mp3	0	400: {   "error": {     "code": 400,     "message": "Request contains an invalid argument.",     "status": "INVALID_ARGUMENT"   } } 
+chung/audio/chu-e.mp3	0	400: {   "error": {     "code": 400,     "message": "Request contains an invalid argument.",     "status": "INVALID_ARGUMENT"   } } 
+chung/audio/chu-ee.mp3	0	400: {   "error": {     "code": 400,     "message": "Request contains an invalid argument.",     "status": "INVALID_ARGUMENT"   } } 
+chung/audio/chu-g.mp3	0	400: {   "error": {     "code": 400,     "message": "Request contains an invalid argument.",     "status": "INVALID_ARGUMENT"   } } 
+chung/audio/chu-h.mp3	0	400: {   "error": {     "code": 400,     "message": "Request contains an invalid argument.",     "status": "INVALID_ARGUMENT"   } } 
+chung/audio/chu-i.mp3	0	400: {   "error": {     "code": 400,     "message": "Request contains an invalid argument.",     "status": "INVALID_ARGUMENT"   } } 
+chung/audio/chu-k.mp3	0	400: {   "error": {     "code": 400,     "message": "Request contains an invalid argument.",     "status": "INVALID_ARGUMENT"   } } 
+chung/audio/chu-l.mp3	0	400: {   "error": {     "code": 400,     "message": "Request contains an invalid argument.",     "status": "INVALID_ARGUMENT"   } } 
+chung/audio/chu-m.mp3	0	400: {   "error": {     "code": 400,     "message": "Request contains an invalid argument.",     "status": "INVALID_ARGUMENT"   } } 
+chung/audio/chu-n.mp3	0	400: {   "error": {     "code": 400,     "message": "Request contains an invalid argument.",     "status": "INVALID_ARGUMENT"   } } 
+chung/audio/chu-o.mp3	0	400: {   "error": {     "code": 400,     "message": "Request contains an invalid argument.",     "status": "INVALID_ARGUMENT"   } } 
+chung/audio/chu-oo.mp3	0	400: {   "error": {     "code": 400,     "message": "Request contains an invalid argument.",     "status": "INVALID_ARGUMENT"   } } 
+chung/audio/chu-ow.mp3	0	400: {   "error": {     "code": 400,     "message": "Request contains an invalid argument.",     "status": "INVALID_ARGUMENT"   } } 
+chung/audio/chu-p.mp3	0	400: {   "error": {     "code": 400,     "message": "Request contains an invalid argument.",     "status": "INVALID_ARGUMENT"   } } 
+chung/audio/chu-q.mp3	0	400: {   "error": {     "code": 400,     "message": "Request contains an invalid argument.",     "status": "INVALID_ARGUMENT"   } } 
+chung/audio/chu-r.mp3	0	400: {   "error": {     "code": 400,     "message": "Request contains an invalid argument.",     "status": "INVALID_ARGUMENT"   } } 
