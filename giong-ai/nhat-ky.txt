@@ -25,3 +25,13 @@ Lô 10 câu – Gemini không trả tiếng: không có tiếng trả về: {"ca
 0.00  gờ  |  RỒU
 0.00  hờ  |  HÔ
 0.00  i  |  Ê
+0.00  ca  |  Cá
+0.00  lờ  |  Lỡ
+0.00  mờ  |  MÔ!
+0.00  nờ  |  NÀ!
+0.00  o  |  Ơ
+0.00  ô  |  Ư
+1.00  ơ  |  Ơ
+0.00  pờ  |  Bơ
+0.00  quy  |  Quí
+0.00  rờ  |  Rỡ
