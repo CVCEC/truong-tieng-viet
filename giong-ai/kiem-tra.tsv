@@ -32,11 +32,6 @@ bai-01/audio/loi-g7-intro.mp3	Các bạn đặt ngón tay vào chấm xanh, rồ
 bai-01/audio/loi-g7-off.mp3	Các bạn, tô sát theo nét chấm đỏ nhé!	1.0
 bai-01/audio/loi-g7-start.mp3	Các bạn bắt đầu từ chấm xanh nhé!	1.0
 bai-01/audio/loi-welcome.mp3	Chào các bạn! Mình là Châu Con. Hôm nay mình cùng các bạn học bài một, bảng chữ cái, nguyên âm và phụ âm nhé!	0.96
-chung/audio/tu-cawpj.mp3	Cảm ơn.	0.0
-chung/audio/tu-nons.mp3	NON?	0.0
-chung/audio/tu-traau.mp3	Chào!	0.0
-chung/audio/tu-vowr.mp3	Vỡ	0.0
-chung/audio/tu-xe.mp3	Sẵn sàng!	0.0
 chung/audio/chu-a.mp3	Á	0.0
 chung/audio/chu-aa.mp3	Ồ?	0.0
 chung/audio/chu-aw.mp3	Hả?	0.0
@@ -91,10 +86,21 @@ chung/audio/loi-ok5.mp3	Chính xác	1.0
 chung/audio/loi-retry1.mp3	Thử lại nhé!	1.0
 chung/audio/loi-retry2.mp3	Chưa đúng đâu, các bạn thử lại nhé!	1.0
 chung/audio/loi-retry3.mp3	Không sao đâu, mình cùng thử lại nhé!	1.0
+chung/audio/thanh-hoi.mp3	Hãy đăng ký kênh để ủng hộ kênh nhé!	0.0
+chung/audio/thanh-huyen.mp3	Thanh huyền	1.0
+chung/audio/thanh-nang.mp3	Thanh nặng	1.0
+chung/audio/thanh-nga.mp3	Thanh ngã	1.0
+chung/audio/thanh-ngang.mp3	Thanh ngang	1.0
+chung/audio/thanh-sac.mp3	Thanh sắc	1.0
 chung/audio/tu-cas.mp3	Gá	0.0
+chung/audio/tu-cawpj.mp3	Cảm ơn.	0.0
 chung/audio/tu-ddu-ddur.mp3	Đu, đu	0.5
 chung/audio/tu-gaf.mp3	Gà	1.0
 chung/audio/tu-las.mp3	LÀ	0.0
 chung/audio/tu-mux.mp3	MỒ?	0.0
 chung/audio/tu-nhaf.mp3	Nha!	0.0
+chung/audio/tu-nons.mp3	NON?	0.0
 chung/audio/tu-oo.mp3	Ừ	0.0
+chung/audio/tu-traau.mp3	Chào!	0.0
+chung/audio/tu-vowr.mp3	Vỡ	0.0
+chung/audio/tu-xe.mp3	Sẵn sàng!	0.0

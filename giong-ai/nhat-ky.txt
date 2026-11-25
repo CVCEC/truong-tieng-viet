@@ -1,4 +1,4 @@
-Lô 20 câu – Gemini không trả tiếng: 400: {
+Lô 6 câu – Gemini không trả tiếng: 400: {
   "error": {
     "code": 400,
     "message": "Request contains an invalid argument.",
@@ -6,72 +6,9 @@ Lô 20 câu – Gemini không trả tiếng: 400: {
   }
 }
 
-Lô 20 câu – Gemini không trả tiếng: 400: {
-  "error": {
-    "code": 400,
-    "message": "Request contains an invalid argument.",
-    "status": "INVALID_ARGUMENT"
-  }
-}
-
-Lô 10 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-0.00  ớ  |  Ồ?
-0.00  bờ  |  BÔ
-0.00  cờ  |  Go!
-0.00  dờ  |  Zo
-0.00  đờ  |  Đô
-0.00  e  |  Ê
-1.00  ê  |  Ê!
-0.00  gờ  |  RỒU
-0.00  hờ  |  HÔ
-0.00  i  |  Ê
-0.00  ca  |  Cá
-0.00  lờ  |  Lỡ
-0.00  mờ  |  MÔ!
-0.00  nờ  |  NÀ!
-0.00  o  |  Ơ
-0.00  ô  |  Ư
-1.00  ơ  |  Ơ
-0.00  pờ  |  Bơ
-0.00  quy  |  Quí
-0.00  rờ  |  Rỡ
-0.00  sờ  |  SỐ
-0.00  tờ  |  TÔ!
-0.00  u  |  Ú
-1.00  ư  |  Ư
-0.00  vờ  |  VÀ
-0.00  xờ  |  SỐ
-0.50  i dài  |  Ý dài
-0.00  chờ  |  Cháu
-0.00  gờ kép  |  Ok
-0.00  di  |  Z
-0.00  khờ  |  Hơ
-0.00  ngờ  |  Ngo!
-0.00  ngờ kép  |  Ngô kết
-0.00  nhờ  |  Nho!
-0.00  phờ  |  phô
-0.00  quờ  |  Qua
-0.00  thờ  |  Thơ
-0.00  trờ  |  Chào!
-Lô 20 câu có 17 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
-Lô 10 câu có 8 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
-Lô 5 câu có 4 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
-0.50  đu đủ  |  Đu, đu
-0.00  trâu  |  Chào!
-Lô 3 câu có 3 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
-0.00  nhà  |  Nha!
-0.00  cặp  |  Cảm ơn.
-0.00  cá  |  Gá
-Lô 5 câu có 4 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
-1.00  gà  |  Gà
-0.00  lá  |  LÀ
-Lô 3 câu có 3 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
-0.00  xe  |  Sẵn sàng!
-0.00  vở  |  Vỡ
-0.00  mũ  |  MỒ?
-Lô 10 câu có 10 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
-Lô 5 câu có 4 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
-0.00  nón  |  NON?
-0.00  ô  |  Ừ
-Lô 3 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-Lô 3 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+1.00  thanh ngang  |  Thanh ngang
+1.00  thanh sắc  |  Thanh sắc
+1.00  thanh huyền  |  Thanh huyền
+0.00  thanh hỏi  |  Hãy đăng ký kênh để ủng hộ kênh nhé!
+1.00  thanh ngã  |  Thanh ngã
+1.00  thanh nặng  |  Thanh nặng
