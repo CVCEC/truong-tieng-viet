@@ -9,12 +9,13 @@ Giọng: bé trai, phát âm chuẩn, nhẹ nhàng, trầm ấm, tròn vành rõ
 
 Tên file kiểu Telex: `ă → aw`, `â → aa`, `ê → ee`, `ô → oo`, `ơ → ow`, `ư → uw`, `đ → dd`; dấu thanh ở cuối tiếng: sắc `s`, huyền `f`, hỏi `r`, ngã `x`, nặng `j`.
 
-Tổng cộng: **148 đoạn**.
+Tổng cộng: **162 đoạn**.
 
-## Lời thoại (47)
+## Lời thoại (53)
 
 | Tên file | Trâu Con nói | Ghi chú |
 |---|---|---|
+| `loi-tln-tieu-de.mp3` | Lên Sáu. Thơ Tản Đà. | dùng chung |
 | `loi-check.mp3` | Xin chào các bạn! Các bạn có nghe thấy mình nói không? | dùng chung |
 | `loi-menu.mp3` | Các bạn chọn một trò chơi để bắt đầu nhé! | dùng chung |
 | `loi-ok1.mp3` | Đúng rồi! | dùng chung |
@@ -28,6 +29,11 @@ Tổng cộng: **148 đoạn**.
 | `loi-finish.mp3` | Hoan hô! Các bạn giỏi quá! | dùng chung |
 | `loi-listen.mp3` | Các bạn nghe nhé: | dùng chung |
 | `loi-all.mp3` | Các bạn tìm được hết rồi! | dùng chung |
+| `loi-tln-doc.mp3` | Mình đọc một câu, các bạn đọc câu tiếp theo nhé! | dùng chung |
+| `loi-tln-you.mp3` | Đến lượt các bạn! | dùng chung |
+| `loi-tln-y.mp3` | Các bạn nghe mình giải thích đoạn thơ nhé! | dùng chung |
+| `loi-tln-lam.mp3` | Các bạn chọn việc làm đúng nhé! | dùng chung |
+| `loi-tln-sau.mp3` | Muốn học sâu hơn, các bạn vào góc Bài học cuộc sống nhé! | dùng chung |
 | `loi-welcome.mp3` | Chào các bạn! Mình là Trâu Con. Hôm nay mình cùng các bạn học Bài 1: bảng chữ cái, nguyên âm và phụ âm nhé! |  |
 | `loi-g1-intro.mp3` | Các bạn ơi, mình cùng đọc bài thơ Lên Sáu của nhà thơ Tản Đà nhé. Các bạn chạm vào từng câu thơ để nghe mình đọc. |  |
 | `loi-g1-title.mp3` | Lên Sáu. Thơ Tản Đà. | dùng chung |
@@ -118,25 +124,25 @@ Tổng cộng: **148 đoạn**.
 | Tên file | Trâu Con nói | Ghi chú |
 |---|---|---|
 | `tu-ddu-ddur.mp3` | đu đủ | dùng chung |
-| `tu-traau.mp3` | trâu |  |
+| `tu-traau.mp3` | trâu | dùng chung |
 | `tu-nhaf.mp3` | nhà | dùng chung |
-| `tu-cawpj.mp3` | cặp |  |
+| `tu-cawpj.mp3` | cặp | dùng chung |
 | `tu-cas.mp3` | cá | dùng chung |
 | `tu-gaf.mp3` | gà | dùng chung |
 | `tu-las.mp3` | lá | dùng chung |
-| `tu-xe.mp3` | xe |  |
-| `tu-vowr.mp3` | vở |  |
+| `tu-xe.mp3` | xe | dùng chung |
+| `tu-vowr.mp3` | vở | dùng chung |
 | `tu-mux.mp3` | mũ | dùng chung |
-| `tu-nons.mp3` | nón |  |
+| `tu-nons.mp3` | nón | dùng chung |
 | `tu-oo.mp3` | ô | dùng chung |
-| `tu-sen.mp3` | sen |  |
-| `tu-too.mp3` | tô |  |
-| `tu-toom.mp3` | tôm |  |
-| `tu-oocs.mp3` | ốc |  |
-| `tu-mawts.mp3` | mắt |  |
-| `tu-coocs.mp3` | cốc |  |
-| `tu-aams.mp3` | ấm |  |
-| `tu-em.mp3` | em |  |
+| `tu-sen.mp3` | sen | dùng chung |
+| `tu-too.mp3` | tô | dùng chung |
+| `tu-toom.mp3` | tôm | dùng chung |
+| `tu-oocs.mp3` | ốc | dùng chung |
+| `tu-mawts.mp3` | mắt | dùng chung |
+| `tu-coocs.mp3` | cốc | dùng chung |
+| `tu-aams.mp3` | ấm | dùng chung |
+| `tu-em.mp3` | em | dùng chung |
 | `tu-la.mp3` | la | dùng chung |
 | `tu-laf.mp3` | là | dùng chung |
 | `tu-laj.mp3` | lạ | dùng chung |
@@ -149,7 +155,7 @@ Tổng cộng: **148 đoạn**.
 | `tu-mar.mp3` | mả | dùng chung |
 | `tu-max.mp3` | mã | dùng chung |
 
-## Câu thơ (12)
+## Câu thơ (16)
 
 | Tên file | Trâu Con nói | Ghi chú |
 |---|---|---|
@@ -165,6 +171,10 @@ Tổng cộng: **148 đoạn**.
 | `tho-10.mp3` | Đang vỡ lòng, | dùng chung |
 | `tho-11.mp3` | Học cho thông, | dùng chung |
 | `tho-12.mp3` | Thầy khỏi mắng. | dùng chung |
+| `tho-ln-1-1.mp3` | Sách quốc ngữ, | dùng chung |
+| `tho-ln-1-2.mp3` | Chữ nước ta. | dùng chung |
+| `tho-ln-1-3.mp3` | Con cái nhà, | dùng chung |
+| `tho-ln-1-4.mp3` | Đều phải học. | dùng chung |
 
 ## Tên thanh (6)
 
@@ -176,6 +186,15 @@ Tổng cộng: **148 đoạn**.
 | `thanh-hoi.mp3` | thanh hỏi | dùng chung |
 | `thanh-nga.mp3` | thanh ngã | dùng chung |
 | `thanh-nang.mp3` | thanh nặng | dùng chung |
+
+## Câu nói mẫu (4)
+
+| Tên file | Trâu Con nói | Ghi chú |
+|---|---|---|
+| `cau-chuwx-quoocs-nguwx-laf-chuwx-cuar-nguwowif-vieetj-minhf-duf-soongs-owr-ddaau-chungs-minhf-ddeeuf-caanf-hocj.mp3` | Chữ quốc ngữ là chữ của người Việt mình. Dù sống ở đâu, chúng mình đều cần học. | dùng chung |
+| `cau-vif-sao-cacs-banj-hocj-chuwx-vieetj.mp3` | Vì sao các bạn học chữ Việt? | dùng chung |
+| `cau-vif-ddos-laf-chuwx-cuar-nguwowif-vieetj-minhf.mp3` | Vì đó là chữ của người Việt mình. | dùng chung |
+| `cau-vif-khoong-cos-gif-ddeer-lamf.mp3` | Vì không có gì để làm. | dùng chung |
 
 ## Nét cơ bản (12)
 

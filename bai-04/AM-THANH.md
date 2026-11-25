@@ -9,12 +9,13 @@ Giọng: bé trai, phát âm chuẩn, nhẹ nhàng, trầm ấm, tròn vành rõ
 
 Tên file kiểu Telex: `ă → aw`, `â → aa`, `ê → ee`, `ô → oo`, `ơ → ow`, `ư → uw`, `đ → dd`; dấu thanh ở cuối tiếng: sắc `s`, huyền `f`, hỏi `r`, ngã `x`, nặng `j`.
 
-Tổng cộng: **191 đoạn**.
+Tổng cộng: **217 đoạn**.
 
-## Lời thoại (37)
+## Lời thoại (52)
 
 | Tên file | Trâu Con nói | Ghi chú |
 |---|---|---|
+| `loi-tln-tieu-de.mp3` | Lên Sáu. Thơ Tản Đà. | dùng chung |
 | `loi-check.mp3` | Xin chào các bạn! Các bạn có nghe thấy mình nói không? | dùng chung |
 | `loi-menu.mp3` | Các bạn chọn một trò chơi để bắt đầu nhé! | dùng chung |
 | `loi-ok1.mp3` | Đúng rồi! | dùng chung |
@@ -28,6 +29,19 @@ Tổng cộng: **191 đoạn**.
 | `loi-finish.mp3` | Hoan hô! Các bạn giỏi quá! | dùng chung |
 | `loi-listen.mp3` | Các bạn nghe nhé: | dùng chung |
 | `loi-all.mp3` | Các bạn tìm được hết rồi! | dùng chung |
+| `loi-tln-doc.mp3` | Mình đọc một câu, các bạn đọc câu tiếp theo nhé! | dùng chung |
+| `loi-tln-you.mp3` | Đến lượt các bạn! | dùng chung |
+| `loi-tln-y.mp3` | Các bạn nghe mình giải thích đoạn thơ nhé! | dùng chung |
+| `loi-tln-lam.mp3` | Các bạn chọn việc làm đúng nhé! | dùng chung |
+| `loi-tln-sau.mp3` | Muốn học sâu hơn, các bạn vào góc Bài học cuộc sống nhé! | dùng chung |
+| `loi-nhanh-intro.mp3` | Nghe mình đọc, các bạn chạm thật nhanh vào từ đúng nhé! | dùng chung |
+| `loi-nghe-intro.mp3` | Nghe mình đọc, rồi ghép các mảnh chữ thành từ nhé! | dùng chung |
+| `loi-chu-nghe.mp3` | Nghe rồi chạm vào chữ đúng nhé! | dùng chung |
+| `loi-chu-hoa.mp3` | Chữ in hoa này là chữ thường nào? | dùng chung |
+| `loi-chu-thieu.mp3` | Chữ nào còn thiếu? | dùng chung |
+| `loi-tv-tranh.mp3` | Tranh gì đây? Các bạn chọn từ đúng nhé! | dùng chung |
+| `loi-tv-nghe.mp3` | Nghe rồi chạm vào tranh đúng nhé! | dùng chung |
+| `loi-dv-intro.mp3` | Đố các bạn đây là gì? | dùng chung |
 | `loi-am-tho-intro.mp3` | Mình đọc một câu, các bạn đọc câu tiếp theo nhé! | dùng chung |
 | `loi-am-tho-title.mp3` | Lên Sáu. Thơ Tản Đà. | dùng chung |
 | `loi-am-tho-you.mp3` | Đến lượt các bạn! | dùng chung |
@@ -41,6 +55,7 @@ Tổng cộng: **191 đoạn**.
 | `loi-am-dau-nang.mp3` | Dấu nặng đặt dưới chữ nhé. | dùng chung |
 | `loi-am-tu-intro.mp3` | Các bạn đọc từ, rồi chạm vào tranh đúng nhé! | dùng chung |
 | `loi-am-hai-intro.mp3` | Các bạn hái quả có âm | dùng chung |
+| `loi-am-hai-intro-van.mp3` | Các bạn hái quả có | dùng chung |
 | `loi-am-noi-intro.mp3` | Các bạn nối từ với tranh nhé! | dùng chung |
 | `loi-am-lat-intro.mp3` | Các bạn lật thẻ, tìm từ và tranh giống nhau nhé! | dùng chung |
 | `loi-am-doan-intro.mp3` | Tranh gì đây? Các bạn mở ô, rồi chọn từ đúng nhé! | dùng chung |
@@ -103,18 +118,18 @@ Tổng cộng: **191 đoạn**.
 | `ghep-th.mp3` | thờ | dùng chung |
 | `ghep-tr.mp3` | trờ | dùng chung |
 
-## Tiếng và từ (94)
+## Tiếng và từ (97)
 
 | Tên file | Trâu Con nói | Ghi chú |
 |---|---|---|
-| `tu-da.mp3` | da |  |
-| `tu-da-der.mp3` | da dẻ |  |
+| `tu-da.mp3` | da | dùng chung |
+| `tu-da-der.mp3` | da dẻ | dùng chung |
 | `tu-dif.mp3` | dì | dùng chung |
-| `tu-dif-ba.mp3` | dì Ba |  |
-| `tu-ddur.mp3` | đủ |  |
+| `tu-dif-ba.mp3` | dì Ba | dùng chung |
+| `tu-ddur.mp3` | đủ | dùng chung |
 | `tu-ddu-ddur.mp3` | đu đủ | dùng chung |
 | `tu-ddor.mp3` | đỏ | dùng chung |
-| `tu-ddo-ddor.mp3` | đo đỏ |  |
+| `tu-ddo-ddor.mp3` | đo đỏ | dùng chung |
 | `tu-dee.mp3` | dê | dùng chung |
 | `tu-doox-bes.mp3` | dỗ bé | dùng chung |
 | `tu-e-def.mp3` | e dè | dùng chung |
@@ -149,37 +164,37 @@ Tổng cộng: **191 đoạn**.
 | `tu-dir.mp3` | dỉ |  |
 | `tu-dix.mp3` | dĩ |  |
 | `tu-dij.mp3` | dị |  |
-| `tu-du.mp3` | du |  |
+| `tu-du.mp3` | du | dùng chung |
 | `tu-dus.mp3` | dú |  |
 | `tu-duf.mp3` | dù |  |
 | `tu-dur.mp3` | dủ |  |
 | `tu-dux.mp3` | dũ |  |
 | `tu-duj.mp3` | dụ |  |
 | `tu-dda.mp3` | đa | dùng chung |
-| `tu-ddas.mp3` | đá |  |
+| `tu-ddas.mp3` | đá | dùng chung |
 | `tu-ddaf.mp3` | đà | dùng chung |
 | `tu-ddar.mp3` | đả |  |
 | `tu-ddax.mp3` | đã | dùng chung |
 | `tu-ddaj.mp3` | đạ |  |
-| `tu-ddoo.mp3` | đô |  |
+| `tu-ddoo.mp3` | đô | dùng chung |
 | `tu-ddoos.mp3` | đố |  |
-| `tu-ddoof.mp3` | đồ |  |
-| `tu-ddoor.mp3` | đổ |  |
+| `tu-ddoof.mp3` | đồ | dùng chung |
+| `tu-ddoor.mp3` | đổ | dùng chung |
 | `tu-ddoox.mp3` | đỗ | dùng chung |
 | `tu-ddooj.mp3` | độ |  |
 | `tu-ddee.mp3` | đê | dùng chung |
 | `tu-ddees.mp3` | đế |  |
-| `tu-ddeef.mp3` | đề |  |
-| `tu-ddeer.mp3` | để |  |
+| `tu-ddeef.mp3` | đề | dùng chung |
+| `tu-ddeer.mp3` | để | dùng chung |
 | `tu-ddeex.mp3` | đễ |  |
-| `tu-ddeej.mp3` | đệ |  |
+| `tu-ddeej.mp3` | đệ | dùng chung |
 | `tu-ddi.mp3` | đi | dùng chung |
 | `tu-ddis.mp3` | đí |  |
 | `tu-ddif.mp3` | đì |  |
 | `tu-ddir.mp3` | đỉ |  |
 | `tu-ddix.mp3` | đĩ |  |
 | `tu-ddij.mp3` | đị |  |
-| `tu-ddu.mp3` | đu |  |
+| `tu-ddu.mp3` | đu | dùng chung |
 | `tu-ddus.mp3` | đú |  |
 | `tu-dduf.mp3` | đù |  |
 | `tu-ddux.mp3` | đũ |  |
@@ -187,13 +202,13 @@ Tổng cộng: **191 đoạn**.
 | `tu-ba.mp3` | ba | dùng chung |
 | `tu-bees.mp3` | bế | dùng chung |
 | `tu-bes.mp3` | bé | dùng chung |
-| `tu-ddof.mp3` | đò |  |
-| `tu-dees.mp3` | dế |  |
+| `tu-ddof.mp3` | đò | dùng chung |
+| `tu-dees.mp3` | dế | dùng chung |
 | `tu-owr.mp3` | ở | dùng chung |
 | `tu-bowf.mp3` | bờ | dùng chung |
 | `tu-baf.mp3` | bà | dùng chung |
 | `tu-doox.mp3` | dỗ | dùng chung |
-| `tu-ddo.mp3` | đo |  |
+| `tu-ddo.mp3` | đo | dùng chung |
 | `tu-e.mp3` | e | dùng chung |
 | `tu-booj.mp3` | bộ | dùng chung |
 | `tu-cas.mp3` | cá | dùng chung |
@@ -201,11 +216,18 @@ Tổng cộng: **191 đoạn**.
 | `tu-bos.mp3` | bó | dùng chung |
 | `tu-cor.mp3` | cỏ | dùng chung |
 | `tu-beer.mp3` | bể | dùng chung |
+| `tu-bi-boo.mp3` | bi bô | dùng chung |
+| `tu-boos-bees-bes.mp3` | bố bế bé | dùng chung |
+| `tu-dif-ba.mp3` | dì ba |  |
 
-## Câu thơ (11)
+## Câu thơ (15)
 
 | Tên file | Trâu Con nói | Ghi chú |
 |---|---|---|
+| `tho-ln-4-1.mp3` | Trong trời đất, | dùng chung |
+| `tho-ln-4-2.mp3` | Nhất là người. | dùng chung |
+| `tho-ln-4-3.mp3` | Ở trên đời, | dùng chung |
+| `tho-ln-4-4.mp3` | Hơn giống vật. | dùng chung |
 | `tho-2-1.mp3` | Trong trời đất, | dùng chung |
 | `tho-2-2.mp3` | Nhất là người. | dùng chung |
 | `tho-2-3.mp3` | Ở trên đời, | dùng chung |
@@ -229,10 +251,14 @@ Tổng cộng: **191 đoạn**.
 | `thanh-nga.mp3` | thanh ngã | dùng chung |
 | `thanh-nang.mp3` | thanh nặng | dùng chung |
 
-## Câu nói mẫu (3)
+## Câu nói mẫu (7)
 
 | Tên file | Trâu Con nói | Ghi chú |
 |---|---|---|
+| `cau-con-nguwowif-quys-hown-loaif-vaatj-vif-bieets-suy-nghix-bieets-yeeu-thuwowng-vaf-cos-chuwx-vieets.mp3` | Con người quý hơn loài vật vì biết suy nghĩ, biết yêu thương và có chữ viết. | dùng chung |
+| `cau-con-nguwowif-hown-loaif-vaatj-owr-ddieemr-naof.mp3` | Con người hơn loài vật ở điểm nào? | dùng chung |
+| `cau-bieets-suy-nghix-vaf-yeeu-thuwowng.mp3` | Biết suy nghĩ và yêu thương. | dùng chung |
+| `cau-chayj-nhanh-hown.mp3` | Chạy nhanh hơn. | dùng chung |
 | `cau-dif-ba-bees-bes-ddi-ddof.mp3` | Dì Ba bế bé đi đò. |  |
 | `cau-bes-ddi-ddas-dees-owr-bowf-ddee.mp3` | Bé đi đá dế ở bờ đê. |  |
 | `cau-baf-doox-bes-dif-ba-bees-bes.mp3` | Bà dỗ bé, dì Ba bế bé. |  |

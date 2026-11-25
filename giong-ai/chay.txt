@@ -1,7 +1,10 @@
 # Cài đặt cho robot giọng đọc AI. Sửa và lưu tệp này thì robot chạy ngay một lần.
 # Mỗi dòng TÊN=giá trị. Dòng bắt đầu bằng # là ghi chú.
-TEN_GOC=Tiếng Việt cơ bản (Bài 1–7)
+TEN_GOC=Tiếng Việt cơ bản (Bài 1–145)
 GIONG=Kore
 GIONG_VUNG=bac
 LO=20
 LO_CHU=700
+# Trần lượt gọi mỗi ngày của góc này (25-11-2026). Mã API dùng chung khoảng 100 lượt/ngày cho mọi góc;
+# chia trần để góc nào cũng có lượt: Khám phá 30, Luyện nói 25, Tiếng Việt cơ bản 25, Truyện cổ tích 15.
+TOI_DA_LUOT=25

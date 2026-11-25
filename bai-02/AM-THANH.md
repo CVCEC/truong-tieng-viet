@@ -9,12 +9,13 @@ Giọng: bé trai, phát âm chuẩn, nhẹ nhàng, trầm ấm, tròn vành rõ
 
 Tên file kiểu Telex: `ă → aw`, `â → aa`, `ê → ee`, `ô → oo`, `ơ → ow`, `ư → uw`, `đ → dd`; dấu thanh ở cuối tiếng: sắc `s`, huyền `f`, hỏi `r`, ngã `x`, nặng `j`.
 
-Tổng cộng: **187 đoạn**.
+Tổng cộng: **201 đoạn**.
 
-## Lời thoại (52)
+## Lời thoại (58)
 
 | Tên file | Trâu Con nói | Ghi chú |
 |---|---|---|
+| `loi-tln-tieu-de.mp3` | Lên Sáu. Thơ Tản Đà. | dùng chung |
 | `loi-check.mp3` | Xin chào các bạn! Các bạn có nghe thấy mình nói không? | dùng chung |
 | `loi-menu.mp3` | Các bạn chọn một trò chơi để bắt đầu nhé! | dùng chung |
 | `loi-ok1.mp3` | Đúng rồi! | dùng chung |
@@ -28,6 +29,11 @@ Tổng cộng: **187 đoạn**.
 | `loi-finish.mp3` | Hoan hô! Các bạn giỏi quá! | dùng chung |
 | `loi-listen.mp3` | Các bạn nghe nhé: | dùng chung |
 | `loi-all.mp3` | Các bạn tìm được hết rồi! | dùng chung |
+| `loi-tln-doc.mp3` | Mình đọc một câu, các bạn đọc câu tiếp theo nhé! | dùng chung |
+| `loi-tln-you.mp3` | Đến lượt các bạn! | dùng chung |
+| `loi-tln-y.mp3` | Các bạn nghe mình giải thích đoạn thơ nhé! | dùng chung |
+| `loi-tln-lam.mp3` | Các bạn chọn việc làm đúng nhé! | dùng chung |
+| `loi-tln-sau.mp3` | Muốn học sâu hơn, các bạn vào góc Bài học cuộc sống nhé! | dùng chung |
 | `loi-welcome.mp3` | Chào các bạn! Mình là Trâu Con. Hôm nay mình cùng các bạn học Bài 2: phụ âm ghép nhé! |  |
 | `loi-nam-bap.mp3` | Miền Nam gọi là bắp. |  |
 | `loi-nam-trai.mp3` | Miền Nam gọi là trái. |  |
@@ -122,65 +128,65 @@ Tổng cộng: **187 đoạn**.
 
 | Tên file | Trâu Con nói | Ghi chú |
 |---|---|---|
-| `tu-chos.mp3` | chó |  |
-| `tu-ghees.mp3` | ghế |  |
-| `tu-gios.mp3` | gió |  |
-| `tu-gior.mp3` | giỏ |  |
-| `tu-khees.mp3` | khế |  |
-| `tu-ngoo.mp3` | ngô |  |
-| `tu-ngheej.mp3` | nghệ |  |
+| `tu-chos.mp3` | chó | dùng chung |
+| `tu-ghees.mp3` | ghế | dùng chung |
+| `tu-gios.mp3` | gió | dùng chung |
+| `tu-gior.mp3` | giỏ | dùng chung |
+| `tu-khees.mp3` | khế | dùng chung |
+| `tu-ngoo.mp3` | ngô | dùng chung |
+| `tu-ngheej.mp3` | nghệ | dùng chung |
 | `tu-nhaf.mp3` | nhà | dùng chung |
-| `tu-phowr.mp3` | phở |  |
-| `tu-quar.mp3` | quả |  |
-| `tu-thor.mp3` | thỏ |  |
-| `tu-troongs.mp3` | trống |  |
-| `tu-tre.mp3` | tre |  |
+| `tu-phowr.mp3` | phở | dùng chung |
+| `tu-quar.mp3` | quả | dùng chung |
+| `tu-thor.mp3` | thỏ | dùng chung |
+| `tu-troongs.mp3` | trống | dùng chung |
+| `tu-tre.mp3` | tre | dùng chung |
 | `tu-gaf.mp3` | gà | dùng chung |
-| `tu-goox.mp3` | gỗ |  |
-| `tu-ghej.mp3` | ghẹ |  |
-| `tu-ngur.mp3` | ngủ |  |
-| `tu-nghes.mp3` | nghé |  |
-| `tu-chuwx.mp3` | chữ |  |
+| `tu-goox.mp3` | gỗ | dùng chung |
+| `tu-ghej.mp3` | ghẹ | dùng chung |
+| `tu-ngur.mp3` | ngủ | dùng chung |
+| `tu-nghes.mp3` | nghé | dùng chung |
+| `tu-chuwx.mp3` | chữ | dùng chung |
 | `tu-chos-nhor.mp3` | chó nhỏ |  |
-| `tu-ghees-goox.mp3` | ghế gỗ |  |
+| `tu-ghees-goox.mp3` | ghế gỗ | dùng chung |
 | `tu-gior-quar.mp3` | giỏ quả |  |
 | `tu-nhaf-baf.mp3` | nhà bà |  |
-| `tu-phowr-bof.mp3` | phở bò |  |
+| `tu-phowr-bof.mp3` | phở bò | dùng chung |
 | `tu-troongs-ddor.mp3` | trống đỏ |  |
 | `tu-thor-bes.mp3` | thỏ bé |  |
 | `tu-ngoo-to.mp3` | ngô to |  |
-| `tu-quar-khees.mp3` | quả khế |  |
-| `tu-sachs.mp3` | sách |  |
+| `tu-quar-khees.mp3` | quả khế | dùng chung |
+| `tu-sachs.mp3` | sách | dùng chung |
 | `tu-quoocs.mp3` | quốc |  |
 | `tu-nguwx.mp3` | ngữ |  |
-| `tu-nuwowcs.mp3` | nước |  |
-| `tu-ta.mp3` | ta |  |
-| `tu-con.mp3` | con |  |
-| `tu-cais.mp3` | cái |  |
-| `tu-ddeeuf.mp3` | đều |  |
+| `tu-nuwowcs.mp3` | nước | dùng chung |
+| `tu-ta.mp3` | ta | dùng chung |
+| `tu-con.mp3` | con | dùng chung |
+| `tu-cais.mp3` | cái | dùng chung |
+| `tu-ddeeuf.mp3` | đều | dùng chung |
 | `tu-phair.mp3` | phải |  |
-| `tu-hocj.mp3` | học |  |
-| `tu-mieengj.mp3` | miệng |  |
-| `tu-thif.mp3` | thì |  |
-| `tu-ddocj.mp3` | đọc |  |
-| `tu-tai.mp3` | tai |  |
-| `tu-nghe.mp3` | nghe |  |
+| `tu-hocj.mp3` | học | dùng chung |
+| `tu-mieengj.mp3` | miệng | dùng chung |
+| `tu-thif.mp3` | thì | dùng chung |
+| `tu-ddocj.mp3` | đọc | dùng chung |
+| `tu-tai.mp3` | tai | dùng chung |
+| `tu-nghe.mp3` | nghe | dùng chung |
 | `tu-chows.mp3` | chớ |  |
 | `tu-nhef.mp3` | nhè |  |
 | `tu-laus.mp3` | láu |  |
 | `tu-taus.mp3` | táu |  |
-| `tu-leen.mp3` | lên |  |
-| `tu-saus.mp3` | sáu |  |
+| `tu-leen.mp3` | lên | dùng chung |
+| `tu-saus.mp3` | sáu | dùng chung |
 | `tu-ddang.mp3` | đang |  |
-| `tu-vowx.mp3` | vỡ |  |
-| `tu-longf.mp3` | lòng |  |
-| `tu-cho.mp3` | cho |  |
-| `tu-thoong.mp3` | thông |  |
-| `tu-thaayf.mp3` | thầy |  |
+| `tu-vowx.mp3` | vỡ | dùng chung |
+| `tu-longf.mp3` | lòng | dùng chung |
+| `tu-cho.mp3` | cho | dùng chung |
+| `tu-thoong.mp3` | thông | dùng chung |
+| `tu-thaayf.mp3` | thầy | dùng chung |
 | `tu-khoir.mp3` | khỏi |  |
-| `tu-mawngs.mp3` | mắng |  |
+| `tu-mawngs.mp3` | mắng | dùng chung |
 
-## Câu thơ (12)
+## Câu thơ (16)
 
 | Tên file | Trâu Con nói | Ghi chú |
 |---|---|---|
@@ -196,6 +202,10 @@ Tổng cộng: **187 đoạn**.
 | `tho-10.mp3` | Đang vỡ lòng, | dùng chung |
 | `tho-11.mp3` | Học cho thông, | dùng chung |
 | `tho-12.mp3` | Thầy khỏi mắng. | dùng chung |
+| `tho-ln-2-1.mp3` | Miệng thì đọc, | dùng chung |
+| `tho-ln-2-2.mp3` | Tai thì nghe. | dùng chung |
+| `tho-ln-2-3.mp3` | Chớ ngủ nhè, | dùng chung |
+| `tho-ln-2-4.mp3` | Chớ láu táu. | dùng chung |
 
 ## Tên thanh (6)
 
@@ -208,7 +218,7 @@ Tổng cộng: **187 đoạn**.
 | `thanh-nga.mp3` | thanh ngã | dùng chung |
 | `thanh-nang.mp3` | thanh nặng | dùng chung |
 
-## Câu nói mẫu (15)
+## Câu nói mẫu (19)
 
 | Tên file | Trâu Con nói | Ghi chú |
 |---|---|---|
@@ -227,6 +237,10 @@ Tổng cộng: **187 đoạn**.
 | `cau-bawps-ngoo-mauf-vangf.mp3` | Bắp ngô màu vàng. |  |
 | `cau-quar-cam-mauf-cam.mp3` | Quả cam màu cam. |  |
 | `cau-caay-tre-mauf-xanh.mp3` | Cây tre màu xanh. |  |
+| `cau-khi-hocj-mieengj-ddocj-to-tai-nghe-kyx-khoong-khocs-nhef-khoong-vooij-vangf.mp3` | Khi học, miệng đọc to, tai nghe kỹ. Không khóc nhè, không vội vàng. | dùng chung |
+| `cau-trong-giowf-hocj-em-lamf-gif.mp3` | Trong giờ học, em làm gì? | dùng chung |
+| `cau-em-ddocj-to-vaf-lawngs-nghe-coo.mp3` | Em đọc to và lắng nghe cô. | dùng chung |
+| `cau-em-nois-chuyeenj-rieeng-vowis-banj.mp3` | Em nói chuyện riêng với bạn. | dùng chung |
 
 ## Màu (5)
 
