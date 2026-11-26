@@ -40,3 +40,6 @@ Lô 10 câu có đoạn cắt hỏng (nghé: đoạn quá ngắn) – chia đôi
 Lô 5 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
 0.00  trống  |  chóng
 0.00  tre  |  Chê
+0.00  gỗ  |  Ủa ô?
+0.00  ghẹ  |  RỐI
+0.00  ngủ  |  MÔ
