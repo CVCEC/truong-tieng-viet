@@ -5,9 +5,9 @@ Thu bằng giọng người thật (rõ, chậm, đúng thanh), lưu MP3 đúng 
 
 | Tệp | Câu cần đọc | Ghi chú |
 |---|---|---|
-| `bai-01/audio/tu-sen.mp3` | sen | từ (hoa sen) |
-| `bai-01/audio/tu-too.mp3` | tô | từ (cái tô) |
-| `bai-01/audio/tu-toom.mp3` | tôm | từ (con tôm) |
+| `chung/audio/tu-sen.mp3` | sen | từ (hoa sen) |
+| `chung/audio/tu-too.mp3` | tô | từ (cái tô) |
+| `chung/audio/tu-toom.mp3` | tôm | từ (con tôm) |
 
 ## Câu thơ chờ cô Hà thu (không dùng giọng AI)
 

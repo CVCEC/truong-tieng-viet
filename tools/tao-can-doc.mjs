@@ -31,6 +31,8 @@ const dem = {};
 Object.values(all).forEach(l => new Set(l.map(x => x[0] + '|' + x[1])).forEach(k => { dem[k] = (dem[k] || 0) + 1; }));
 // chữ cái, phụ âm ghép, vần, tên thanh, đánh vần: đọc theo âm (bờ, cờ…)
 const THEO_AM = new Set(['l', 'd', 't', 'v', 'dv']);
+// tiếng và từ, tên màu: đọc như từ vựng (robot không bỏ lô chỉ vì Whisper nghe kém từ ngắn)
+const TU = new Set(['w', 'm']);
 
 const dong = ['tep\tchu\tnhom\tcach'], co = new Set(), chuyen = new Map();
 const viTri = ten => ['chung', ...dirs].map(d => `${d}/audio/${ten}`).filter(p => existsSync(join(ROOT, p)));
@@ -39,7 +41,7 @@ for (const d of Object.keys(all)) {
     const tep = (dem[ten + '|' + chu] > 1 ? 'chung' : d) + '/audio/' + ten;
     if (co.has(tep)) continue;
     co.add(tep);
-    dong.push([tep, chu.replace(/[\t\n]/g, ' '), d, THEO_AM.has(loai) ? 'van' : ''].join('\t'));
+    dong.push([tep, chu.replace(/[\t\n]/g, ' '), d, THEO_AM.has(loai) ? 'van' : TU.has(loai) ? 'tu' : ''].join('\t'));
     if (!existsSync(join(ROOT, tep))) {
       const cu = viTri(ten).find(p => p.startsWith('chung/') || dem[ten + '|' + chu] > 1);
       if (cu && tep.startsWith('chung/')) chuyen.set(cu, tep);
@@ -59,7 +61,10 @@ if (existsSync(fKt)) {
   writeFileSync(fKt, l.map((x, i) => i && x ? [doiTen(x.split('\t')[0]), ...x.split('\t').slice(1)].join('\t') : x).join('\n'));
 }
 const fBo = join(ROOT, 'giong-ai/bo.txt');
-if (existsSync(fBo)) writeFileSync(fBo, readFileSync(fBo, 'utf8').split('\n').map(x => x.trim() ? doiTen(x.trim()) : x).join('\n'));
+// bo.txt: đối chiếu theo tên tệp, để dòng cũ vẫn khớp khi câu đổi chỗ (bai-NN/audio/ ↔ chung/audio/)
+const tepTheoTen = new Map(dong.slice(1).map(x => x.split('\t')[0]).map(t => [basename(t), t]));
+if (existsSync(fBo)) writeFileSync(fBo, [...new Set(readFileSync(fBo, 'utf8').split('\n').map(x => x.trim()).filter(Boolean)
+  .map(x => tepTheoTen.get(basename(x)) || doiTen(x)))].join('\n') + '\n');
 
 writeFileSync(join(ROOT, 'giong-ai/can-doc.tsv'), dong.join('\n') + '\n');
 const thieu = dong.slice(1).filter(x => !existsSync(join(ROOT, x.split('\t')[0]))).length;

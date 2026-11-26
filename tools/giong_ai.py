@@ -95,6 +95,8 @@ CACH = {
     'van': (" These are Vietnamese letters, rhymes (vần), single syllables or spelling steps for beginners. "
             "Pronounce each letter by its SOUND (a, bờ, cờ, dờ, đờ, gờ, hờ…), never by its letter name such as 'bê', 'xê', 'đê'. "
             "Keep every tone exactly as written. In spelling steps separated by dashes, make a short pause at each dash."),
+    'tu': (" These are separate Vietnamese vocabulary words and short phrases from a children's lesson (things, animals, food, colours). "
+           "Read each one once, clearly and naturally, as a complete word, with its exact tone, then pause."),
     'truyen': (" This is a page of a fairy tale for young children. Read it like a warm, gentle storyteller, "
                "with natural expression, pausing at commas and full stops."),
     'nhip': (" These are lines of a Vietnamese children's folk rhyme (đồng dao, vè). Chant them rhythmically and cheerfully, "
@@ -404,6 +406,7 @@ def main():
                     pcm, rate = goi(loi_nhac(cau, nhom[0]['cach']), nhom[0]['giong']); break
                 except ValueError as e:
                     loi_goi = e; ghi(f'Lô {len(nhom)} câu – Gemini không trả tiếng: {str(e)[:160]}')
+                    if 'SAFETY' in str(e): break   # bị chặn "an toàn" thì gọi lại y hệt cũng vậy: chia lô ngay, đỡ tốn lượt
             if pcm is None:
                 if loi_goi is None:
                     hang.insert(0, nhom); continue   # hết lượt của lần chạy – vòng lặp sẽ dừng
@@ -451,7 +454,7 @@ def main():
                 continue
             kem = sum(1 for x in kq if x[3] < 0.5)
             # chữ cái, vần, đánh vần: Whisper hay nghe sai tiếng rất ngắn, nên không dựa vào đó để đọc lại cả lô (tốn lượt gọi)
-            if len(nhom) > 1 and nhom[0]['cach'] != 'van' and kem > max(2, len(nhom) * 0.3):
+            if len(nhom) > 1 and nhom[0]['cach'] not in ('van', 'tu') and kem > max(2, len(nhom) * 0.3):
                 ghi(f'Lô {len(nhom)} câu có {kem} câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại')
                 h = len(nhom) // 2; hang[:0] = [nhom[:h], nhom[h:]]
                 continue

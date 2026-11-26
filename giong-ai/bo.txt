@@ -1,6 +1,6 @@
-bai-01/audio/tu-sen.mp3
-bai-01/audio/tu-too.mp3
-bai-01/audio/tu-toom.mp3
+chung/audio/tu-sen.mp3
+chung/audio/tu-too.mp3
+chung/audio/tu-toom.mp3
 chung/audio/tho-17-1.mp3
 chung/audio/tho-17-2.mp3
 chung/audio/tho-17-3.mp3
