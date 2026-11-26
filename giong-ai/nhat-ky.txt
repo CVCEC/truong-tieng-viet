@@ -1,34 +1,4 @@
-Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-Lô 10 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-Lô 10 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-Lô 5 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-Lô 5 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-0.00  sen  |  sinh
-0.00  tô  |  Đô
-1.00  tôm  |  TÔM
-0.00  ốc  |  Ơ
-0.00  mắt  |  Mát
-Lô 5 câu có 3 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
-Lô 2 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-0.00  cốc  |  Cứu
-1.00  ấm  |  Ấm
-0.00  em  |  Êm
-0.00  la  |  Lá
-1.00  là  |  LÀ
-Lô 10 câu có 7 câu lệch nhiều – có thể cắt sai, chia đôi để đọc lại
-Lô 5 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-Lô 5 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-Lô 2 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-0.00  lạ  |  LÀ
-0.00  lả  |  LÀ
-Lô 3 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-Lô 3 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-0.00  lã  |  LÀO?
-Lô 2 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper – không được
-Lô 2 câu không cắt được, chia đôi để đọc lại
-0.00  ma  |  MÀ!
-0.00  mà  |  MÁ!
-Lô 5 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-Lô 5 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper – không được
-Lô 5 câu không cắt được, chia đôi để đọc lại
+0.00  má  |  Mà...
+0.00  mạ  |  mà
+0.00  mả  |  MẠ
+0.00  mã  |  Mà à?
