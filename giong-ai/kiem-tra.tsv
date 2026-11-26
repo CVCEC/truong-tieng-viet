@@ -32,6 +32,22 @@ bai-01/audio/loi-g7-intro.mp3	Các bạn đặt ngón tay vào chấm xanh, rồ
 bai-01/audio/loi-g7-off.mp3	Các bạn, tô sát theo nét chấm đỏ nhé!	1.0
 bai-01/audio/loi-g7-start.mp3	Các bạn bắt đầu từ chấm xanh nhé!	1.0
 bai-01/audio/loi-welcome.mp3	Chào các bạn! Mình là Châu Con. Hôm nay mình cùng các bạn học bài một, bảng chữ cái, nguyên âm và phụ âm nhé!	0.96
+bai-01/audio/net-cong-ho-phai.mp3	Nét công hợp phai	0.25
+bai-01/audio/net-cong-ho-trai.mp3	Nét cong hờ trái	0.75
+bai-01/audio/net-cong-kin.mp3	Nét công kiện	0.33
+bai-01/audio/net-khuyet-duoi.mp3	Nét khuyết dưới	1.0
+bai-01/audio/net-khuyet-tren.mp3	Nét quýt trên	0.67
+bai-01/audio/net-moc-hai-dau.mp3	Nét móc 2 đầu	1.0
+bai-01/audio/net-moc-nguoc.mp3	Nét móc ngược	1.0
+bai-01/audio/net-moc-xuoi.mp3	Nét móc xuôi	1.0
+bai-01/audio/net-ngang.mp3	Nét ngang	1.0
+bai-01/audio/net-so-thang.mp3	nét sô tăng	0.33
+bai-01/audio/net-xien-phai.mp3	Nét diễn phai	0.33
+bai-01/audio/net-xien-trai.mp3	Nét xuyên trái	0.67
+chung/audio/cau-chuwx-quoocs-nguwx-laf-chuwx-cuar-nguwowif-vieetj-minhf-duf-soongs-owr-ddaau-chungs-minhf-ddeeuf-caanf-hocj.mp3	Chữ quốc ngữ là chữ của người Việt mình. Dù sống ở đâu, chúng mình đều cần học.	1.0
+chung/audio/cau-vif-ddos-laf-chuwx-cuar-nguwowif-vieetj-minhf.mp3	vì đó là chữ của người Việt mình.	1.0
+chung/audio/cau-vif-khoong-cos-gif-ddeer-lamf.mp3	vì không có gì để làm.	1.0
+chung/audio/cau-vif-sao-cacs-banj-hocj-chuwx-vieetj.mp3	Vì sao các bạn học chữ Việt?	1.0
 chung/audio/chu-a.mp3	Á	0.0
 chung/audio/chu-aa.mp3	Ồ?	0.0
 chung/audio/chu-aw.mp3	Hả?	0.0
@@ -86,6 +102,10 @@ chung/audio/loi-ok5.mp3	Chính xác	1.0
 chung/audio/loi-retry1.mp3	Thử lại nhé!	1.0
 chung/audio/loi-retry2.mp3	Chưa đúng đâu, các bạn thử lại nhé!	1.0
 chung/audio/loi-retry3.mp3	Không sao đâu, mình cùng thử lại nhé!	1.0
+chung/audio/loi-tln-doc.mp3	Mình đọc một câu, các bạn đọc câu tiếp theo nhé!	1.0
+chung/audio/loi-tln-tieu-de.mp3	Lên sáu Thơ tạm đà	0.8
+chung/audio/loi-tln-y.mp3	Các bạn nghe mình giải thích bọn thơ nhé.	0.89
+chung/audio/loi-tln-you.mp3	Đến lượt các bạn!	1.0
 chung/audio/thanh-hoi.mp3	Hãy đăng ký kênh để ủng hộ kênh nhé!	0.0
 chung/audio/thanh-huyen.mp3	Thanh huyền	1.0
 chung/audio/thanh-nang.mp3	Thanh nặng	1.0
