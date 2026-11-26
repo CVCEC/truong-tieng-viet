@@ -24,3 +24,14 @@
 0.89  Các bạn nghe mình giải thích đoạn thơ nhé!  |  Các bạn nghe mình giải thích bọn thơ nhé.
 1.00  Các bạn chọn việc làm đúng nhé!  |  Các bạn chọn việc làm đúng nhé!
 1.00  Muốn học sâu hơn, các bạn vào góc Bài học cuộc sống nhé!  |  Muốn học sâu hơn? Các bạn vào góc bài học cuộc sống nhé!
+Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+0.00  chó  |  Chào!
+0.00  ghế  |  Vũ
+0.00  gió  |  Sao?
+0.00  giỏ  |  XA
+0.00  khế  |  G
+1.00  ngô  |  Ngô
+0.00  nghệ  |  Nghe
+0.00  phở  |  phơ
+0.00  quả  |  Qua
+0.00  thỏ  |  Ta
