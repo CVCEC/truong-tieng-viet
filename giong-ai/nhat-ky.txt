@@ -43,3 +43,8 @@ Lô 5 câu – Gemini không trả tiếng: không có tiếng trả về: {"can
 0.00  gỗ  |  Ủa ô?
 0.00  ghẹ  |  RỐI
 0.00  ngủ  |  MÔ
+0.00  nghé  |  Né?
+0.00  chữ  |  Chú
+0.00  chó nhỏ  |  Cháu nhá!
+1.00  ghế gỗ  |  ghế gỗ
+0.00  giỏ quả  |  xò, quà
