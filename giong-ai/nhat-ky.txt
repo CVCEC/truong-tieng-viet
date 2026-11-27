@@ -103,3 +103,5 @@ Lô 14 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
 1.00  Các bạn nói theo mình nhé!  |  Các bạn nói theo mình nhé!
 0.80  Các bạn nghe mình nói, rồi tô đúng màu cho bức tranh nhé!  |  Các bạn nghe mình nói, rồi tôi đúng màu chấm tranh nhé.
 0.90  Phụ âm ghép đang trốn trong bài thơ! Các bạn chạm vào các tiếng có phụ âm ghép đứng đầu nhé!  |  Phụ ấm ghép đang trốn trong bài thơ, các bạn chạm vào các tiếng có phụ ấm ghép đứng đầu nhé.
+1.00  Chữ này đứng ở cuối tiếng. Mình tìm phụ âm ghép đứng đầu tiếng nhé!  |  Chữ này đứng ở cuối tiếng, mình tìm phụ âm ghép đứng đầu tiếng nhé.
+1.00  Tiếng này không có phụ âm ghép đứng đầu. Thử lại nhé!  |  Tiếng này không có phụ âm ghép đứng đầu. Thử lại nhé!
