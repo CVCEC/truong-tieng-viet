@@ -1,51 +1,20 @@
-0.00  má  |  Mà...
-0.00  mạ  |  mà
-0.00  mả  |  MẠ
-0.00  mã  |  Mà à?
-1.00  Nét ngang  |  Nét ngang
-0.33  Nét sổ thẳng  |  nét sô tăng
-0.67  Nét xiên trái  |  Nét xuyên trái
-0.33  Nét xiên phải  |  Nét diễn phai
-1.00  Nét móc xuôi  |  Nét móc xuôi
-1.00  Nét móc ngược  |  Nét móc ngược
-1.00  Nét móc hai đầu  |  Nét móc 2 đầu
-0.25  Nét cong hở phải  |  Nét công hợp phai
-0.75  Nét cong hở trái  |  Nét cong hờ trái
-0.33  Nét cong kín  |  Nét công kiện
-0.67  Nét khuyết trên  |  Nét quýt trên
-1.00  Nét khuyết dưới  |  Nét khuyết dưới
-1.00  Chữ quốc ngữ là chữ của người Việt mình. Dù sống ở đâu, chúng mình đều cần học.  |  Chữ quốc ngữ là chữ của người Việt mình. Dù sống ở đâu, chúng mình đều cần học.
-1.00  Vì sao các bạn học chữ Việt?  |  Vì sao các bạn học chữ Việt?
-1.00  Vì đó là chữ của người Việt mình.  |  vì đó là chữ của người Việt mình.
-1.00  Vì không có gì để làm.  |  vì không có gì để làm.
-0.80  Lên Sáu. Thơ Tản Đà.  |  Lên sáu Thơ tạm đà
-1.00  Mình đọc một câu, các bạn đọc câu tiếp theo nhé!  |  Mình đọc một câu, các bạn đọc câu tiếp theo nhé!
-1.00  Đến lượt các bạn!  |  Đến lượt các bạn!
-0.89  Các bạn nghe mình giải thích đoạn thơ nhé!  |  Các bạn nghe mình giải thích bọn thơ nhé.
-1.00  Các bạn chọn việc làm đúng nhé!  |  Các bạn chọn việc làm đúng nhé!
-1.00  Muốn học sâu hơn, các bạn vào góc Bài học cuộc sống nhé!  |  Muốn học sâu hơn? Các bạn vào góc bài học cuộc sống nhé!
-Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-0.00  chó  |  Chào!
-0.00  ghế  |  Vũ
-0.00  gió  |  Sao?
-0.00  giỏ  |  XA
-0.00  khế  |  G
-1.00  ngô  |  Ngô
-0.00  nghệ  |  Nghe
-0.00  phở  |  phơ
-0.00  quả  |  Qua
-0.00  thỏ  |  Ta
-Lô 10 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
-Lô 10 câu có đoạn cắt hỏng (nghé: đoạn quá ngắn) – chia đôi để đọc lại
-Lô 5 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
-0.00  trống  |  chóng
-0.00  tre  |  Chê
-0.00  gỗ  |  Ủa ô?
-0.00  ghẹ  |  RỐI
-0.00  ngủ  |  MÔ
-0.00  nghé  |  Né?
-0.00  chữ  |  Chú
-0.00  chó nhỏ  |  Cháu nhá!
-1.00  ghế gỗ  |  ghế gỗ
-0.00  giỏ quả  |  xò, quà
-Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+1.00  nhà bà  |  Nhà bà
+1.00  phở bò  |  Phở bò
+0.00  trống đỏ  |  Chúng đo
+0.00  thỏ bé  |  Thò bẻ
+0.50  ngô to  |  ngô tà
+0.00  quả khế  |  Qua hê
+0.00  sách  |  Sạch
+0.00  quốc  |  Của
+1.00  ngữ  |  Ngữ?
+0.00  nước  |  Nó?
+1.00  ta  |  ta
+0.00  con  |  Còn
+1.00  cái  |  Cái
+0.00  đều  |  Điều
+0.00  phải  |  Phai
+1.00  học  |  Học
+1.00  miệng  |  miệng
+0.00  thì  |  T
+1.00  đọc  |  Đọc
+0.00  tai  |  Bye
