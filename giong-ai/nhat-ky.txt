@@ -109,3 +109,14 @@ Lô 14 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
 0.86  Học thế nào để thầy cô vui?  |  Học thế nào để thị cô vui?
 1.00  Học đến đâu hiểu đến đó.  |  Học đến đâu, hiểu đến đó
 1.00  Học qua loa cho xong.  |  Học qua loa cho xong
+Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+0.00  bi  |  BÌ
+0.50  bi bô  |  BÌ BÔ
+0.00  bố  |  MỒ?
+0.00  bố bế bé  |  bổ, bỉ, bẻ
+0.50  cá cờ  |  Cá, câu
+0.00  cờ  |  Go!
+0.00  ba ba  |  Bá! Bá!
+0.00  bế bé  |  bể bẻ
+0.50  bà ba  |  Bà Bà
+0.00  bó cỏ  |  bỏ, cò
