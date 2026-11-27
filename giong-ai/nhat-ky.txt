@@ -73,3 +73,18 @@ Lô 12 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
 1.00  Bạn nào làm đúng lời thơ? Các bạn nghe câu thơ, rồi chạm vào bức tranh đúng nhé!  |  Bạn nào làm đúng lời thơ, các bạn nghe câu thơ rồi chạm vào bức tranh đúng nhé.
 1.00  Các bạn nghe mình đọc, rồi chạm vào nguyên âm đúng nhé!  |  Các bạn nghe mình đọc rồi chạm vào nguyên âm đúng nhé.
 1.00  Phụ âm ghép được ghép từ hai hoặc ba chữ cái. Các bạn chạm vào từng thẻ để nghe mình đọc nhé!  |  Phụ âm ghép được ghép từ hai hoặc ba chữ cái. Các bạn chạm vào từng thẻ để nghe mình đọc nhé.
+Lô 14 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
+1.00  Các bạn nghe hết nhóm này rồi. Mình sang nhóm tiếp theo nhé!  |  Các bạn nghe hết nhóm này rồi. Mình sang nhóm tiếp theo nhé!
+1.00  Các bạn kéo chữ cái vào ô trống, theo thứ tự từ trái sang phải nhé!  |  Các bạn kéo chữ cái vào ô trống theo thứ tự từ trái sang phải nhé!
+0.80  Các bạn ghép phụ âm  |  Các bạn ghét phụ âm
+1.00  trong tiếng  |  trong tiếng
+1.00  Chữ này đứng ở ô khác cơ. Thử lại nhé!  |  Chữ này đứng ở ô khác cơ, thử lại nhé!
+1.00  Phụ âm ghép này không có chữ  |  Phụ âm ghép này không có chữ
+0.70  Ngờ kép có ba chữ cái: nờ, gờ và hờ.  |  Ngờ kép có ba chữ cái N, G và H
+1.00  Các bạn nghe tiếng, rồi chạm vào phụ âm ghép đứng đầu tiếng nhé!  |  Các bạn nghe tiếng rồi chạm vào phụ âm ghép đứng đầu tiếng nhé!
+1.00  Phụ âm ghép có hai, ba chữ cái, nhưng chỉ ở chung một phòng: phòng âm đầu. Các bạn đưa từng chữ vào đúng phòng nhé!  |  Phụ âm ghép có hai, ba chữ cái, nhưng chỉ ở chung một phòng, phòng âm đầu, các bạn đưa từng chữ vào đúng phòng nhé
+1.00  Mình cùng xây nhà cho tiếng  |  Mình cùng xây nhà cho tiếng.
+0.93  Tiếng này mang thanh gì? Các bạn đặt dấu thanh lên mái nhà nhé!  |  Tiếng này mang thanh gì? Các bạn đặt dấu thanh lên máy nhà nhé!
+0.80  Phòng âm chính dành cho nguyên âm các bạn ạ.  |  phòng âm chính dành cho nguyên âm các bạ nạ.
+1.00  Chữ này thuộc phụ âm ghép, ở phòng âm đầu các bạn ạ.  |  Chữ này thuộc phụ âm ghép ở phòng âm đầu các bạn ạ.
+1.00  Tiếng này không có âm cuối đâu các bạn ạ.  |  Tiếng này không có âm cuối đâu các bạn ạ!
