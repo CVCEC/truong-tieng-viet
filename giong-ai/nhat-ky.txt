@@ -88,3 +88,18 @@ Lô 14 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
 0.80  Phòng âm chính dành cho nguyên âm các bạn ạ.  |  phòng âm chính dành cho nguyên âm các bạ nạ.
 1.00  Chữ này thuộc phụ âm ghép, ở phòng âm đầu các bạn ạ.  |  Chữ này thuộc phụ âm ghép ở phòng âm đầu các bạn ạ.
 1.00  Tiếng này không có âm cuối đâu các bạn ạ.  |  Tiếng này không có âm cuối đâu các bạn ạ!
+Lô 14 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
+0.89  Chữ này ở phòng khác cơ. Thử lại nhé!  |  Chữ này ở phòng khá cơ. Thử lại nhé!
+1.00  Thanh ngang thì không có dấu các bạn nhé.  |  Thanh ngang thì không có dấu các bạn nhé.
+0.88  Gờ đơn hay gờ kép? Ngờ đơn hay ngờ kép? Các bạn nhìn chữ đứng sau nhé!  |  Ngờ đơn hay ngờ kép Ngờ đơn hay ngờ kép Các bạn nhìn chữ đứng sau nhé
+0.85  Trước e, ê, i, mình viết gờ kép, ngờ kép. Trước các chữ khác, mình viết gờ đơn, ngờ đơn.  |  Trước E, Ê, Y, mình viết gờ kép, ngờ kép. Trước các chữ khác, mình viết gờ đôn, ngờ đôn.
+0.00  gờ đơn  |  Gỡ đôn
+0.00  ngờ đơn  |  Ngửa đôn.
+0.88  Nghé là con trâu nhỏ, giống mình đấy!  |  Nghe là con trâu nhỏ, giống mình đấy!
+1.00  Các bạn nối phụ âm ghép với tranh đúng nhé!  |  các bạn nối phụ âm ghép với tranh đúng nhé.
+1.00  Các bạn tự đọc chữ, rồi chạm vào tranh đúng nhé!  |  Các bạn tự đọc chữ rồi chạm vào tranh đúng nhé!
+1.00  Các bạn đọc cụm từ, rồi chạm vào tranh đúng nhé!  |  Các bạn đọc cụm từ rồi chạm vào tranh đúng nhé.
+1.00  Đây là gì? Các bạn nói to, rồi bấm nút để nghe mình nói nhé!  |  Đây là gì? Các bạn nói to, rồi bấm nút để nghe mình nói nhé.
+1.00  Các bạn nói theo mình nhé!  |  Các bạn nói theo mình nhé!
+0.80  Các bạn nghe mình nói, rồi tô đúng màu cho bức tranh nhé!  |  Các bạn nghe mình nói, rồi tôi đúng màu chấm tranh nhé.
+0.90  Phụ âm ghép đang trốn trong bài thơ! Các bạn chạm vào các tiếng có phụ âm ghép đứng đầu nhé!  |  Phụ ấm ghép đang trốn trong bài thơ, các bạn chạm vào các tiếng có phụ ấm ghép đứng đầu nhé.

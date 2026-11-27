@@ -59,6 +59,9 @@ bai-02/audio/cau-ddaay-laf-cur-ngheej.mp3	Đây là củ nghệ	1.0
 bai-02/audio/cau-ddaay-laf-ngooi-nhaf.mp3	Đây là ngôi nhà	1.0
 bai-02/audio/cau-ddaay-laf-quar-khees.mp3	Đây là quả khế.	1.0
 bai-02/audio/cau-quar-cam-mauf-cam.mp3	quà cám, màu cám	0.25
+bai-02/audio/loi-dk-intro.mp3	Ngờ đơn hay ngờ kép Ngờ đơn hay ngờ kép Các bạn nhìn chữ đứng sau nhé	0.88
+bai-02/audio/loi-dk-rule.mp3	Trước E, Ê, Y, mình viết gờ kép, ngờ kép. Trước các chữ khác, mình viết gờ đôn, ngờ đôn.	0.85
+bai-02/audio/loi-g-don.mp3	Gỡ đôn	0.0
 bai-02/audio/loi-g1-good.mp3	Bạn nào làm đúng lời thơ, các bạn nghe câu thơ rồi chạm vào bức tranh đúng nhé.	1.0
 bai-02/audio/loi-g1-intro.mp3	Các bạn ơi! Mình cùng ôn bài thơ lên xấu nhé. Mình đọc một câu, các bạn đọc câu tiếp theo. Đọc xong, các bạn bấm nút Đọc xong nhé.	0.97
 bai-02/audio/loi-g1-you.mp3	Đến lượt các bạn đọc	1.0
@@ -72,14 +75,25 @@ bai-02/audio/loi-g3-ngh.mp3	Ngờ kép có ba chữ cái N, G và H	0.7
 bai-02/audio/loi-g3-notin.mp3	Phụ âm ghép này không có chữ	1.0
 bai-02/audio/loi-g3-place.mp3	Chữ này đứng ở ô khác cơ, thử lại nhé!	1.0
 bai-02/audio/loi-g4-listen.mp3	Các bạn nghe tiếng rồi chạm vào phụ âm ghép đứng đầu tiếng nhé!	1.0
+bai-02/audio/loi-g5-match.mp3	các bạn nối phụ âm ghép với tranh đúng nhé.	1.0
+bai-02/audio/loi-g5-phrase.mp3	Các bạn đọc cụm từ rồi chạm vào tranh đúng nhé.	1.0
+bai-02/audio/loi-g5-read.mp3	Các bạn tự đọc chữ rồi chạm vào tranh đúng nhé!	1.0
+bai-02/audio/loi-g6-again.mp3	Các bạn nói theo mình nhé!	1.0
+bai-02/audio/loi-g6-paint.mp3	Các bạn nghe mình nói, rồi tôi đúng màu chấm tranh nhé.	0.8
+bai-02/audio/loi-g6-say.mp3	Đây là gì? Các bạn nói to, rồi bấm nút để nghe mình nói nhé.	1.0
+bai-02/audio/loi-g7-intro.mp3	Phụ ấm ghép đang trốn trong bài thơ, các bạn chạm vào các tiếng có phụ ấm ghép đứng đầu nhé.	0.9
 bai-02/audio/loi-house-intro.mp3	Phụ âm ghép có hai, ba chữ cái, nhưng chỉ ở chung một phòng, phòng âm đầu, các bạn đưa từng chữ vào đúng phòng nhé	1.0
 bai-02/audio/loi-house-main-v.mp3	phòng âm chính dành cho nguyên âm các bạ nạ.	0.8
+bai-02/audio/loi-house-ngang.mp3	Thanh ngang thì không có dấu các bạn nhé.	1.0
 bai-02/audio/loi-house-no-coda.mp3	Tiếng này không có âm cuối đâu các bạn ạ!	1.0
 bai-02/audio/loi-house-onset.mp3	Chữ này thuộc phụ âm ghép ở phòng âm đầu các bạn ạ.	1.0
+bai-02/audio/loi-house-other.mp3	Chữ này ở phòng khá cơ. Thử lại nhé!	0.89
 bai-02/audio/loi-house-tone.mp3	Tiếng này mang thanh gì? Các bạn đặt dấu thanh lên máy nhà nhé!	0.93
 bai-02/audio/loi-house-word.mp3	Mình cùng xây nhà cho tiếng.	1.0
 bai-02/audio/loi-nam-bap.mp3	miền Nam gọi là Bắp	1.0
 bai-02/audio/loi-nam-trai.mp3	miền Nam gọi là trái	1.0
+bai-02/audio/loi-ng-don.mp3	Ngửa đôn.	0.0
+bai-02/audio/loi-nghe-trau.mp3	Nghe là con trâu nhỏ, giống mình đấy!	0.88
 bai-02/audio/loi-welcome.mp3	Chào các bạn! Mình là Châu Con. Hôm nay mình cùng các bạn học bài 2 phụ âm ghép nhé!	0.95
 bai-02/audio/mau-cam.mp3	MÔ CÀM	0.0
 bai-02/audio/mau-do.mp3	Màu đỏ	1.0
