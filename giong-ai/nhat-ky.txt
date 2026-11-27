@@ -40,3 +40,18 @@ Lô 4 câu – Gemini không trả tiếng: không có tiếng trả về: {"can
 0.00  thầy  |  Thái
 0.00  khỏi  |  HÀI
 0.00  mắng  |  Mẵng!
+0.75  Đây là con chó.  |  Đây là con chỏ
+1.00  Đây là cái ghế.  |  Đây là cái ghế
+0.75  Đây là cái giỏ.  |  Đây là cái giò
+1.00  Đây là quả khế.  |  Đây là quả khế.
+1.00  Đây là bắp ngô.  |  Đây là bắp ngô
+1.00  Đây là ngôi nhà.  |  Đây là ngôi nhà
+1.00  Đây là bát phở.  |  Đây là bát phở
+1.00  Đây là con thỏ.  |  Đây là con thỏ
+0.75  Đây là cái trống.  |  Đây là cái chống
+1.00  Đây là củ nghệ.  |  Đây là củ nghệ
+1.00  Con thỏ màu trắng.  |  con thỏ màu trắng
+0.50  Cái trống màu đỏ.  |  cái, chống, màu, đo
+0.75  Bắp ngô màu vàng.  |  Bắp mô màu vàng
+0.25  Quả cam màu cam.  |  quà cám, màu cám
+0.75  Cây tre màu xanh.  |  cây, che, màu, xanh
