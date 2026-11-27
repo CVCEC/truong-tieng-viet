@@ -105,3 +105,7 @@ Lô 14 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
 0.90  Phụ âm ghép đang trốn trong bài thơ! Các bạn chạm vào các tiếng có phụ âm ghép đứng đầu nhé!  |  Phụ ấm ghép đang trốn trong bài thơ, các bạn chạm vào các tiếng có phụ ấm ghép đứng đầu nhé.
 1.00  Chữ này đứng ở cuối tiếng. Mình tìm phụ âm ghép đứng đầu tiếng nhé!  |  Chữ này đứng ở cuối tiếng, mình tìm phụ âm ghép đứng đầu tiếng nhé.
 1.00  Tiếng này không có phụ âm ghép đứng đầu. Thử lại nhé!  |  Tiếng này không có phụ âm ghép đứng đầu. Thử lại nhé!
+1.00  Sáu tuổi là lúc bắt đầu học chữ. Học đến đâu hiểu đến đó, thầy cô sẽ vui lòng.  |  Sáu tuổi là lúc bắt đầu học chữ Học đến đâu hiểu đến đó Thầy cô sẽ vui lòng
+0.86  Học thế nào để thầy cô vui?  |  Học thế nào để thị cô vui?
+1.00  Học đến đâu hiểu đến đó.  |  Học đến đâu, hiểu đến đó
+1.00  Học qua loa cho xong.  |  Học qua loa cho xong
