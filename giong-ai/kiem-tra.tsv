@@ -59,6 +59,14 @@ bai-02/audio/cau-ddaay-laf-cur-ngheej.mp3	Đây là củ nghệ	1.0
 bai-02/audio/cau-ddaay-laf-ngooi-nhaf.mp3	Đây là ngôi nhà	1.0
 bai-02/audio/cau-ddaay-laf-quar-khees.mp3	Đây là quả khế.	1.0
 bai-02/audio/cau-quar-cam-mauf-cam.mp3	quà cám, màu cám	0.25
+bai-02/audio/loi-g1-good.mp3	Bạn nào làm đúng lời thơ, các bạn nghe câu thơ rồi chạm vào bức tranh đúng nhé.	1.0
+bai-02/audio/loi-g1-intro.mp3	Các bạn ơi! Mình cùng ôn bài thơ lên xấu nhé. Mình đọc một câu, các bạn đọc câu tiếp theo. Đọc xong, các bạn bấm nút Đọc xong nhé.	0.97
+bai-02/audio/loi-g1-you.mp3	Đến lượt các bạn đọc	1.0
+bai-02/audio/loi-g2-intro.mp3	Các bạn nghe mình đọc rồi chạm vào nguyên âm đúng nhé.	1.0
+bai-02/audio/loi-g3-cards.mp3	Phụ âm ghép được ghép từ hai hoặc ba chữ cái. Các bạn chạm vào từng thẻ để nghe mình đọc nhé.	1.0
+bai-02/audio/loi-nam-bap.mp3	miền Nam gọi là Bắp	1.0
+bai-02/audio/loi-nam-trai.mp3	miền Nam gọi là trái	1.0
+bai-02/audio/loi-welcome.mp3	Chào các bạn! Mình là Châu Con. Hôm nay mình cùng các bạn học bài 2 phụ âm ghép nhé!	0.95
 bai-02/audio/mau-cam.mp3	MÔ CÀM	0.0
 bai-02/audio/mau-do.mp3	Màu đỏ	1.0
 bai-02/audio/mau-trang.mp3	màu trắng	1.0
@@ -80,6 +88,10 @@ bai-02/audio/tu-taus.mp3	đậu	0.0
 bai-02/audio/tu-thor-bes.mp3	Thò bẻ	0.0
 bai-02/audio/tu-troongs-ddor.mp3	Chúng đo	0.0
 chung/audio/cau-chuwx-quoocs-nguwx-laf-chuwx-cuar-nguwowif-vieetj-minhf-duf-soongs-owr-ddaau-chungs-minhf-ddeeuf-caanf-hocj.mp3	Chữ quốc ngữ là chữ của người Việt mình. Dù sống ở đâu, chúng mình đều cần học.	1.0
+chung/audio/cau-em-ddocj-to-vaf-lawngs-nghe-coo.mp3	Em đọc to và lẫn nghe cô	0.86
+chung/audio/cau-em-nois-chuyeenj-rieeng-vowis-banj.mp3	Em nói chuyện riêng với bạn	1.0
+chung/audio/cau-khi-hocj-mieengj-ddocj-to-tai-nghe-kyx-khoong-khocs-nhef-khoong-vooij-vangf.mp3	khi học, miệng đọc to, tai nghe kỹ, không khóc nhè, không vội vàng.	1.0
+chung/audio/cau-trong-giowf-hocj-em-lamf-gif.mp3	Trong giờ học, em làm gì?	1.0
 chung/audio/cau-vif-ddos-laf-chuwx-cuar-nguwowif-vieetj-minhf.mp3	vì đó là chữ của người Việt mình.	1.0
 chung/audio/cau-vif-khoong-cos-gif-ddeer-lamf.mp3	vì không có gì để làm.	1.0
 chung/audio/cau-vif-sao-cacs-banj-hocj-chuwx-vieetj.mp3	Vì sao các bạn học chữ Việt?	1.0

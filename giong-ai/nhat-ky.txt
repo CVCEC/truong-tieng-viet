@@ -60,3 +60,16 @@ Lô 4 câu – Gemini không trả tiếng: không có tiếng trả về: {"can
 1.00  màu trắng  |  màu trắng
 0.00  màu cam  |  MÔ CÀM
 0.50  màu xanh  |  Mô xanh
+Lô 12 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
+1.00  Khi học, miệng đọc to, tai nghe kỹ. Không khóc nhè, không vội vàng.  |  khi học, miệng đọc to, tai nghe kỹ, không khóc nhè, không vội vàng.
+1.00  Trong giờ học, em làm gì?  |  Trong giờ học, em làm gì?
+0.86  Em đọc to và lắng nghe cô.  |  Em đọc to và lẫn nghe cô
+1.00  Em nói chuyện riêng với bạn.  |  Em nói chuyện riêng với bạn
+0.95  Chào các bạn! Mình là Trâu Con. Hôm nay mình cùng các bạn học Bài 2: phụ âm ghép nhé!  |  Chào các bạn! Mình là Châu Con. Hôm nay mình cùng các bạn học bài 2 phụ âm ghép nhé!
+1.00  Miền Nam gọi là bắp.  |  miền Nam gọi là Bắp
+1.00  Miền Nam gọi là trái.  |  miền Nam gọi là trái
+0.97  Các bạn ơi, mình cùng ôn bài thơ Lên Sáu nhé! Mình đọc một câu, các bạn đọc câu tiếp theo. Đọc xong, các bạn bấm nút Đọc xong nhé.  |  Các bạn ơi! Mình cùng ôn bài thơ lên xấu nhé. Mình đọc một câu, các bạn đọc câu tiếp theo. Đọc xong, các bạn bấm nút Đọc xong nhé.
+1.00  Đến lượt các bạn đọc!  |  Đến lượt các bạn đọc
+1.00  Bạn nào làm đúng lời thơ? Các bạn nghe câu thơ, rồi chạm vào bức tranh đúng nhé!  |  Bạn nào làm đúng lời thơ, các bạn nghe câu thơ rồi chạm vào bức tranh đúng nhé.
+1.00  Các bạn nghe mình đọc, rồi chạm vào nguyên âm đúng nhé!  |  Các bạn nghe mình đọc rồi chạm vào nguyên âm đúng nhé.
+1.00  Phụ âm ghép được ghép từ hai hoặc ba chữ cái. Các bạn chạm vào từng thẻ để nghe mình đọc nhé!  |  Phụ âm ghép được ghép từ hai hoặc ba chữ cái. Các bạn chạm vào từng thẻ để nghe mình đọc nhé.
