@@ -5,3 +5,8 @@ Lô 10 câu – Gemini không trả tiếng: không có tiếng trả về: {"ca
 1.00  bá  |  Bá!
 1.00  bà  |  Bà!
 0.00  bả  |  BÀ!
+0.00  bã  |  Bà ạ
+0.00  bạ  |  Bà
+1.00  bê  |  BÊ
+0.00  bế  |  BÊ!
+0.00  bề  |  BÊ
