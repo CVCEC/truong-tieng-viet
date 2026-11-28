@@ -64,3 +64,8 @@ Lô 10 câu – Gemini không trả tiếng: không có tiếng trả về: {"ca
 0.00  cú  |  Cứu
 0.00  cù  |  Của
 0.00  củ  |  Cứu
+0.00  cũ  |  Cứu!
+0.00  cụ  |  Của
+0.00  bé  |  Bảy!
+0.00  bò  |  BÀ!
+0.00  bó  |  Bóng!
