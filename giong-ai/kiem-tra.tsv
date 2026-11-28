@@ -117,6 +117,9 @@ bai-02/audio/tu-quoocs.mp3	Của	0.0
 bai-02/audio/tu-taus.mp3	đậu	0.0
 bai-02/audio/tu-thor-bes.mp3	Thò bẻ	0.0
 bai-02/audio/tu-troongs-ddor.mp3	Chúng đo	0.0
+bai-03/audio/cau-baf-ba-bees-bes-bi.mp3	Bà ba, bé bé bi	0.8
+bai-03/audio/cau-bes-cos-cowf-cos-car-bi.mp3	Bé có cờ, có cả bì	0.83
+bai-03/audio/cau-bof-bee-cos-ba-bos-cor.mp3	Bò bê, cõ ba bỏ cò	0.5
 bai-03/audio/tu-bar.mp3	BÀ!	0.0
 bai-03/audio/tu-bas.mp3	Bá!	1.0
 bai-03/audio/tu-bax.mp3	Bà ạ	0.0
@@ -201,11 +204,26 @@ chung/audio/ghep-qu.mp3	Qua	0.0
 chung/audio/ghep-th.mp3	Thơ	0.0
 chung/audio/ghep-tr.mp3	Chào!	0.0
 chung/audio/loi-all.mp3	Các bạn tìm được hết rồi!	1.0
+chung/audio/loi-am-bang-intro.mp3	Nghe, rồi chạm vào tiếng đúng nhé.	1.0
+chung/audio/loi-am-moi-intro.mp3	Các bạn kéo chữ vào O để ghép tiếng nhé	0.9
+chung/audio/loi-am-moi-tone.mp3	thêm dũ thanh nhé	0.75
+chung/audio/loi-am-on-chu.mp3	Nghe, rồi chạm vào chữ đúng nhé!	1.0
+chung/audio/loi-am-on-tu.mp3	Nghe rồi chạm vào từ đúng nhé	1.0
+chung/audio/loi-am-tho-intro.mp3	Mình đọc một câu, các bạn đọc câu tiếp theo nhé	1.0
+chung/audio/loi-am-tho-order.mp3	Các bạn xếp câu thơ cho đúng nhé!	1.0
+chung/audio/loi-am-tho-title.mp3	Lên xấu, thơ tản đà	0.8
+chung/audio/loi-am-tho-you.mp3	Đến lượt các bạn	1.0
 chung/audio/loi-check.mp3	Xin chào các bạn! Các bạn có nghe thấy mình nói không?	1.0
+chung/audio/loi-chu-hoa.mp3	Chữ in hoa này là chữ thường nào?	1.0
+chung/audio/loi-chu-nghe.mp3	Nghe, rồi chạm vào chữ đúng nhé.	1.0
+chung/audio/loi-chu-thieu.mp3	Chữ nào còn thiếu?	1.0
+chung/audio/loi-dv-intro.mp3	Đố các bạn đây là gì?	1.0
 chung/audio/loi-finish.mp3	Hoan hô! Các bạn giỏi quá!	1.0
 chung/audio/loi-g1-title.mp3	Lên sẩu Thơ tản đà	0.8
 chung/audio/loi-listen.mp3	Các bạn nghe nhé	1.0
 chung/audio/loi-menu.mp3	Các bạn chọn một trò chơi để bắt đầu nhé!	1.0
+chung/audio/loi-nghe-intro.mp3	Nghe mình đọc, rồi ghép các mảnh chữ thành từ nhé!	1.0
+chung/audio/loi-nhanh-intro.mp3	Nghe mình đọc, các bạn chạm thật nhanh vào từ đúng nhé!	1.0
 chung/audio/loi-ok1.mp3	Đúng rồi!	1.0
 chung/audio/loi-ok2.mp3	Giỏi quá!	1.0
 chung/audio/loi-ok3.mp3	Các bạn làm tốt lắm!	1.0
@@ -220,6 +238,8 @@ chung/audio/loi-tln-sau.mp3	Muốn học sâu hơn? Các bạn vào góc bài h�
 chung/audio/loi-tln-tieu-de.mp3	Lên sáu Thơ tạm đà	0.8
 chung/audio/loi-tln-y.mp3	Các bạn nghe mình giải thích bọn thơ nhé.	0.89
 chung/audio/loi-tln-you.mp3	Đến lượt các bạn!	1.0
+chung/audio/loi-tv-nghe.mp3	Nghe, rồi chạm vào tranh đúng nhé!	1.0
+chung/audio/loi-tv-tranh.mp3	Chanh gì đây? Các bạn chọn từ đúng nhé!	0.89
 chung/audio/thanh-hoi.mp3	Hãy đăng ký kênh để ủng hộ kênh nhé!	0.0
 chung/audio/thanh-huyen.mp3	Thanh huyền	1.0
 chung/audio/thanh-nang.mp3	Thanh nặng	1.0

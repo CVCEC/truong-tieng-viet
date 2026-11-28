@@ -69,3 +69,24 @@ Lô 10 câu – Gemini không trả tiếng: không có tiếng trả về: {"ca
 0.00  bé  |  Bảy!
 0.00  bò  |  BÀ!
 0.00  bó  |  Bóng!
+Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
+0.80  Bà Ba bế bé Bi.  |  Bà ba, bé bé bi
+0.50  Bò bê có ba bó cỏ.  |  Bò bê, cõ ba bỏ cò
+0.83  Bé có cờ, có cả bi.  |  Bé có cờ, có cả bì
+1.00  Nghe mình đọc, các bạn chạm thật nhanh vào từ đúng nhé!  |  Nghe mình đọc, các bạn chạm thật nhanh vào từ đúng nhé!
+1.00  Nghe mình đọc, rồi ghép các mảnh chữ thành từ nhé!  |  Nghe mình đọc, rồi ghép các mảnh chữ thành từ nhé!
+1.00  Nghe rồi chạm vào chữ đúng nhé!  |  Nghe, rồi chạm vào chữ đúng nhé.
+1.00  Chữ in hoa này là chữ thường nào?  |  Chữ in hoa này là chữ thường nào?
+1.00  Chữ nào còn thiếu?  |  Chữ nào còn thiếu?
+0.89  Tranh gì đây? Các bạn chọn từ đúng nhé!  |  Chanh gì đây? Các bạn chọn từ đúng nhé!
+1.00  Nghe rồi chạm vào tranh đúng nhé!  |  Nghe, rồi chạm vào tranh đúng nhé!
+1.00  Đố các bạn đây là gì?  |  Đố các bạn đây là gì?
+1.00  Mình đọc một câu, các bạn đọc câu tiếp theo nhé!  |  Mình đọc một câu, các bạn đọc câu tiếp theo nhé
+0.80  Lên Sáu. Thơ Tản Đà.  |  Lên xấu, thơ tản đà
+1.00  Đến lượt các bạn!  |  Đến lượt các bạn
+1.00  Các bạn xếp câu thơ cho đúng nhé!  |  Các bạn xếp câu thơ cho đúng nhé!
+1.00  Nghe rồi chạm vào chữ đúng nhé!  |  Nghe, rồi chạm vào chữ đúng nhé!
+1.00  Nghe rồi chạm vào từ đúng nhé!  |  Nghe rồi chạm vào từ đúng nhé
+0.90  Các bạn kéo chữ vào ô để ghép tiếng nhé!  |  Các bạn kéo chữ vào O để ghép tiếng nhé
+0.75  Thêm dấu thanh nhé!  |  thêm dũ thanh nhé
+1.00  Nghe rồi chạm vào tiếng đúng nhé!  |  Nghe, rồi chạm vào tiếng đúng nhé.
