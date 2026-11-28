@@ -58,3 +58,9 @@ Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"ca
 0.00  cồ  |  Hãy subscribe cho kênh La La School Để không bỏ lỡ những video hấp dẫn
 0.00  cổ  |  Cứu
 0.00  cỗ  |  Của ô?
+Lô 10 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+0.00  cộ  |  Của
+0.00  cu  |  Cứu
+0.00  cú  |  Cứu
+0.00  cù  |  Của
+0.00  củ  |  Cứu
