@@ -99,3 +99,4 @@ Lô 16 câu – Gemini không trả tiếng: không có tiếng trả về: {"ca
 0.86  Các bạn nối từ với tranh nhé!  |  Các bạn nối từ với chăng nhé!
 1.00  Các bạn lật thẻ, tìm từ và tranh giống nhau nhé!  |  Các bạn lật thẻ, tìm từ và tranh giống nhau nhé!
 0.83  Tranh gì đây? Các bạn mở ô, rồi chọn từ đúng nhé!  |  Chênh gì đây? Các bạn mở O rồi chọn từ đúng nhé!
+Lô 8 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
