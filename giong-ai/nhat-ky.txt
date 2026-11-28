@@ -90,3 +90,12 @@ Lô 20 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
 0.90  Các bạn kéo chữ vào ô để ghép tiếng nhé!  |  Các bạn kéo chữ vào O để ghép tiếng nhé
 0.75  Thêm dấu thanh nhé!  |  thêm dũ thanh nhé
 1.00  Nghe rồi chạm vào tiếng đúng nhé!  |  Nghe, rồi chạm vào tiếng đúng nhé.
+Lô 16 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+1.00  Nghe rồi đặt dấu thanh nhé!  |  Nghe, rồi đặt dấu thanh nhé!
+0.83  Dấu nặng đặt dưới chữ nhé.  |  Giấu nặng, đặt dưới chữ nhé!
+1.00  Các bạn đọc từ, rồi chạm vào tranh đúng nhé!  |  Các bạn đọc từ rồi chạm vào tranh đúng nhé!
+1.00  Các bạn hái quả có âm  |  Các bạn hái quả có âm
+1.00  Các bạn hái quả có  |  Các bạn hái quả có
+0.86  Các bạn nối từ với tranh nhé!  |  Các bạn nối từ với chăng nhé!
+1.00  Các bạn lật thẻ, tìm từ và tranh giống nhau nhé!  |  Các bạn lật thẻ, tìm từ và tranh giống nhau nhé!
+0.83  Tranh gì đây? Các bạn mở ô, rồi chọn từ đúng nhé!  |  Chênh gì đây? Các bạn mở O rồi chọn từ đúng nhé!
