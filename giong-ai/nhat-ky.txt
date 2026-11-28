@@ -47,3 +47,14 @@ Lô 5 câu – Gemini không trả tiếng: không có tiếng trả về: {"can
 0.00  cỏ  |  Gà
 0.00  cõ  |  Gỡ?
 0.00  cọ  |  Cá
+Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+1.00  cơ  |  Cơ
+0.00  cớ  |  Cứu
+0.00  cở  |  Cứu
+0.00  cỡ  |  Gỡ
+0.00  cợ  |  CỤT
+0.00  cô  |  Cứu
+0.00  cố  |  Cứu
+0.00  cồ  |  Hãy subscribe cho kênh La La School Để không bỏ lỡ những video hấp dẫn
+0.00  cổ  |  Cứu
+0.00  cỗ  |  Của ô?
