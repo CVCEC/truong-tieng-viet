@@ -41,3 +41,6 @@ Lô 5 câu – Gemini không trả tiếng: không có tiếng trả về: {"can
 0.00  cã  |  Cả ả?
 0.00  cạ  |  Đá
 0.00  co  |  Của
+Lô 5 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+0.00  có  |  Cá?
+0.00  cò  |  Cá
