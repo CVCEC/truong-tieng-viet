@@ -33,3 +33,8 @@ Lô 20 câu – Gemini không trả tiếng: không có tiếng trả về: {"ca
 0.00  bũ  |  MỒ?
 0.00  bụ  |  MỒC
 0.00  ca  |  Cá
+Lô 10 câu: khoảng lặng chưa rõ, cắt theo mốc chữ của Whisper
+Lô 10 câu có đoạn cắt hỏng (cả: đoạn quá ngắn) – chia đôi để đọc lại
+Lô 5 câu – Gemini không trả tiếng: không có tiếng trả về: {"candidates": [{"finishReason": "SAFETY", "index": 0, "finishMessage": "The audio stream could not be completed. Please retry your reque
+0.00  cà  |  Cá
+0.00  cả  |  Cá
